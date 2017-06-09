@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>比賽規劃</title>
+	<script src="main.js" type="text/javascript"></script>
+	<script src="pos_map.js" type="text/javascript"></script>
+	<link href="main.css" rel="stylesheet" type="text/css">
+</head>
+<body onload="test=document .getElementById('test');">
+	<table>
+	<tr><td>人數</td><td><input type="text" id="num" class="NUM" value="12"></td></tr>
+	<tr><td>x間距</td><td><input type="text" id="dx" class="NUM" value="0.8"> cm</td></tr>
+	<tr><td>y間距</td><td><input type="text" id="dy" class="NUM" value="1"> cm</td></tr>
+	<tr><td>線寬</td><td><input type="text" id="strokeW" class="NUM" value="1"> pt</td></tr>
+	<tr><td>字型大小</td><td><input type="text" id="fontSize" class="NUM" value="12"> pt</td></tr>
+	</table>
+	<button onclick="new_run()"> 執行</button>
+	<p id="seed"></p><a href="" id="save_svg" style="display:none">儲存圖檔</a>
+	<div id="svgout"></div>
+</body>
+</html>
