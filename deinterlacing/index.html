@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>交錯還原工具</title>
+	<style type="text/css">
+		#hint{font-size:0.8em;color:blue;}
+	</style>
+	<script src="main.js" type="text/javascript"></script>
+</head>
+<body onload="init()">
+	(1)匯入檔案
+	<input type="file" id="ifile">
+	<button onclick="readImage()">讀取</button><br>
+	(2)調整方式
+	<select id="mode" onchange="changeMode(this)">
+		<option>手動合併</option>
+		<option>只留奇場</option>
+		<option>只留偶場</option>
+	</select>
+	<p id="hint">讀取檔案後，可用方向鍵調整。</p>
+	<hr>
+	<canvas id='img'></canvas>
+</body>
+</html>
