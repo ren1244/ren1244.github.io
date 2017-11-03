@@ -99,7 +99,7 @@ function getOrgFile()
 		a.setAttribute("download",filename);
 		dl.appendChild(a);
 		a.click();
-		URL.revokeObjectURL(obj_url);
+		//URL.revokeObjectURL(obj_url);
 	}
 }
 function dataUrlToBlob(dataURL)
