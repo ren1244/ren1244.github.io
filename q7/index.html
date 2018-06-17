@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<script type="text/javascript" async
+		src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML">
+	</script>
+	<style type="text/css">
+		.inbk{
+			display:inline-block;
+		}
+		/*body{
+			background-color:#333;
+			color:#CCC;
+		}*/
+	</style>
+</head>
+<body>
+	<!--
+	
+	-->
+	<p>直接計算行列式：<span class="inbk"><math display="block"><mrow>
+		<msup><mi>k</mi><mn>2</mn></msup><mo>-</mo>
+		<mi>k</mi><mo>-</mo><mn>6</mn><mo>=</mo><mn>0</mn>
+	</mrow></math></span> 可解得 <span class="inbk"><math display="block"><mrow>
+		<mi>k</mi><mo>=</mo><mn>3</mn>
+	</mrow></math></span> 或 <span class="inbk"><math display="block"><mrow><mo>-</mo><mn>2</mn>
+	</mrow></math></span></p> 
+	<hr>
+	<p>
+		令 <span class="inbk"><math display="block"><mrow>
+			<msub><mi>v</mi><mn>1</mn></msub><mo>=</mo>
+			<mfenced open="[" close="]"><!--向量 v1-->
+				<mtable>
+					<mtr><mtd><msub><mo>x</mo><mi>1</mi></msub></mtd></mtr>
+					<mtr><mtd><msub><mo>y</mo><mi>1</mi></msub></mtd></mtr>
+				</mtable>
+			</mfenced>
+		</mrow></math></span>
+		<br>則原式：<span class="inbk"><math display="block"><mrow>
+			<mi>A</mi><mover><msub><mi>v</mi><mn>1</mn></msub><mo>&rightharpoonup;</mo></mover>
+			<mo>-</mo><mi>&alpha;</mi><mi>I</mi><mover><msub><mi>v</mi><mn>1</mn></msub><mo>&rightharpoonup;</mo></mover>
+			<mo>=</mo><mfenced open="[" close="]">
+				<mtable>
+					<mtr><mtd><mo>-</mo><mn>3</mn><mo>-</mo><mi>&alpha;</mi></mtd><mtd><mo>-</mo><mn>6</mn></mtd></mtr>
+					<mtr><mtd><mn>1</mn></mtd><mtd><mn>4</mn><mo>-</mo><mi>&alpha;</mi></mtd></mtr>
+				</mtable>
+			</mfenced>
+			<mfenced open="[" close="]">
+				<mtable>
+					<mtr><mtd><msub><mo>x</mo><mi>1</mi></msub></mtd></mtr>
+					<mtr><mtd><msub><mo>y</mo><mi>1</mi></msub></mtd></mtr>
+				</mtable>
+			</mfenced>
+			<mo>=</mo><mn>0</mn>
+		</mrow></math></span>
+		<br>由於這個算式要求 <span class="inbk"><math display="block"><mrow>
+			<mfenced open="{" close=""><mtable>
+				<mtr><mtd>
+					<mfenced open="(" close=")">
+						<mrow><mo>-</mo><mn>3</mn><mo>-</mo><mi>&alpha;</mi></mrow>
+						<mo>-</mo><mn>6</mn>
+					</mfenced><mo>&sdot;</mo>
+					<mfenced open="(" close=")">
+						<msub><mi>x</mi><mn>1</mn></msub>
+						<msub><mi>y</mi><mn>1</mn></msub>
+					</mfenced><mo>=</mo><mn>0</mn>
+				</mtd></mtr>
+				<mtr><mtd>
+					<mfenced open="(" close=")">
+						<mn>1</mn>
+						<mrow><mn>4</mn><mo>-</mo><mi>&alpha;</mi></mrow>
+					</mfenced><mo>&sdot;</mo>
+					<mfenced open="(" close=")">
+						<msub><mi>x</mi><mn>1</mn></msub>
+						<msub><mi>y</mi><mn>1</mn></msub>
+					</mfenced><mo>=</mo><mn>0</mn>
+				</mtd></mtr>
+			</mtable></mfenced>
+		</mrow></math></span>
+		<br>這表示向量
+		<span class="inbk"><math display="block"><mrow>
+			<mover><msub><mi>u</mi><mn>1</mn></msub><mo>&rightharpoonup;</mo></mover><mo>:</mo>
+			<mfenced open="(" close=")">
+				<mrow><mo>-</mo><mn>3</mn><mo>-</mo><mi>&alpha;</mi></mrow>
+				<mrow><mo>-</mo><mn>6</mn></mrow>
+			</mfenced>
+		</mrow></math></span>
+		與向量
+		<span class="inbk"><math display="block"><mrow>
+			<mover><msub><mi>u</mi><mn>2</mn></msub><mo>&rightharpoonup;</mo></mover><mo>:</mo>
+			<mfenced open="(" close=")">
+				<mn>1</mn>
+				<mrow><mn>4</mn><mo>-</mo><mi>&alpha;</mi></mrow>
+			</mfenced>
+		</mrow></math></span>
+		均與向量 
+		<span class="inbk"><math display="block"><mrow>
+			<mover><msub><mi>v</mi><mn>1</mn></msub><mo>&rightharpoonup;</mo></mover>
+		</mrow></math></span>
+		垂直
+		<br>所以行列式值 <span class="inbk"><math display="block"><mrow>
+			<mfenced open="|" close="|">
+				<mtable>
+					<mtr><mtd><mo>-</mo><mn>3</mn><mo>-</mo><mi>&alpha;</mi></mtd><mtd><mo>-</mo><mn>6</mn></mtd></mtr>
+					<mtr><mtd><mn>1</mn></mtd><mtd><mn>4</mn><mo>-</mo><mi>&alpha;</mi></mtd></mtr>
+				</mtable>
+			</mfenced><mo>=</mo><mn>0</mn>
+		</mrow></math></span> (參考兩向量求面積，三向量求體積)
+		<br>也就是說 <span class="inbk"><math display="block"><mrow>
+			<mi>&alpha;</mi>
+		</mrow></math></span> 與 <span class="inbk"><math display="block"><mrow>
+			<mi>&beta;</mi>
+		</mrow></math></span> 為上一題所求的兩個解
+		<br>取 <span class="inbk"><math display="block"><mrow>
+			<mi>&alpha;</mi><mo>=</mo><mn>3</mn>
+		</mrow></math></span>：<span class="inbk"><math display="block"><mrow>
+			<mfenced open="[" close="]">
+				<mtable>
+					<mtr><mtd><mo>-</mo><mn>6</mn></mtd><mtd><mo>-</mo><mn>6</mn></mtd></mtr>
+					<mtr><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd></mtr>
+				</mtable>
+			</mfenced>
+			<mfenced open="[" close="]">
+				<mtable>
+					<mtr><mtd><msub><mo>x</mo><mi>1</mi></msub></mtd></mtr>
+					<mtr><mtd><msub><mo>y</mo><mi>1</mi></msub></mtd></mtr>
+				</mtable>
+			</mfenced>
+			<mo>=</mo><mn>0</mn>
+		</mrow></math></span> ，得 <span class="inbk"><math display="block"><mrow>
+			<mover><msub><mi>v</mi><mn>1</mn></msub><mo>&rightharpoonup;</mo></mover><mo>=</mo>
+			<mfenced open="[" close="]">
+				<mtable>
+					<mtr><mtd><mn>1</mn></mtd></mtr>
+					<mtr><mtd><mo>-</mo><mn>1</mn></mtd></mtr>
+				</mtable>
+			</mfenced>
+		</mrow></math></span> ， <span class="inbk"><math display="block"><mrow>
+			<msub><mi>n</mi><mn>1</mn></msub>
+			<mo>=</mo><mfrac><mn>1</mn><mrow><mo>-</mo><mn>1</mn></mrow></mfrac>
+			<mo>=</mo><mo>-</mo><mn>1</mn>
+		</mrow></math></span>
+		
+		<br>取 <span class="inbk"><math display="block"><mrow>
+			<mi>&beta;</mi><mo>=</mo><mo>-</mo><mn>2</mn>
+		</mrow></math></span>：<span class="inbk"><math display="block"><mrow>
+			<mfenced open="[" close="]">
+				<mtable>
+					<mtr><mtd><mo>-</mo><mn>1</mn></mtd><mtd><mo>-</mo><mn>6</mn></mtd></mtr>
+					<mtr><mtd><mn>1</mn></mtd><mtd><mn>6</mn></mtd></mtr>
+				</mtable>
+			</mfenced>
+			<mfenced open="[" close="]">
+				<mtable>
+					<mtr><mtd><msub><mo>x</mo><mi>2</mi></msub></mtd></mtr>
+					<mtr><mtd><msub><mo>y</mo><mi>2</mi></msub></mtd></mtr>
+				</mtable>
+			</mfenced>
+			<mo>=</mo><mn>0</mn>
+		</mrow></math></span> ，得 <span class="inbk"><math display="block"><mrow>
+			<mover><msub><mi>v</mi><mn>2</mn></msub><mo>&rightharpoonup;</mo></mover><mo>=</mo>
+			<mfenced open="[" close="]">
+				<mtable>
+					<mtr><mtd><mn>6</mn></mtd></mtr>
+					<mtr><mtd><mo>-</mo><mn>1</mn></mtd></mtr>
+				</mtable>
+			</mfenced>
+		</mrow></math></span> ， <span class="inbk"><math display="block"><mrow>
+			<msub><mi>n</mi><mn>2</mn></msub>
+			<mo>=</mo><mfrac><mn>6</mn><mrow><mo>-</mo><mn>1</mn></mrow></mfrac>
+			<mo>=</mo><mo>-</mo><mn>6</mn>
+		</mrow></math></span>
+		
+		<br>※上面的 <span class="inbk"><math display="block"><mrow>
+			<mover><msub><mi>v</mi><mn>1</mn></msub><mo>&rightharpoonup;</mo></mover>
+		</mrow></math></span> 、 <span class="inbk"><math display="block"><mrow>
+			<mover><msub><mi>v</mi><mn>2</mn></msub><mo>&rightharpoonup;</mo></mover>
+		</mrow></math></span> 是自取的，它們乘上除了零之外的任何一個實數也都是解，不過這只是代表縮放向量而已，並不影響它們的方向。
+	</p>
+	<hr>
+	<p>
+		<span class="inbk"><math display="block"><mrow>
+			<msup><mi>P</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup>
+			<mo>=</mo><mfrac><mn>1</mn><mfenced open="|" close="|">
+				<mtable>
+					<mtr><mtd><mo>-</mo><mn>1</mn></mtd><mtd><mo>-</mo><mn>6</mn></mtd></mtr>
+					<mtr><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd></mtr>
+				</mtable>
+			</mfenced></mfrac><mfenced open="[" close="]">
+				<mtable>
+					<mtr><mtd><mn>1</mn></mtd><mtd><mn>6</mn></mtd></mtr>
+					<mtr><mtd><mo>-</mo><mn>1</mn></mtd><mtd><mo>-</mo><mn>1</mn></mtd></mtr>
+				</mtable>
+			</mfenced>
+			<mo>=</mo><mfenced open="[" close="]">
+				<mtable>
+					<mtr><mtd><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>1</mn><mn>5</mn></mfrac></mstyle></mtd><mtd><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>6</mn><mn>5</mn></mfrac></mstyle></mtd></mtr>
+					<mtr><mtd><mstyle displaystyle="true" scriptlevel="0"><mfrac><mrow><mo>-</mo><mn>1</mn></mrow><mn>5</mn></mfrac></mstyle></mtd><mtd><mstyle displaystyle="true" scriptlevel="0"><mfrac><mrow><mo>-</mo><mn>1</mn></mrow><mn>5</mn></mfrac></mstyle></mtd></mtr>
+				</mtable>
+			</mfenced>
+		</mrow></math></span>
+	</p>
+	<hr>
+	只是矩陣乘法，自己算吧！<br>第二小題的結果是重點：<br>
+	<span class="inbk"><math display="block"><mrow>
+		<msup><mi>P</mi><mrow><mo>-</mo><mi>1</mi></mrow></msup><mi>A</mi><mi>P</mi>
+		<mo>=</mo><mfenced open="[" close="]">
+			<mtable>
+				<mtr><mtd><mn>3</mn></mtd><mtd><mn>0</mn></mtd></mtr>
+				<mtr><mtd><mn>0</mn></mtd><mtd><mn>-2</mn></mtd></mtr>
+			</mtable>
+		</mfenced>
+	</mrow></math></span>
+	<br>※注意對角線元素為之前算出來的 <span class="inbk"><math display="block"><mrow>
+		<mi>&alpha;</mi>
+	</mrow></math></span> 和 <span class="inbk"><math display="block"><mrow>
+		<mi>&beta;</mi>
+	</mrow></math></span>
+	<hr>
+	<span class="inbk"><math display="block" linebreakmultchar='=' linebreakstyle='before' indentalign='id' indenttarget='firstOperator'><mrow>
+		<msup><mi>A</mi><mn>100</mn></msup>
+		<mo id='firstOperator'>=</mo><mi>P</mi>
+		<msup>
+			<mfenced open="(" close=")"><mrow><msup><mi>P</mi><mrow><mo>-</mo><mi>1</mi></mrow></msup><mi>A</mi><mi>P</mi></mrow></mfenced>
+			<mi>100</mi>
+		</msup>
+		<msup><mi>P</mi><mrow><mo>-</mo><mi>1</mi></mrow></msup>
+		
+		<mo linebreak='newline' indentalign='id' indenttarget='firstOperator'>=</mo><mfenced open="[" close="]">
+			<mtable>
+				<mtr><mtd><mo>-</mo><mn>1</mn></mtd><mtd><mo>-</mo><mn>6</mn></mtd></mtr>
+				<mtr><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd></mtr>
+			</mtable>
+		</mfenced>
+		<mfenced open="[" close="]">
+			<mtable>
+				<mtr><mtd><msup><mn>3</mn><mn>100</mn></msup></mtd><mtd><mn>0</mn></mtd></mtr>
+				<mtr><mtd><mn>0</mn></mtd><mtd><msup><mrow><mo>(</mo><mo>-</mo><mn>2</mn><mo>)</mo></mrow><mn>100</mn></msup></mtd></mtr>
+			</mtable>
+		</mfenced>
+		<mfenced open="[" close="]">
+			<mtable>
+				<mtr><mtd><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>1</mn><mn>5</mn></mfrac></mstyle></mtd><mtd><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>6</mn><mn>5</mn></mfrac></mstyle></mtd></mtr>
+				<mtr><mtd><mstyle displaystyle="true" scriptlevel="0"><mfrac><mrow><mo>-</mo><mn>1</mn></mrow><mn>5</mn></mfrac></mstyle></mtd><mtd><mstyle displaystyle="true" scriptlevel="0"><mfrac><mrow><mo>-</mo><mn>1</mn></mrow><mn>5</mn></mfrac></mstyle></mtd></mtr>
+			</mtable>
+		</mfenced>
+		
+		<mo linebreak='newline' indentalign='id' indenttarget='firstOperator'>=</mo><mfenced open="[" close="]">
+			<mtable>
+				<mtr>
+					<mtd>
+						<mstyle displaystyle="true" scriptlevel="0"><mfrac>
+							<mrow><mo>-</mo><mn>1</mn></mrow>
+							<mn>5</mn>
+						</mfrac></mstyle><msup><mn>3</mn><mn>100</mn></msup>
+						<mo>+</mo>
+						<mstyle displaystyle="true" scriptlevel="0"><mfrac>
+							<mrow><mo>-</mo><mn>6</mn></mrow>
+							<mn>5</mn>
+						</mfrac></mstyle><msup><mrow><mo>(</mo><mo>-</mo><mn>2</mn><mo>)</mo></mrow><mn>100</mn></msup>
+					</mtd>
+					<mtd>
+						<mstyle displaystyle="true" scriptlevel="0"><mfrac>
+							<mrow><mo>-</mo><mn>6</mn></mrow>
+							<mn>5</mn>
+						</mfrac></mstyle><msup><mn>3</mn><mn>100</mn></msup>
+						<mo>+</mo>
+						<mstyle displaystyle="true" scriptlevel="0"><mfrac>
+							<mrow><mo>-</mo><mn>6</mn></mrow>
+							<mn>5</mn>
+						</mfrac></mstyle><msup><mrow><mo>(</mo><mo>-</mo><mn>2</mn><mo>)</mo></mrow><mn>100</mn></msup>
+					</mtd>
+				</mtr>
+				<mtr>
+					<mtd>
+						<mstyle displaystyle="true" scriptlevel="0"><mfrac>
+							<mn>1</mn>
+							<mn>5</mn>
+						</mfrac></mstyle><msup><mn>3</mn><mn>100</mn></msup>
+						<mo>+</mo>
+						<mstyle displaystyle="true" scriptlevel="0"><mfrac>
+							<mrow><mo>-</mo><mn>1</mn></mrow>
+							<mn>5</mn>
+						</mfrac></mstyle><msup><mrow><mo>(</mo><mo>-</mo><mn>2</mn><mo>)</mo></mrow><mn>100</mn></msup>
+					</mtd>
+					<mtd>
+						<mstyle displaystyle="true" scriptlevel="0"><mfrac>
+							<mn>6</mn>
+							<mn>5</mn>
+						</mfrac></mstyle><msup><mn>3</mn><mn>100</mn></msup>
+						<mo>+</mo>
+						<mstyle displaystyle="true" scriptlevel="0"><mfrac>
+							<mrow><mo>-</mo><mn>1</mn></mrow>
+							<mn>5</mn>
+						</mfrac></mstyle><msup><mrow><mo>(</mo><mo>-</mo><mn>2</mn><mo>)</mo></mrow><mn>100</mn></msup>
+					</mtd>
+				</mtr>
+			</mtable>
+		</mfenced>
+	</mrow></math></span>
+	說明：把第一行去括號後，會發現有許多 <span class="inbk"><math display="block"><mrow>
+		<mi>P</mi>
+		<msup><mi>P</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup>
+	</mrow></math></span>
+	，把每一組都化為單位矩陣 <span class="inbk"><math display="block"><mrow>
+		<mi>I</mi>
+	</mrow></math></span> 
+	，即可發現剩下 <span class="inbk"><math display="block"><mrow>
+		<msup><mi>A</mi><mn>100</mn></msup>
+	</mrow></math></span>
+		<!--
+		<span class="inbk"><math display="block"><mrow>
+	</mrow></math></span>
+		矩陣A
+			<mfenced open="[" close="]">
+				<mtable>
+					<mtr><mtd><mn>-3</mn></mtd><mtd><mn>-6</mn></mtd></mtr>
+					<mtr><mtd><mn>1</mn></mtd><mtd><mn>4</mn></mtd></mtr>
+				</mtable>
+			</mfenced>
+		
+		向量v(矩陣形式)
+			<mfenced open="[" close="]">
+				<mtable>
+					<mtr><mtd><msub><mo>x</mo><mi>1</mi></msub></mtd></mtr>
+					<mtr><mtd><msub><mo>y</mo><mi>1</mi></msub></mtd></mtr>
+				</mtable>
+			</mfenced>
+		向量v(代數形式)
+			<mover><mi>v</mi><mo>&rightharpoonup;</mo></mover>
+		-->
+		
+</body>
+</html>
