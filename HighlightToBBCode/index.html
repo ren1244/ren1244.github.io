@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>程式碼上色</title>
+	<link href="main.css" rel="stylesheet" type="text/css">
+	<link id="theme-css" rel="stylesheet" href="highlightJS/styles/agate.css">	<script src="highlightJS/highlight.pack.js"></script>
+</head>
+<body>
+	<div id="input-bar">
+	tab轉換:<select id="tab">
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+			<option selected>4</option>
+			<option>8</option>
+		</select>
+	語言:<select id="lang">
+			<option value="auto">自動偵測</option>
+		</select> <span style="color:red;font-size:0.8em" id="lang-use"></span>
+	風格:<select id="theme">
+			<option value="highlightJS/styles/agate.css">agate</option><option value="highlightJS/styles/androidstudio.css">androidstudio</option><option value="highlightJS/styles/arduino-light.css">arduino-light</option><option value="highlightJS/styles/arta.css">arta</option><option value="highlightJS/styles/ascetic.css">ascetic</option><option value="highlightJS/styles/atelier-cave-dark.css">atelier-cave-dark</option><option value="highlightJS/styles/atelier-cave-light.css">atelier-cave-light</option><option value="highlightJS/styles/atelier-dune-dark.css">atelier-dune-dark</option><option value="highlightJS/styles/atelier-dune-light.css">atelier-dune-light</option><option value="highlightJS/styles/atelier-estuary-dark.css">atelier-estuary-dark</option><option value="highlightJS/styles/atelier-estuary-light.css">atelier-estuary-light</option><option value="highlightJS/styles/atelier-forest-dark.css">atelier-forest-dark</option><option value="highlightJS/styles/atelier-forest-light.css">atelier-forest-light</option><option value="highlightJS/styles/atelier-heath-dark.css">atelier-heath-dark</option><option value="highlightJS/styles/atelier-heath-light.css">atelier-heath-light</option><option value="highlightJS/styles/atelier-lakeside-dark.css">atelier-lakeside-dark</option><option value="highlightJS/styles/atelier-lakeside-light.css">atelier-lakeside-light</option><option value="highlightJS/styles/atelier-plateau-dark.css">atelier-plateau-dark</option><option value="highlightJS/styles/atelier-plateau-light.css">atelier-plateau-light</option><option value="highlightJS/styles/atelier-savanna-dark.css">atelier-savanna-dark</option><option value="highlightJS/styles/atelier-savanna-light.css">atelier-savanna-light</option><option value="highlightJS/styles/atelier-seaside-dark.css">atelier-seaside-dark</option><option value="highlightJS/styles/atelier-seaside-light.css">atelier-seaside-light</option><option value="highlightJS/styles/atelier-sulphurpool-dark.css">atelier-sulphurpool-dark</option><option value="highlightJS/styles/atelier-sulphurpool-light.css">atelier-sulphurpool-light</option><option value="highlightJS/styles/atom-one-dark.css">atom-one-dark</option><option value="highlightJS/styles/atom-one-light.css">atom-one-light</option><option value="highlightJS/styles/brown-paper.css">brown-paper</option><option value="highlightJS/styles/codepen-embed.css">codepen-embed</option><option value="highlightJS/styles/color-brewer.css">color-brewer</option><option value="highlightJS/styles/darcula.css">darcula</option><option value="highlightJS/styles/dark.css">dark</option><option value="highlightJS/styles/darkula.css">darkula</option><option value="highlightJS/styles/default.css">default</option><option value="highlightJS/styles/docco.css">docco</option><option value="highlightJS/styles/dracula.css">dracula</option><option value="highlightJS/styles/far.css">far</option><option value="highlightJS/styles/foundation.css">foundation</option><option value="highlightJS/styles/github-gist.css">github-gist</option><option value="highlightJS/styles/github.css">github</option><option value="highlightJS/styles/googlecode.css">googlecode</option><option value="highlightJS/styles/grayscale.css">grayscale</option><option value="highlightJS/styles/gruvbox-dark.css">gruvbox-dark</option><option value="highlightJS/styles/gruvbox-light.css">gruvbox-light</option><option value="highlightJS/styles/hopscotch.css">hopscotch</option><option value="highlightJS/styles/hybrid.css">hybrid</option><option value="highlightJS/styles/idea.css">idea</option><option value="highlightJS/styles/ir-black.css">ir-black</option><option value="highlightJS/styles/kimbie.dark.css">kimbie.dark</option><option value="highlightJS/styles/kimbie.light.css">kimbie.light</option><option value="highlightJS/styles/magula.css">magula</option><option value="highlightJS/styles/mono-blue.css">mono-blue</option><option value="highlightJS/styles/monokai-sublime.css">monokai-sublime</option><option value="highlightJS/styles/monokai.css">monokai</option><option value="highlightJS/styles/obsidian.css">obsidian</option><option value="highlightJS/styles/ocean.css">ocean</option><option value="highlightJS/styles/paraiso-dark.css">paraiso-dark</option><option value="highlightJS/styles/paraiso-light.css">paraiso-light</option><option value="highlightJS/styles/pojoaque.css">pojoaque</option><option value="highlightJS/styles/purebasic.css">purebasic</option><option value="highlightJS/styles/qtcreator_dark.css">qtcreator_dark</option><option value="highlightJS/styles/qtcreator_light.css">qtcreator_light</option><option value="highlightJS/styles/railscasts.css">railscasts</option><option value="highlightJS/styles/rainbow.css">rainbow</option><option value="highlightJS/styles/routeros.css">routeros</option><option value="highlightJS/styles/school-book.css">school-book</option><option value="highlightJS/styles/solarized-dark.css">solarized-dark</option><option value="highlightJS/styles/solarized-light.css">solarized-light</option><option value="highlightJS/styles/sunburst.css">sunburst</option><option value="highlightJS/styles/tomorrow-night-blue.css">tomorrow-night-blue</option><option value="highlightJS/styles/tomorrow-night-bright.css">tomorrow-night-bright</option><option value="highlightJS/styles/tomorrow-night-eighties.css">tomorrow-night-eighties</option><option value="highlightJS/styles/tomorrow-night.css">tomorrow-night</option><option value="highlightJS/styles/tomorrow.css">tomorrow</option><option value="highlightJS/styles/vs.css">vs</option><option value="highlightJS/styles/vs2015.css">vs2015</option><option value="highlightJS/styles/xcode.css">xcode</option><option value="highlightJS/styles/xt256.css">xt256</option><option value="highlightJS/styles/zenburn.css">zenburn</option>		</select>
+		<button onclick="copyBBC()">複製為 BBCode</button>
+	</div>
+	<!--  -->
+	<div class="content-row">
+		<div class="content-col">
+			<textarea id="input" class="auto_height"></textarea>
+			<textarea id="bbcode" class="auto_height"></textarea>
+		</div><div class="content-col">
+			<pre  class="hljs auto_height"><code id="preview"></code></pre>
+		</div>
+	</div>
+	<script src="main.js" type="text/javascript"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+div,textarea,pre{
+	margin:0px;
+	box-sizing:border-box;
+}
+.content-row{
+	position:relative;
+	width:100%;
+}
+.content-col{
+	width:50%;
+	display:inline-block;
+	vertical-align:top;
+	position:relative;
+}
+textarea{
+	width:100%;
+}
+pre{
+	overflow:scroll
+}
+#inp{
+	z-index:100;
+}
+#bbcode{
+	z-index:-100;
+	position:absolute;
+	top:0;
+	left:0;
+}
