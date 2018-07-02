@@ -5,7 +5,6 @@ var tab=document.getElementById("tab");
 var lang=document.getElementById("lang");
 var lang_use=document.getElementById("lang-use");
 var theme=document.getElementById("theme");
-var theme_css=document.getElementById("theme-css");
 var ctn=document.getElementsByClassName("content-row")[0];
 var trans={
 	"cpp":"C/C++",
@@ -30,8 +29,7 @@ var trans={
 function onChangeTab()
 {
 	hljs.configure({
-		tabReplace: '        '.substr(-parseInt(tab.value,10)),
-		classPrefix:'hljs-'
+		tabReplace: '        '.substr(-parseInt(tab.value,10))
 	});
 	refreshOutput();
 }
@@ -39,10 +37,19 @@ function onChangeLang()
 {
 	refreshOutput();
 }
-function onThemeChange()
-{
-	theme_css.href=theme.value;
-}
+var onThemeChange=(function (){
+	var tmp=pre.parentElement.className;
+	return function ()
+	{
+		var pfx=theme.options[theme.selectedIndex].innerHTML;
+		pre.parentElement.className=pfx+" "+tmp;
+		hljs.configure({
+			classPrefix:pfx+'-'
+		});
+		refreshOutput();
+	}
+})();
+
 function refreshOutput()
 {
 	var out;
@@ -74,9 +81,9 @@ function resize()
 		obj[i].style.height=(h0-h1)+"px";
 	}
 }
-theme_css.addEventListener("load",function (){
+/*theme_css.addEventListener("load",function (){
 	bbc.value=getBBCode(pre);
-});
+});*/
 function getBBCode(ele)
 {
 	var str,undo;
@@ -137,8 +144,10 @@ function copyBBC()
 	bbc.select();
 	document.execCommand("copy");
 }
-(function init()
-{//init the select list
+(function init(path,prefix_list)
+{
+	var i,n,t;
+	//程式語言語言選單
 	var lang_list=hljs.listLanguages(),
 	    i,n,t;
 	lang_list.sort();
@@ -152,7 +161,16 @@ function copyBBC()
 		else
 			console.log(lang_list[i]+" translation error");
 	}
-})();
+	//風格樣式選單
+	for(i=0,n=prefix_list.length;i<n;++i)
+	{
+		theme.appendChild(t=document.createElement("option"));
+		t.value=path+"/"+prefix_list[i]+".css";
+		t.innerHTML=prefix_list[i];
+	}
+	//載入目前選定風格
+	onThemeChange();
+})(theme_data.path,theme_data.css);
 onChangeTab();
 refreshOutput();
 resize();

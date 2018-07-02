@@ -1,0 +1,6393 @@
+/*!
+ * Agate by Taufik Nurrohman <https://github.com/tovic>
+ * ----------------------------------------------------
+ *
+ * #ade5fc
+ * #a2fca2
+ * #c6b4f0
+ * #d36363
+ * #fcc28c
+ * #fc9b9b
+ * #ffa
+ * #fff
+ * #333
+ * #62c8f3
+ * #888
+ *
+ */
+
+.agate {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #333;
+  color: white;
+}
+
+.agate-name,
+.agate-strong {
+  font-weight: bold;
+}
+
+.agate-code,
+.agate-emphasis {
+  font-style: italic;
+}
+
+.agate-tag {
+  color: #62c8f3;
+}
+
+.agate-variable,
+.agate-template-variable,
+.agate-selector-id,
+.agate-selector-class {
+  color: #ade5fc;
+}
+
+.agate-string,
+.agate-bullet {
+  color: #a2fca2;
+}
+
+.agate-type,
+.agate-title,
+.agate-section,
+.agate-attribute,
+.agate-quote,
+.agate-built_in,
+.agate-builtin-name {
+  color: #ffa;
+}
+
+.agate-number,
+.agate-symbol,
+.agate-bullet {
+  color: #d36363;
+}
+
+.agate-keyword,
+.agate-selector-tag,
+.agate-literal {
+  color: #fcc28c;
+}
+
+.agate-comment,
+.agate-deletion,
+.agate-code {
+  color: #888;
+}
+
+.agate-regexp,
+.agate-link {
+  color: #c6b4f0;
+}
+
+.agate-meta {
+  color: #fc9b9b;
+}
+
+.agate-deletion {
+  background-color: #fc9b9b;
+  color: #333;
+}
+
+.agate-addition {
+  background-color: #a2fca2;
+  color: #333;
+}
+
+.agate a {
+  color: inherit;
+}
+
+.agate a:focus,
+.agate a:hover {
+  color: inherit;
+  text-decoration: underline;
+}
+
+/*
+Date: 24 Fev 2015
+Author: Pedro Oliveira <kanytu@gmail . com>
+*/
+
+.androidstudio {
+  color: #a9b7c6;
+  background: #282b2e;
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+}
+
+.androidstudio-number,
+.androidstudio-literal,
+.androidstudio-symbol,
+.androidstudio-bullet {
+  color: #6897BB;
+}
+
+.androidstudio-keyword,
+.androidstudio-selector-tag,
+.androidstudio-deletion {
+  color: #cc7832;
+}
+
+.androidstudio-variable,
+.androidstudio-template-variable,
+.androidstudio-link {
+  color: #629755;
+}
+
+.androidstudio-comment,
+.androidstudio-quote {
+  color: #808080;
+}
+
+.androidstudio-meta {
+  color: #bbb529;
+}
+
+.androidstudio-string,
+.androidstudio-attribute,
+.androidstudio-addition {
+  color: #6A8759;
+}
+
+.androidstudio-section,
+.androidstudio-title,
+.androidstudio-type {
+  color: #ffc66d;
+}
+
+.androidstudio-name,
+.androidstudio-selector-id,
+.androidstudio-selector-class {
+  color: #e8bf6a;
+}
+
+.androidstudio-emphasis {
+  font-style: italic;
+}
+
+.androidstudio-strong {
+  font-weight: bold;
+}
+
+/*
+
+Arduino® Light Theme - Stefania Mellai <s.mellai@arduino.cc>
+
+*/
+
+.arduino-light {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #FFFFFF;
+}
+
+.arduino-light,
+.arduino-light-subst {
+  color: #434f54;
+}
+
+.arduino-light-keyword,
+.arduino-light-attribute,
+.arduino-light-selector-tag,
+.arduino-light-doctag,
+.arduino-light-name {
+  color: #00979D;
+}
+
+.arduino-light-built_in,
+.arduino-light-literal,
+.arduino-light-bullet,
+.arduino-light-code,
+.arduino-light-addition {
+  color: #D35400;
+}
+
+.arduino-light-regexp,
+.arduino-light-symbol,
+.arduino-light-variable,
+.arduino-light-template-variable,
+.arduino-light-link,
+.arduino-light-selector-attr,
+.arduino-light-selector-pseudo {
+  color: #00979D;
+}
+
+.arduino-light-type,
+.arduino-light-string,
+.arduino-light-selector-id,
+.arduino-light-selector-class,
+.arduino-light-quote,
+.arduino-light-template-tag,
+.arduino-light-deletion {
+  color: #005C5F;
+}
+
+.arduino-light-title,
+.arduino-light-section {
+  color: #880000;
+  font-weight: bold;
+}
+
+.arduino-light-comment {
+  color: rgba(149,165,166,.8);
+}
+
+.arduino-light-meta-keyword {
+  color: #728E00;
+}
+
+.arduino-light-meta {
+  color: #728E00;
+  color: #434f54;
+}
+
+.arduino-light-emphasis {
+  font-style: italic;
+}
+
+.arduino-light-strong {
+  font-weight: bold;
+}
+
+.arduino-light-function {
+  color: #728E00;
+}
+
+.arduino-light-number {
+  color: #8A7B52;  
+}
+
+/*
+Date: 17.V.2011
+Author: pumbur <pumbur@pumbur.net>
+*/
+
+.arta {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #222;
+}
+
+.arta,
+.arta-subst {
+  color: #aaa;
+}
+
+.arta-section {
+  color: #fff;
+}
+
+.arta-comment,
+.arta-quote,
+.arta-meta {
+  color: #444;
+}
+
+.arta-string,
+.arta-symbol,
+.arta-bullet,
+.arta-regexp {
+  color: #ffcc33;
+}
+
+.arta-number,
+.arta-addition {
+  color: #00cc66;
+}
+
+.arta-built_in,
+.arta-builtin-name,
+.arta-literal,
+.arta-type,
+.arta-template-variable,
+.arta-attribute,
+.arta-link {
+  color: #32aaee;
+}
+
+.arta-keyword,
+.arta-selector-tag,
+.arta-name,
+.arta-selector-id,
+.arta-selector-class {
+  color: #6644aa;
+}
+
+.arta-title,
+.arta-variable,
+.arta-deletion,
+.arta-template-tag {
+  color: #bb1166;
+}
+
+.arta-section,
+.arta-doctag,
+.arta-strong {
+  font-weight: bold;
+}
+
+.arta-emphasis {
+  font-style: italic;
+}
+
+/*
+
+Original style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiacs.Org>
+
+*/
+
+.ascetic {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: white;
+  color: black;
+}
+
+.ascetic-string,
+.ascetic-variable,
+.ascetic-template-variable,
+.ascetic-symbol,
+.ascetic-bullet,
+.ascetic-section,
+.ascetic-addition,
+.ascetic-attribute,
+.ascetic-link {
+  color: #888;
+}
+
+.ascetic-comment,
+.ascetic-quote,
+.ascetic-meta,
+.ascetic-deletion {
+  color: #ccc;
+}
+
+.ascetic-keyword,
+.ascetic-selector-tag,
+.ascetic-section,
+.ascetic-name,
+.ascetic-type,
+.ascetic-strong {
+  font-weight: bold;
+}
+
+.ascetic-emphasis {
+  font-style: italic;
+}
+
+/* Base16 Atelier Cave Dark - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/cave) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Cave Comment */
+.atelier-cave-dark-comment,
+.atelier-cave-dark-quote {
+  color: #7e7887;
+}
+
+/* Atelier-Cave Red */
+.atelier-cave-dark-variable,
+.atelier-cave-dark-template-variable,
+.atelier-cave-dark-attribute,
+.atelier-cave-dark-regexp,
+.atelier-cave-dark-link,
+.atelier-cave-dark-tag,
+.atelier-cave-dark-name,
+.atelier-cave-dark-selector-id,
+.atelier-cave-dark-selector-class {
+  color: #be4678;
+}
+
+/* Atelier-Cave Orange */
+.atelier-cave-dark-number,
+.atelier-cave-dark-meta,
+.atelier-cave-dark-built_in,
+.atelier-cave-dark-builtin-name,
+.atelier-cave-dark-literal,
+.atelier-cave-dark-type,
+.atelier-cave-dark-params {
+  color: #aa573c;
+}
+
+/* Atelier-Cave Green */
+.atelier-cave-dark-string,
+.atelier-cave-dark-symbol,
+.atelier-cave-dark-bullet {
+  color: #2a9292;
+}
+
+/* Atelier-Cave Blue */
+.atelier-cave-dark-title,
+.atelier-cave-dark-section {
+  color: #576ddb;
+}
+
+/* Atelier-Cave Purple */
+.atelier-cave-dark-keyword,
+.atelier-cave-dark-selector-tag {
+  color: #955ae7;
+}
+
+.atelier-cave-dark-deletion,
+.atelier-cave-dark-addition {
+  color: #19171c;
+  display: inline-block;
+  width: 100%;
+}
+
+.atelier-cave-dark-deletion {
+  background-color: #be4678;
+}
+
+.atelier-cave-dark-addition {
+  background-color: #2a9292;
+}
+
+.atelier-cave-dark {
+  display: block;
+  overflow-x: auto;
+  background: #19171c;
+  color: #8b8792;
+  padding: 0.5em;
+}
+
+.atelier-cave-dark-emphasis {
+  font-style: italic;
+}
+
+.atelier-cave-dark-strong {
+  font-weight: bold;
+}
+
+/* Base16 Atelier Cave Light - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/cave) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Cave Comment */
+.atelier-cave-light-comment,
+.atelier-cave-light-quote {
+  color: #655f6d;
+}
+
+/* Atelier-Cave Red */
+.atelier-cave-light-variable,
+.atelier-cave-light-template-variable,
+.atelier-cave-light-attribute,
+.atelier-cave-light-tag,
+.atelier-cave-light-name,
+.atelier-cave-light-regexp,
+.atelier-cave-light-link,
+.atelier-cave-light-name,
+.atelier-cave-light-name,
+.atelier-cave-light-selector-id,
+.atelier-cave-light-selector-class {
+  color: #be4678;
+}
+
+/* Atelier-Cave Orange */
+.atelier-cave-light-number,
+.atelier-cave-light-meta,
+.atelier-cave-light-built_in,
+.atelier-cave-light-builtin-name,
+.atelier-cave-light-literal,
+.atelier-cave-light-type,
+.atelier-cave-light-params {
+  color: #aa573c;
+}
+
+/* Atelier-Cave Green */
+.atelier-cave-light-string,
+.atelier-cave-light-symbol,
+.atelier-cave-light-bullet {
+  color: #2a9292;
+}
+
+/* Atelier-Cave Blue */
+.atelier-cave-light-title,
+.atelier-cave-light-section {
+  color: #576ddb;
+}
+
+/* Atelier-Cave Purple */
+.atelier-cave-light-keyword,
+.atelier-cave-light-selector-tag {
+  color: #955ae7;
+}
+
+.atelier-cave-light-deletion,
+.atelier-cave-light-addition {
+  color: #19171c;
+  display: inline-block;
+  width: 100%;
+}
+
+.atelier-cave-light-deletion {
+  background-color: #be4678;
+}
+
+.atelier-cave-light-addition {
+  background-color: #2a9292;
+}
+
+.atelier-cave-light {
+  display: block;
+  overflow-x: auto;
+  background: #efecf4;
+  color: #585260;
+  padding: 0.5em;
+}
+
+.atelier-cave-light-emphasis {
+  font-style: italic;
+}
+
+.atelier-cave-light-strong {
+  font-weight: bold;
+}
+
+/* Base16 Atelier Dune Dark - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/dune) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Dune Comment */
+.atelier-dune-dark-comment,
+.atelier-dune-dark-quote {
+  color: #999580;
+}
+
+/* Atelier-Dune Red */
+.atelier-dune-dark-variable,
+.atelier-dune-dark-template-variable,
+.atelier-dune-dark-attribute,
+.atelier-dune-dark-tag,
+.atelier-dune-dark-name,
+.atelier-dune-dark-regexp,
+.atelier-dune-dark-link,
+.atelier-dune-dark-name,
+.atelier-dune-dark-selector-id,
+.atelier-dune-dark-selector-class {
+  color: #d73737;
+}
+
+/* Atelier-Dune Orange */
+.atelier-dune-dark-number,
+.atelier-dune-dark-meta,
+.atelier-dune-dark-built_in,
+.atelier-dune-dark-builtin-name,
+.atelier-dune-dark-literal,
+.atelier-dune-dark-type,
+.atelier-dune-dark-params {
+  color: #b65611;
+}
+
+/* Atelier-Dune Green */
+.atelier-dune-dark-string,
+.atelier-dune-dark-symbol,
+.atelier-dune-dark-bullet {
+  color: #60ac39;
+}
+
+/* Atelier-Dune Blue */
+.atelier-dune-dark-title,
+.atelier-dune-dark-section {
+  color: #6684e1;
+}
+
+/* Atelier-Dune Purple */
+.atelier-dune-dark-keyword,
+.atelier-dune-dark-selector-tag {
+  color: #b854d4;
+}
+
+.atelier-dune-dark {
+  display: block;
+  overflow-x: auto;
+  background: #20201d;
+  color: #a6a28c;
+  padding: 0.5em;
+}
+
+.atelier-dune-dark-emphasis {
+  font-style: italic;
+}
+
+.atelier-dune-dark-strong {
+  font-weight: bold;
+}
+
+/* Base16 Atelier Dune Light - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/dune) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Dune Comment */
+.atelier-dune-light-comment,
+.atelier-dune-light-quote {
+  color: #7d7a68;
+}
+
+/* Atelier-Dune Red */
+.atelier-dune-light-variable,
+.atelier-dune-light-template-variable,
+.atelier-dune-light-attribute,
+.atelier-dune-light-tag,
+.atelier-dune-light-name,
+.atelier-dune-light-regexp,
+.atelier-dune-light-link,
+.atelier-dune-light-name,
+.atelier-dune-light-selector-id,
+.atelier-dune-light-selector-class {
+  color: #d73737;
+}
+
+/* Atelier-Dune Orange */
+.atelier-dune-light-number,
+.atelier-dune-light-meta,
+.atelier-dune-light-built_in,
+.atelier-dune-light-builtin-name,
+.atelier-dune-light-literal,
+.atelier-dune-light-type,
+.atelier-dune-light-params {
+  color: #b65611;
+}
+
+/* Atelier-Dune Green */
+.atelier-dune-light-string,
+.atelier-dune-light-symbol,
+.atelier-dune-light-bullet {
+  color: #60ac39;
+}
+
+/* Atelier-Dune Blue */
+.atelier-dune-light-title,
+.atelier-dune-light-section {
+  color: #6684e1;
+}
+
+/* Atelier-Dune Purple */
+.atelier-dune-light-keyword,
+.atelier-dune-light-selector-tag {
+  color: #b854d4;
+}
+
+.atelier-dune-light {
+  display: block;
+  overflow-x: auto;
+  background: #fefbec;
+  color: #6e6b5e;
+  padding: 0.5em;
+}
+
+.atelier-dune-light-emphasis {
+  font-style: italic;
+}
+
+.atelier-dune-light-strong {
+  font-weight: bold;
+}
+
+/* Base16 Atelier Estuary Dark - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/estuary) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Estuary Comment */
+.atelier-estuary-dark-comment,
+.atelier-estuary-dark-quote {
+  color: #878573;
+}
+
+/* Atelier-Estuary Red */
+.atelier-estuary-dark-variable,
+.atelier-estuary-dark-template-variable,
+.atelier-estuary-dark-attribute,
+.atelier-estuary-dark-tag,
+.atelier-estuary-dark-name,
+.atelier-estuary-dark-regexp,
+.atelier-estuary-dark-link,
+.atelier-estuary-dark-name,
+.atelier-estuary-dark-selector-id,
+.atelier-estuary-dark-selector-class {
+  color: #ba6236;
+}
+
+/* Atelier-Estuary Orange */
+.atelier-estuary-dark-number,
+.atelier-estuary-dark-meta,
+.atelier-estuary-dark-built_in,
+.atelier-estuary-dark-builtin-name,
+.atelier-estuary-dark-literal,
+.atelier-estuary-dark-type,
+.atelier-estuary-dark-params {
+  color: #ae7313;
+}
+
+/* Atelier-Estuary Green */
+.atelier-estuary-dark-string,
+.atelier-estuary-dark-symbol,
+.atelier-estuary-dark-bullet {
+  color: #7d9726;
+}
+
+/* Atelier-Estuary Blue */
+.atelier-estuary-dark-title,
+.atelier-estuary-dark-section {
+  color: #36a166;
+}
+
+/* Atelier-Estuary Purple */
+.atelier-estuary-dark-keyword,
+.atelier-estuary-dark-selector-tag {
+  color: #5f9182;
+}
+
+.atelier-estuary-dark-deletion,
+.atelier-estuary-dark-addition {
+  color: #22221b;
+  display: inline-block;
+  width: 100%;
+}
+
+.atelier-estuary-dark-deletion {
+  background-color: #ba6236;
+}
+
+.atelier-estuary-dark-addition {
+  background-color: #7d9726;
+}
+
+.atelier-estuary-dark {
+  display: block;
+  overflow-x: auto;
+  background: #22221b;
+  color: #929181;
+  padding: 0.5em;
+}
+
+.atelier-estuary-dark-emphasis {
+  font-style: italic;
+}
+
+.atelier-estuary-dark-strong {
+  font-weight: bold;
+}
+
+/* Base16 Atelier Estuary Light - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/estuary) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Estuary Comment */
+.atelier-estuary-light-comment,
+.atelier-estuary-light-quote {
+  color: #6c6b5a;
+}
+
+/* Atelier-Estuary Red */
+.atelier-estuary-light-variable,
+.atelier-estuary-light-template-variable,
+.atelier-estuary-light-attribute,
+.atelier-estuary-light-tag,
+.atelier-estuary-light-name,
+.atelier-estuary-light-regexp,
+.atelier-estuary-light-link,
+.atelier-estuary-light-name,
+.atelier-estuary-light-selector-id,
+.atelier-estuary-light-selector-class {
+  color: #ba6236;
+}
+
+/* Atelier-Estuary Orange */
+.atelier-estuary-light-number,
+.atelier-estuary-light-meta,
+.atelier-estuary-light-built_in,
+.atelier-estuary-light-builtin-name,
+.atelier-estuary-light-literal,
+.atelier-estuary-light-type,
+.atelier-estuary-light-params {
+  color: #ae7313;
+}
+
+/* Atelier-Estuary Green */
+.atelier-estuary-light-string,
+.atelier-estuary-light-symbol,
+.atelier-estuary-light-bullet {
+  color: #7d9726;
+}
+
+/* Atelier-Estuary Blue */
+.atelier-estuary-light-title,
+.atelier-estuary-light-section {
+  color: #36a166;
+}
+
+/* Atelier-Estuary Purple */
+.atelier-estuary-light-keyword,
+.atelier-estuary-light-selector-tag {
+  color: #5f9182;
+}
+
+.atelier-estuary-light-deletion,
+.atelier-estuary-light-addition {
+  color: #22221b;
+  display: inline-block;
+  width: 100%;
+}
+
+.atelier-estuary-light-deletion {
+  background-color: #ba6236;
+}
+
+.atelier-estuary-light-addition {
+  background-color: #7d9726;
+}
+
+.atelier-estuary-light {
+  display: block;
+  overflow-x: auto;
+  background: #f4f3ec;
+  color: #5f5e4e;
+  padding: 0.5em;
+}
+
+.atelier-estuary-light-emphasis {
+  font-style: italic;
+}
+
+.atelier-estuary-light-strong {
+  font-weight: bold;
+}
+
+/* Base16 Atelier Forest Dark - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/forest) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Forest Comment */
+.atelier-forest-dark-comment,
+.atelier-forest-dark-quote {
+  color: #9c9491;
+}
+
+/* Atelier-Forest Red */
+.atelier-forest-dark-variable,
+.atelier-forest-dark-template-variable,
+.atelier-forest-dark-attribute,
+.atelier-forest-dark-tag,
+.atelier-forest-dark-name,
+.atelier-forest-dark-regexp,
+.atelier-forest-dark-link,
+.atelier-forest-dark-name,
+.atelier-forest-dark-selector-id,
+.atelier-forest-dark-selector-class {
+  color: #f22c40;
+}
+
+/* Atelier-Forest Orange */
+.atelier-forest-dark-number,
+.atelier-forest-dark-meta,
+.atelier-forest-dark-built_in,
+.atelier-forest-dark-builtin-name,
+.atelier-forest-dark-literal,
+.atelier-forest-dark-type,
+.atelier-forest-dark-params {
+  color: #df5320;
+}
+
+/* Atelier-Forest Green */
+.atelier-forest-dark-string,
+.atelier-forest-dark-symbol,
+.atelier-forest-dark-bullet {
+  color: #7b9726;
+}
+
+/* Atelier-Forest Blue */
+.atelier-forest-dark-title,
+.atelier-forest-dark-section {
+  color: #407ee7;
+}
+
+/* Atelier-Forest Purple */
+.atelier-forest-dark-keyword,
+.atelier-forest-dark-selector-tag {
+  color: #6666ea;
+}
+
+.atelier-forest-dark {
+  display: block;
+  overflow-x: auto;
+  background: #1b1918;
+  color: #a8a19f;
+  padding: 0.5em;
+}
+
+.atelier-forest-dark-emphasis {
+  font-style: italic;
+}
+
+.atelier-forest-dark-strong {
+  font-weight: bold;
+}
+
+/* Base16 Atelier Forest Light - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/forest) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Forest Comment */
+.atelier-forest-light-comment,
+.atelier-forest-light-quote {
+  color: #766e6b;
+}
+
+/* Atelier-Forest Red */
+.atelier-forest-light-variable,
+.atelier-forest-light-template-variable,
+.atelier-forest-light-attribute,
+.atelier-forest-light-tag,
+.atelier-forest-light-name,
+.atelier-forest-light-regexp,
+.atelier-forest-light-link,
+.atelier-forest-light-name,
+.atelier-forest-light-selector-id,
+.atelier-forest-light-selector-class {
+  color: #f22c40;
+}
+
+/* Atelier-Forest Orange */
+.atelier-forest-light-number,
+.atelier-forest-light-meta,
+.atelier-forest-light-built_in,
+.atelier-forest-light-builtin-name,
+.atelier-forest-light-literal,
+.atelier-forest-light-type,
+.atelier-forest-light-params {
+  color: #df5320;
+}
+
+/* Atelier-Forest Green */
+.atelier-forest-light-string,
+.atelier-forest-light-symbol,
+.atelier-forest-light-bullet {
+  color: #7b9726;
+}
+
+/* Atelier-Forest Blue */
+.atelier-forest-light-title,
+.atelier-forest-light-section {
+  color: #407ee7;
+}
+
+/* Atelier-Forest Purple */
+.atelier-forest-light-keyword,
+.atelier-forest-light-selector-tag {
+  color: #6666ea;
+}
+
+.atelier-forest-light {
+  display: block;
+  overflow-x: auto;
+  background: #f1efee;
+  color: #68615e;
+  padding: 0.5em;
+}
+
+.atelier-forest-light-emphasis {
+  font-style: italic;
+}
+
+.atelier-forest-light-strong {
+  font-weight: bold;
+}
+
+/* Base16 Atelier Heath Dark - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/heath) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Heath Comment */
+.atelier-heath-dark-comment,
+.atelier-heath-dark-quote {
+  color: #9e8f9e;
+}
+
+/* Atelier-Heath Red */
+.atelier-heath-dark-variable,
+.atelier-heath-dark-template-variable,
+.atelier-heath-dark-attribute,
+.atelier-heath-dark-tag,
+.atelier-heath-dark-name,
+.atelier-heath-dark-regexp,
+.atelier-heath-dark-link,
+.atelier-heath-dark-name,
+.atelier-heath-dark-selector-id,
+.atelier-heath-dark-selector-class {
+  color: #ca402b;
+}
+
+/* Atelier-Heath Orange */
+.atelier-heath-dark-number,
+.atelier-heath-dark-meta,
+.atelier-heath-dark-built_in,
+.atelier-heath-dark-builtin-name,
+.atelier-heath-dark-literal,
+.atelier-heath-dark-type,
+.atelier-heath-dark-params {
+  color: #a65926;
+}
+
+/* Atelier-Heath Green */
+.atelier-heath-dark-string,
+.atelier-heath-dark-symbol,
+.atelier-heath-dark-bullet {
+  color: #918b3b;
+}
+
+/* Atelier-Heath Blue */
+.atelier-heath-dark-title,
+.atelier-heath-dark-section {
+  color: #516aec;
+}
+
+/* Atelier-Heath Purple */
+.atelier-heath-dark-keyword,
+.atelier-heath-dark-selector-tag {
+  color: #7b59c0;
+}
+
+.atelier-heath-dark {
+  display: block;
+  overflow-x: auto;
+  background: #1b181b;
+  color: #ab9bab;
+  padding: 0.5em;
+}
+
+.atelier-heath-dark-emphasis {
+  font-style: italic;
+}
+
+.atelier-heath-dark-strong {
+  font-weight: bold;
+}
+
+/* Base16 Atelier Heath Light - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/heath) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Heath Comment */
+.atelier-heath-light-comment,
+.atelier-heath-light-quote {
+  color: #776977;
+}
+
+/* Atelier-Heath Red */
+.atelier-heath-light-variable,
+.atelier-heath-light-template-variable,
+.atelier-heath-light-attribute,
+.atelier-heath-light-tag,
+.atelier-heath-light-name,
+.atelier-heath-light-regexp,
+.atelier-heath-light-link,
+.atelier-heath-light-name,
+.atelier-heath-light-selector-id,
+.atelier-heath-light-selector-class {
+  color: #ca402b;
+}
+
+/* Atelier-Heath Orange */
+.atelier-heath-light-number,
+.atelier-heath-light-meta,
+.atelier-heath-light-built_in,
+.atelier-heath-light-builtin-name,
+.atelier-heath-light-literal,
+.atelier-heath-light-type,
+.atelier-heath-light-params {
+  color: #a65926;
+}
+
+/* Atelier-Heath Green */
+.atelier-heath-light-string,
+.atelier-heath-light-symbol,
+.atelier-heath-light-bullet {
+  color: #918b3b;
+}
+
+/* Atelier-Heath Blue */
+.atelier-heath-light-title,
+.atelier-heath-light-section {
+  color: #516aec;
+}
+
+/* Atelier-Heath Purple */
+.atelier-heath-light-keyword,
+.atelier-heath-light-selector-tag {
+  color: #7b59c0;
+}
+
+.atelier-heath-light {
+  display: block;
+  overflow-x: auto;
+  background: #f7f3f7;
+  color: #695d69;
+  padding: 0.5em;
+}
+
+.atelier-heath-light-emphasis {
+  font-style: italic;
+}
+
+.atelier-heath-light-strong {
+  font-weight: bold;
+}
+
+/* Base16 Atelier Lakeside Dark - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/lakeside) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Lakeside Comment */
+.atelier-lakeside-dark-comment,
+.atelier-lakeside-dark-quote {
+  color: #7195a8;
+}
+
+/* Atelier-Lakeside Red */
+.atelier-lakeside-dark-variable,
+.atelier-lakeside-dark-template-variable,
+.atelier-lakeside-dark-attribute,
+.atelier-lakeside-dark-tag,
+.atelier-lakeside-dark-name,
+.atelier-lakeside-dark-regexp,
+.atelier-lakeside-dark-link,
+.atelier-lakeside-dark-name,
+.atelier-lakeside-dark-selector-id,
+.atelier-lakeside-dark-selector-class {
+  color: #d22d72;
+}
+
+/* Atelier-Lakeside Orange */
+.atelier-lakeside-dark-number,
+.atelier-lakeside-dark-meta,
+.atelier-lakeside-dark-built_in,
+.atelier-lakeside-dark-builtin-name,
+.atelier-lakeside-dark-literal,
+.atelier-lakeside-dark-type,
+.atelier-lakeside-dark-params {
+  color: #935c25;
+}
+
+/* Atelier-Lakeside Green */
+.atelier-lakeside-dark-string,
+.atelier-lakeside-dark-symbol,
+.atelier-lakeside-dark-bullet {
+  color: #568c3b;
+}
+
+/* Atelier-Lakeside Blue */
+.atelier-lakeside-dark-title,
+.atelier-lakeside-dark-section {
+  color: #257fad;
+}
+
+/* Atelier-Lakeside Purple */
+.atelier-lakeside-dark-keyword,
+.atelier-lakeside-dark-selector-tag {
+  color: #6b6bb8;
+}
+
+.atelier-lakeside-dark {
+  display: block;
+  overflow-x: auto;
+  background: #161b1d;
+  color: #7ea2b4;
+  padding: 0.5em;
+}
+
+.atelier-lakeside-dark-emphasis {
+  font-style: italic;
+}
+
+.atelier-lakeside-dark-strong {
+  font-weight: bold;
+}
+
+/* Base16 Atelier Lakeside Light - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/lakeside) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Lakeside Comment */
+.atelier-lakeside-light-comment,
+.atelier-lakeside-light-quote {
+  color: #5a7b8c;
+}
+
+/* Atelier-Lakeside Red */
+.atelier-lakeside-light-variable,
+.atelier-lakeside-light-template-variable,
+.atelier-lakeside-light-attribute,
+.atelier-lakeside-light-tag,
+.atelier-lakeside-light-name,
+.atelier-lakeside-light-regexp,
+.atelier-lakeside-light-link,
+.atelier-lakeside-light-name,
+.atelier-lakeside-light-selector-id,
+.atelier-lakeside-light-selector-class {
+  color: #d22d72;
+}
+
+/* Atelier-Lakeside Orange */
+.atelier-lakeside-light-number,
+.atelier-lakeside-light-meta,
+.atelier-lakeside-light-built_in,
+.atelier-lakeside-light-builtin-name,
+.atelier-lakeside-light-literal,
+.atelier-lakeside-light-type,
+.atelier-lakeside-light-params {
+  color: #935c25;
+}
+
+/* Atelier-Lakeside Green */
+.atelier-lakeside-light-string,
+.atelier-lakeside-light-symbol,
+.atelier-lakeside-light-bullet {
+  color: #568c3b;
+}
+
+/* Atelier-Lakeside Blue */
+.atelier-lakeside-light-title,
+.atelier-lakeside-light-section {
+  color: #257fad;
+}
+
+/* Atelier-Lakeside Purple */
+.atelier-lakeside-light-keyword,
+.atelier-lakeside-light-selector-tag {
+  color: #6b6bb8;
+}
+
+.atelier-lakeside-light {
+  display: block;
+  overflow-x: auto;
+  background: #ebf8ff;
+  color: #516d7b;
+  padding: 0.5em;
+}
+
+.atelier-lakeside-light-emphasis {
+  font-style: italic;
+}
+
+.atelier-lakeside-light-strong {
+  font-weight: bold;
+}
+
+/* Base16 Atelier Plateau Dark - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/plateau) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Plateau Comment */
+.atelier-plateau-dark-comment,
+.atelier-plateau-dark-quote {
+  color: #7e7777;
+}
+
+/* Atelier-Plateau Red */
+.atelier-plateau-dark-variable,
+.atelier-plateau-dark-template-variable,
+.atelier-plateau-dark-attribute,
+.atelier-plateau-dark-tag,
+.atelier-plateau-dark-name,
+.atelier-plateau-dark-regexp,
+.atelier-plateau-dark-link,
+.atelier-plateau-dark-name,
+.atelier-plateau-dark-selector-id,
+.atelier-plateau-dark-selector-class {
+  color: #ca4949;
+}
+
+/* Atelier-Plateau Orange */
+.atelier-plateau-dark-number,
+.atelier-plateau-dark-meta,
+.atelier-plateau-dark-built_in,
+.atelier-plateau-dark-builtin-name,
+.atelier-plateau-dark-literal,
+.atelier-plateau-dark-type,
+.atelier-plateau-dark-params {
+  color: #b45a3c;
+}
+
+/* Atelier-Plateau Green */
+.atelier-plateau-dark-string,
+.atelier-plateau-dark-symbol,
+.atelier-plateau-dark-bullet {
+  color: #4b8b8b;
+}
+
+/* Atelier-Plateau Blue */
+.atelier-plateau-dark-title,
+.atelier-plateau-dark-section {
+  color: #7272ca;
+}
+
+/* Atelier-Plateau Purple */
+.atelier-plateau-dark-keyword,
+.atelier-plateau-dark-selector-tag {
+  color: #8464c4;
+}
+
+.atelier-plateau-dark-deletion,
+.atelier-plateau-dark-addition {
+  color: #1b1818;
+  display: inline-block;
+  width: 100%;
+}
+
+.atelier-plateau-dark-deletion {
+  background-color: #ca4949;
+}
+
+.atelier-plateau-dark-addition {
+  background-color: #4b8b8b;
+}
+
+.atelier-plateau-dark {
+  display: block;
+  overflow-x: auto;
+  background: #1b1818;
+  color: #8a8585;
+  padding: 0.5em;
+}
+
+.atelier-plateau-dark-emphasis {
+  font-style: italic;
+}
+
+.atelier-plateau-dark-strong {
+  font-weight: bold;
+}
+
+/* Base16 Atelier Plateau Light - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/plateau) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Plateau Comment */
+.atelier-plateau-light-comment,
+.atelier-plateau-light-quote {
+  color: #655d5d;
+}
+
+/* Atelier-Plateau Red */
+.atelier-plateau-light-variable,
+.atelier-plateau-light-template-variable,
+.atelier-plateau-light-attribute,
+.atelier-plateau-light-tag,
+.atelier-plateau-light-name,
+.atelier-plateau-light-regexp,
+.atelier-plateau-light-link,
+.atelier-plateau-light-name,
+.atelier-plateau-light-selector-id,
+.atelier-plateau-light-selector-class {
+  color: #ca4949;
+}
+
+/* Atelier-Plateau Orange */
+.atelier-plateau-light-number,
+.atelier-plateau-light-meta,
+.atelier-plateau-light-built_in,
+.atelier-plateau-light-builtin-name,
+.atelier-plateau-light-literal,
+.atelier-plateau-light-type,
+.atelier-plateau-light-params {
+  color: #b45a3c;
+}
+
+/* Atelier-Plateau Green */
+.atelier-plateau-light-string,
+.atelier-plateau-light-symbol,
+.atelier-plateau-light-bullet {
+  color: #4b8b8b;
+}
+
+/* Atelier-Plateau Blue */
+.atelier-plateau-light-title,
+.atelier-plateau-light-section {
+  color: #7272ca;
+}
+
+/* Atelier-Plateau Purple */
+.atelier-plateau-light-keyword,
+.atelier-plateau-light-selector-tag {
+  color: #8464c4;
+}
+
+.atelier-plateau-light-deletion,
+.atelier-plateau-light-addition {
+  color: #1b1818;
+  display: inline-block;
+  width: 100%;
+}
+
+.atelier-plateau-light-deletion {
+  background-color: #ca4949;
+}
+
+.atelier-plateau-light-addition {
+  background-color: #4b8b8b;
+}
+
+.atelier-plateau-light {
+  display: block;
+  overflow-x: auto;
+  background: #f4ecec;
+  color: #585050;
+  padding: 0.5em;
+}
+
+.atelier-plateau-light-emphasis {
+  font-style: italic;
+}
+
+.atelier-plateau-light-strong {
+  font-weight: bold;
+}
+
+/* Base16 Atelier Savanna Dark - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/savanna) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Savanna Comment */
+.atelier-savanna-dark-comment,
+.atelier-savanna-dark-quote {
+  color: #78877d;
+}
+
+/* Atelier-Savanna Red */
+.atelier-savanna-dark-variable,
+.atelier-savanna-dark-template-variable,
+.atelier-savanna-dark-attribute,
+.atelier-savanna-dark-tag,
+.atelier-savanna-dark-name,
+.atelier-savanna-dark-regexp,
+.atelier-savanna-dark-link,
+.atelier-savanna-dark-name,
+.atelier-savanna-dark-selector-id,
+.atelier-savanna-dark-selector-class {
+  color: #b16139;
+}
+
+/* Atelier-Savanna Orange */
+.atelier-savanna-dark-number,
+.atelier-savanna-dark-meta,
+.atelier-savanna-dark-built_in,
+.atelier-savanna-dark-builtin-name,
+.atelier-savanna-dark-literal,
+.atelier-savanna-dark-type,
+.atelier-savanna-dark-params {
+  color: #9f713c;
+}
+
+/* Atelier-Savanna Green */
+.atelier-savanna-dark-string,
+.atelier-savanna-dark-symbol,
+.atelier-savanna-dark-bullet {
+  color: #489963;
+}
+
+/* Atelier-Savanna Blue */
+.atelier-savanna-dark-title,
+.atelier-savanna-dark-section {
+  color: #478c90;
+}
+
+/* Atelier-Savanna Purple */
+.atelier-savanna-dark-keyword,
+.atelier-savanna-dark-selector-tag {
+  color: #55859b;
+}
+
+.atelier-savanna-dark-deletion,
+.atelier-savanna-dark-addition {
+  color: #171c19;
+  display: inline-block;
+  width: 100%;
+}
+
+.atelier-savanna-dark-deletion {
+  background-color: #b16139;
+}
+
+.atelier-savanna-dark-addition {
+  background-color: #489963;
+}
+
+.atelier-savanna-dark {
+  display: block;
+  overflow-x: auto;
+  background: #171c19;
+  color: #87928a;
+  padding: 0.5em;
+}
+
+.atelier-savanna-dark-emphasis {
+  font-style: italic;
+}
+
+.atelier-savanna-dark-strong {
+  font-weight: bold;
+}
+
+/* Base16 Atelier Savanna Light - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/savanna) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Savanna Comment */
+.atelier-savanna-light-comment,
+.atelier-savanna-light-quote {
+  color: #5f6d64;
+}
+
+/* Atelier-Savanna Red */
+.atelier-savanna-light-variable,
+.atelier-savanna-light-template-variable,
+.atelier-savanna-light-attribute,
+.atelier-savanna-light-tag,
+.atelier-savanna-light-name,
+.atelier-savanna-light-regexp,
+.atelier-savanna-light-link,
+.atelier-savanna-light-name,
+.atelier-savanna-light-selector-id,
+.atelier-savanna-light-selector-class {
+  color: #b16139;
+}
+
+/* Atelier-Savanna Orange */
+.atelier-savanna-light-number,
+.atelier-savanna-light-meta,
+.atelier-savanna-light-built_in,
+.atelier-savanna-light-builtin-name,
+.atelier-savanna-light-literal,
+.atelier-savanna-light-type,
+.atelier-savanna-light-params {
+  color: #9f713c;
+}
+
+/* Atelier-Savanna Green */
+.atelier-savanna-light-string,
+.atelier-savanna-light-symbol,
+.atelier-savanna-light-bullet {
+  color: #489963;
+}
+
+/* Atelier-Savanna Blue */
+.atelier-savanna-light-title,
+.atelier-savanna-light-section {
+  color: #478c90;
+}
+
+/* Atelier-Savanna Purple */
+.atelier-savanna-light-keyword,
+.atelier-savanna-light-selector-tag {
+  color: #55859b;
+}
+
+.atelier-savanna-light-deletion,
+.atelier-savanna-light-addition {
+  color: #171c19;
+  display: inline-block;
+  width: 100%;
+}
+
+.atelier-savanna-light-deletion {
+  background-color: #b16139;
+}
+
+.atelier-savanna-light-addition {
+  background-color: #489963;
+}
+
+.atelier-savanna-light {
+  display: block;
+  overflow-x: auto;
+  background: #ecf4ee;
+  color: #526057;
+  padding: 0.5em;
+}
+
+.atelier-savanna-light-emphasis {
+  font-style: italic;
+}
+
+.atelier-savanna-light-strong {
+  font-weight: bold;
+}
+
+/* Base16 Atelier Seaside Dark - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/seaside) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Seaside Comment */
+.atelier-seaside-dark-comment,
+.atelier-seaside-dark-quote {
+  color: #809980;
+}
+
+/* Atelier-Seaside Red */
+.atelier-seaside-dark-variable,
+.atelier-seaside-dark-template-variable,
+.atelier-seaside-dark-attribute,
+.atelier-seaside-dark-tag,
+.atelier-seaside-dark-name,
+.atelier-seaside-dark-regexp,
+.atelier-seaside-dark-link,
+.atelier-seaside-dark-name,
+.atelier-seaside-dark-selector-id,
+.atelier-seaside-dark-selector-class {
+  color: #e6193c;
+}
+
+/* Atelier-Seaside Orange */
+.atelier-seaside-dark-number,
+.atelier-seaside-dark-meta,
+.atelier-seaside-dark-built_in,
+.atelier-seaside-dark-builtin-name,
+.atelier-seaside-dark-literal,
+.atelier-seaside-dark-type,
+.atelier-seaside-dark-params {
+  color: #87711d;
+}
+
+/* Atelier-Seaside Green */
+.atelier-seaside-dark-string,
+.atelier-seaside-dark-symbol,
+.atelier-seaside-dark-bullet {
+  color: #29a329;
+}
+
+/* Atelier-Seaside Blue */
+.atelier-seaside-dark-title,
+.atelier-seaside-dark-section {
+  color: #3d62f5;
+}
+
+/* Atelier-Seaside Purple */
+.atelier-seaside-dark-keyword,
+.atelier-seaside-dark-selector-tag {
+  color: #ad2bee;
+}
+
+.atelier-seaside-dark {
+  display: block;
+  overflow-x: auto;
+  background: #131513;
+  color: #8ca68c;
+  padding: 0.5em;
+}
+
+.atelier-seaside-dark-emphasis {
+  font-style: italic;
+}
+
+.atelier-seaside-dark-strong {
+  font-weight: bold;
+}
+
+/* Base16 Atelier Seaside Light - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/seaside) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Seaside Comment */
+.atelier-seaside-light-comment,
+.atelier-seaside-light-quote {
+  color: #687d68;
+}
+
+/* Atelier-Seaside Red */
+.atelier-seaside-light-variable,
+.atelier-seaside-light-template-variable,
+.atelier-seaside-light-attribute,
+.atelier-seaside-light-tag,
+.atelier-seaside-light-name,
+.atelier-seaside-light-regexp,
+.atelier-seaside-light-link,
+.atelier-seaside-light-name,
+.atelier-seaside-light-selector-id,
+.atelier-seaside-light-selector-class {
+  color: #e6193c;
+}
+
+/* Atelier-Seaside Orange */
+.atelier-seaside-light-number,
+.atelier-seaside-light-meta,
+.atelier-seaside-light-built_in,
+.atelier-seaside-light-builtin-name,
+.atelier-seaside-light-literal,
+.atelier-seaside-light-type,
+.atelier-seaside-light-params {
+  color: #87711d;
+}
+
+/* Atelier-Seaside Green */
+.atelier-seaside-light-string,
+.atelier-seaside-light-symbol,
+.atelier-seaside-light-bullet {
+  color: #29a329;
+}
+
+/* Atelier-Seaside Blue */
+.atelier-seaside-light-title,
+.atelier-seaside-light-section {
+  color: #3d62f5;
+}
+
+/* Atelier-Seaside Purple */
+.atelier-seaside-light-keyword,
+.atelier-seaside-light-selector-tag {
+  color: #ad2bee;
+}
+
+.atelier-seaside-light {
+  display: block;
+  overflow-x: auto;
+  background: #f4fbf4;
+  color: #5e6e5e;
+  padding: 0.5em;
+}
+
+.atelier-seaside-light-emphasis {
+  font-style: italic;
+}
+
+.atelier-seaside-light-strong {
+  font-weight: bold;
+}
+
+/* Base16 Atelier Sulphurpool Dark - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/sulphurpool) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Sulphurpool Comment */
+.atelier-sulphurpool-dark-comment,
+.atelier-sulphurpool-dark-quote {
+  color: #898ea4;
+}
+
+/* Atelier-Sulphurpool Red */
+.atelier-sulphurpool-dark-variable,
+.atelier-sulphurpool-dark-template-variable,
+.atelier-sulphurpool-dark-attribute,
+.atelier-sulphurpool-dark-tag,
+.atelier-sulphurpool-dark-name,
+.atelier-sulphurpool-dark-regexp,
+.atelier-sulphurpool-dark-link,
+.atelier-sulphurpool-dark-name,
+.atelier-sulphurpool-dark-selector-id,
+.atelier-sulphurpool-dark-selector-class {
+  color: #c94922;
+}
+
+/* Atelier-Sulphurpool Orange */
+.atelier-sulphurpool-dark-number,
+.atelier-sulphurpool-dark-meta,
+.atelier-sulphurpool-dark-built_in,
+.atelier-sulphurpool-dark-builtin-name,
+.atelier-sulphurpool-dark-literal,
+.atelier-sulphurpool-dark-type,
+.atelier-sulphurpool-dark-params {
+  color: #c76b29;
+}
+
+/* Atelier-Sulphurpool Green */
+.atelier-sulphurpool-dark-string,
+.atelier-sulphurpool-dark-symbol,
+.atelier-sulphurpool-dark-bullet {
+  color: #ac9739;
+}
+
+/* Atelier-Sulphurpool Blue */
+.atelier-sulphurpool-dark-title,
+.atelier-sulphurpool-dark-section {
+  color: #3d8fd1;
+}
+
+/* Atelier-Sulphurpool Purple */
+.atelier-sulphurpool-dark-keyword,
+.atelier-sulphurpool-dark-selector-tag {
+  color: #6679cc;
+}
+
+.atelier-sulphurpool-dark {
+  display: block;
+  overflow-x: auto;
+  background: #202746;
+  color: #979db4;
+  padding: 0.5em;
+}
+
+.atelier-sulphurpool-dark-emphasis {
+  font-style: italic;
+}
+
+.atelier-sulphurpool-dark-strong {
+  font-weight: bold;
+}
+
+/* Base16 Atelier Sulphurpool Light - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/sulphurpool) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Sulphurpool Comment */
+.atelier-sulphurpool-light-comment,
+.atelier-sulphurpool-light-quote {
+  color: #6b7394;
+}
+
+/* Atelier-Sulphurpool Red */
+.atelier-sulphurpool-light-variable,
+.atelier-sulphurpool-light-template-variable,
+.atelier-sulphurpool-light-attribute,
+.atelier-sulphurpool-light-tag,
+.atelier-sulphurpool-light-name,
+.atelier-sulphurpool-light-regexp,
+.atelier-sulphurpool-light-link,
+.atelier-sulphurpool-light-name,
+.atelier-sulphurpool-light-selector-id,
+.atelier-sulphurpool-light-selector-class {
+  color: #c94922;
+}
+
+/* Atelier-Sulphurpool Orange */
+.atelier-sulphurpool-light-number,
+.atelier-sulphurpool-light-meta,
+.atelier-sulphurpool-light-built_in,
+.atelier-sulphurpool-light-builtin-name,
+.atelier-sulphurpool-light-literal,
+.atelier-sulphurpool-light-type,
+.atelier-sulphurpool-light-params {
+  color: #c76b29;
+}
+
+/* Atelier-Sulphurpool Green */
+.atelier-sulphurpool-light-string,
+.atelier-sulphurpool-light-symbol,
+.atelier-sulphurpool-light-bullet {
+  color: #ac9739;
+}
+
+/* Atelier-Sulphurpool Blue */
+.atelier-sulphurpool-light-title,
+.atelier-sulphurpool-light-section {
+  color: #3d8fd1;
+}
+
+/* Atelier-Sulphurpool Purple */
+.atelier-sulphurpool-light-keyword,
+.atelier-sulphurpool-light-selector-tag {
+  color: #6679cc;
+}
+
+.atelier-sulphurpool-light {
+  display: block;
+  overflow-x: auto;
+  background: #f5f7ff;
+  color: #5e6687;
+  padding: 0.5em;
+}
+
+.atelier-sulphurpool-light-emphasis {
+  font-style: italic;
+}
+
+.atelier-sulphurpool-light-strong {
+  font-weight: bold;
+}
+
+/*
+
+Atom One Dark by Daniel Gamage
+Original One Dark Syntax theme from https://github.com/atom/one-dark-syntax
+
+base:    #282c34
+mono-1:  #abb2bf
+mono-2:  #818896
+mono-3:  #5c6370
+hue-1:   #56b6c2
+hue-2:   #61aeee
+hue-3:   #c678dd
+hue-4:   #98c379
+hue-5:   #e06c75
+hue-5-2: #be5046
+hue-6:   #d19a66
+hue-6-2: #e6c07b
+
+*/
+
+.atom-one-dark {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #abb2bf;
+  background: #282c34;
+}
+
+.atom-one-dark-comment,
+.atom-one-dark-quote {
+  color: #5c6370;
+  font-style: italic;
+}
+
+.atom-one-dark-doctag,
+.atom-one-dark-keyword,
+.atom-one-dark-formula {
+  color: #c678dd;
+}
+
+.atom-one-dark-section,
+.atom-one-dark-name,
+.atom-one-dark-selector-tag,
+.atom-one-dark-deletion,
+.atom-one-dark-subst {
+  color: #e06c75;
+}
+
+.atom-one-dark-literal {
+  color: #56b6c2;
+}
+
+.atom-one-dark-string,
+.atom-one-dark-regexp,
+.atom-one-dark-addition,
+.atom-one-dark-attribute,
+.atom-one-dark-meta-string {
+  color: #98c379;
+}
+
+.atom-one-dark-built_in,
+.atom-one-dark-class .atom-one-dark-title {
+  color: #e6c07b;
+}
+
+.atom-one-dark-attr,
+.atom-one-dark-variable,
+.atom-one-dark-template-variable,
+.atom-one-dark-type,
+.atom-one-dark-selector-class,
+.atom-one-dark-selector-attr,
+.atom-one-dark-selector-pseudo,
+.atom-one-dark-number {
+  color: #d19a66;
+}
+
+.atom-one-dark-symbol,
+.atom-one-dark-bullet,
+.atom-one-dark-link,
+.atom-one-dark-meta,
+.atom-one-dark-selector-id,
+.atom-one-dark-title {
+  color: #61aeee;
+}
+
+.atom-one-dark-emphasis {
+  font-style: italic;
+}
+
+.atom-one-dark-strong {
+  font-weight: bold;
+}
+
+.atom-one-dark-link {
+  text-decoration: underline;
+}
+
+/*
+
+Atom One Light by Daniel Gamage
+Original One Light Syntax theme from https://github.com/atom/one-light-syntax
+
+base:    #fafafa
+mono-1:  #383a42
+mono-2:  #686b77
+mono-3:  #a0a1a7
+hue-1:   #0184bb
+hue-2:   #4078f2
+hue-3:   #a626a4
+hue-4:   #50a14f
+hue-5:   #e45649
+hue-5-2: #c91243
+hue-6:   #986801
+hue-6-2: #c18401
+
+*/
+
+.atom-one-light {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #383a42;
+  background: #fafafa;
+}
+
+.atom-one-light-comment,
+.atom-one-light-quote {
+  color: #a0a1a7;
+  font-style: italic;
+}
+
+.atom-one-light-doctag,
+.atom-one-light-keyword,
+.atom-one-light-formula {
+  color: #a626a4;
+}
+
+.atom-one-light-section,
+.atom-one-light-name,
+.atom-one-light-selector-tag,
+.atom-one-light-deletion,
+.atom-one-light-subst {
+  color: #e45649;
+}
+
+.atom-one-light-literal {
+  color: #0184bb;
+}
+
+.atom-one-light-string,
+.atom-one-light-regexp,
+.atom-one-light-addition,
+.atom-one-light-attribute,
+.atom-one-light-meta-string {
+  color: #50a14f;
+}
+
+.atom-one-light-built_in,
+.atom-one-light-class .atom-one-light-title {
+  color: #c18401;
+}
+
+.atom-one-light-attr,
+.atom-one-light-variable,
+.atom-one-light-template-variable,
+.atom-one-light-type,
+.atom-one-light-selector-class,
+.atom-one-light-selector-attr,
+.atom-one-light-selector-pseudo,
+.atom-one-light-number {
+  color: #986801;
+}
+
+.atom-one-light-symbol,
+.atom-one-light-bullet,
+.atom-one-light-link,
+.atom-one-light-meta,
+.atom-one-light-selector-id,
+.atom-one-light-title {
+  color: #4078f2;
+}
+
+.atom-one-light-emphasis {
+  font-style: italic;
+}
+
+.atom-one-light-strong {
+  font-weight: bold;
+}
+
+.atom-one-light-link {
+  text-decoration: underline;
+}
+
+/*
+
+Brown Paper style from goldblog.com.ua (c) Zaripov Yura <yur4ik7@ukr.net>
+
+*/
+
+.brown-paper {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background:#b7a68e url(./brown-papersq.png);
+}
+
+.brown-paper-keyword,
+.brown-paper-selector-tag,
+.brown-paper-literal {
+  color:#005599;
+  font-weight:bold;
+}
+
+.brown-paper,
+.brown-paper-subst {
+  color: #363c69;
+}
+
+.brown-paper-string,
+.brown-paper-title,
+.brown-paper-section,
+.brown-paper-type,
+.brown-paper-attribute,
+.brown-paper-symbol,
+.brown-paper-bullet,
+.brown-paper-built_in,
+.brown-paper-addition,
+.brown-paper-variable,
+.brown-paper-template-tag,
+.brown-paper-template-variable,
+.brown-paper-link,
+.brown-paper-name {
+  color: #2c009f;
+}
+
+.brown-paper-comment,
+.brown-paper-quote,
+.brown-paper-meta,
+.brown-paper-deletion {
+  color: #802022;
+}
+
+.brown-paper-keyword,
+.brown-paper-selector-tag,
+.brown-paper-literal,
+.brown-paper-doctag,
+.brown-paper-title,
+.brown-paper-section,
+.brown-paper-type,
+.brown-paper-name,
+.brown-paper-strong {
+  font-weight: bold;
+}
+
+.brown-paper-emphasis {
+  font-style: italic;
+}
+
+/*
+  codepen.io Embed Theme
+  Author: Justin Perry <http://github.com/ourmaninamsterdam>
+  Original theme - https://github.com/chriskempson/tomorrow-theme
+*/
+
+.codepen-embed {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #222;
+  color: #fff;
+}
+
+.codepen-embed-comment,
+.codepen-embed-quote {
+  color: #777;
+}
+
+.codepen-embed-variable,
+.codepen-embed-template-variable,
+.codepen-embed-tag,
+.codepen-embed-regexp,
+.codepen-embed-meta,
+.codepen-embed-number,
+.codepen-embed-built_in,
+.codepen-embed-builtin-name,
+.codepen-embed-literal,
+.codepen-embed-params,
+.codepen-embed-symbol,
+.codepen-embed-bullet,
+.codepen-embed-link,
+.codepen-embed-deletion {
+  color: #ab875d;
+}
+
+.codepen-embed-section,
+.codepen-embed-title,
+.codepen-embed-name,
+.codepen-embed-selector-id,
+.codepen-embed-selector-class,
+.codepen-embed-type,
+.codepen-embed-attribute {
+  color: #9b869b;
+}
+
+.codepen-embed-string,
+.codepen-embed-keyword,
+.codepen-embed-selector-tag,
+.codepen-embed-addition {
+  color: #8f9c6c;
+}
+
+.codepen-embed-emphasis {
+  font-style: italic;
+}
+
+.codepen-embed-strong {
+  font-weight: bold;
+}
+
+/*
+
+Colorbrewer theme
+Original: https://github.com/mbostock/colorbrewer-theme (c) Mike Bostock <mike@ocks.org>
+Ported by Fabrício Tavares de Oliveira
+
+*/
+
+.color-brewer {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #fff;
+}
+
+.color-brewer,
+.color-brewer-subst {
+  color: #000;
+}
+
+.color-brewer-string,
+.color-brewer-meta,
+.color-brewer-symbol,
+.color-brewer-template-tag,
+.color-brewer-template-variable,
+.color-brewer-addition {
+  color: #756bb1;
+}
+
+.color-brewer-comment,
+.color-brewer-quote {
+  color: #636363;
+}
+
+.color-brewer-number,
+.color-brewer-regexp,
+.color-brewer-literal,
+.color-brewer-bullet,
+.color-brewer-link {
+  color: #31a354;
+}
+
+.color-brewer-deletion,
+.color-brewer-variable {
+  color: #88f;
+}
+
+
+
+.color-brewer-keyword,
+.color-brewer-selector-tag,
+.color-brewer-title,
+.color-brewer-section,
+.color-brewer-built_in,
+.color-brewer-doctag,
+.color-brewer-type,
+.color-brewer-tag,
+.color-brewer-name,
+.color-brewer-selector-id,
+.color-brewer-selector-class,
+.color-brewer-strong {
+  color: #3182bd;
+}
+
+.color-brewer-emphasis {
+  font-style: italic;
+}
+
+.color-brewer-attribute {
+  color: #e6550d;
+}
+
+/*
+
+Darcula color scheme from the JetBrains family of IDEs
+
+*/
+
+
+.darcula {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #2b2b2b;
+}
+
+.darcula {
+  color: #bababa;
+}
+
+.darcula-strong,
+.darcula-emphasis {
+  color: #a8a8a2;
+}
+
+.darcula-bullet,
+.darcula-quote,
+.darcula-link,
+.darcula-number,
+.darcula-regexp,
+.darcula-literal {
+  color: #6896ba;
+}
+
+.darcula-code,
+.darcula-selector-class {
+  color: #a6e22e;
+}
+
+.darcula-emphasis {
+  font-style: italic;
+}
+
+.darcula-keyword,
+.darcula-selector-tag,
+.darcula-section,
+.darcula-attribute,
+.darcula-name,
+.darcula-variable {
+  color: #cb7832;
+}
+
+.darcula-params {
+  color: #b9b9b9;
+}
+
+.darcula-string {
+  color: #6a8759;
+}
+
+.darcula-subst,
+.darcula-type,
+.darcula-built_in,
+.darcula-builtin-name,
+.darcula-symbol,
+.darcula-selector-id,
+.darcula-selector-attr,
+.darcula-selector-pseudo,
+.darcula-template-tag,
+.darcula-template-variable,
+.darcula-addition {
+  color: #e0c46c;
+}
+
+.darcula-comment,
+.darcula-deletion,
+.darcula-meta {
+  color: #7f7f7f;
+}
+
+/*
+
+Dark style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiacs.Org>
+
+*/
+
+.dark {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #444;
+}
+
+.dark-keyword,
+.dark-selector-tag,
+.dark-literal,
+.dark-section,
+.dark-link {
+  color: white;
+}
+
+.dark,
+.dark-subst {
+  color: #ddd;
+}
+
+.dark-string,
+.dark-title,
+.dark-name,
+.dark-type,
+.dark-attribute,
+.dark-symbol,
+.dark-bullet,
+.dark-built_in,
+.dark-addition,
+.dark-variable,
+.dark-template-tag,
+.dark-template-variable {
+  color: #d88;
+}
+
+.dark-comment,
+.dark-quote,
+.dark-deletion,
+.dark-meta {
+  color: #777;
+}
+
+.dark-keyword,
+.dark-selector-tag,
+.dark-literal,
+.dark-title,
+.dark-section,
+.dark-doctag,
+.dark-type,
+.dark-name,
+.dark-strong {
+  font-weight: bold;
+}
+
+.dark-emphasis {
+  font-style: italic;
+}
+
+/*
+  Deprecated due to a typo in the name and left here for compatibility purpose only.
+  Please use darcula.css instead.
+*/
+
+@import url('darcula.css');
+
+/*
+
+Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
+
+*/
+
+.default {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #F0F0F0;
+}
+
+
+/* Base color: saturation 0; */
+
+.default,
+.default-subst {
+  color: #444;
+}
+
+.default-comment {
+  color: #888888;
+}
+
+.default-keyword,
+.default-attribute,
+.default-selector-tag,
+.default-meta-keyword,
+.default-doctag,
+.default-name {
+  font-weight: bold;
+}
+
+
+/* User color: hue: 0 */
+
+.default-type,
+.default-string,
+.default-number,
+.default-selector-id,
+.default-selector-class,
+.default-quote,
+.default-template-tag,
+.default-deletion {
+  color: #880000;
+}
+
+.default-title,
+.default-section {
+  color: #880000;
+  font-weight: bold;
+}
+
+.default-regexp,
+.default-symbol,
+.default-variable,
+.default-template-variable,
+.default-link,
+.default-selector-attr,
+.default-selector-pseudo {
+  color: #BC6060;
+}
+
+
+/* Language color: hue: 90; */
+
+.default-literal {
+  color: #78A960;
+}
+
+.default-built_in,
+.default-bullet,
+.default-code,
+.default-addition {
+  color: #397300;
+}
+
+
+/* Meta color: hue: 200 */
+
+.default-meta {
+  color: #1f7199;
+}
+
+.default-meta-string {
+  color: #4d99bf;
+}
+
+
+/* Misc effects */
+
+.default-emphasis {
+  font-style: italic;
+}
+
+.default-strong {
+  font-weight: bold;
+}
+
+/*
+Docco style used in http://jashkenas.github.com/docco/ converted by Simon Madine (@thingsinjars)
+*/
+
+.docco {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #000;
+  background: #f8f8ff;
+}
+
+.docco-comment,
+.docco-quote {
+  color: #408080;
+  font-style: italic;
+}
+
+.docco-keyword,
+.docco-selector-tag,
+.docco-literal,
+.docco-subst {
+  color: #954121;
+}
+
+.docco-number {
+  color: #40a070;
+}
+
+.docco-string,
+.docco-doctag {
+  color: #219161;
+}
+
+.docco-selector-id,
+.docco-selector-class,
+.docco-section,
+.docco-type {
+  color: #19469d;
+}
+
+.docco-params {
+  color: #00f;
+}
+
+.docco-title {
+  color: #458;
+  font-weight: bold;
+}
+
+.docco-tag,
+.docco-name,
+.docco-attribute {
+  color: #000080;
+  font-weight: normal;
+}
+
+.docco-variable,
+.docco-template-variable {
+  color: #008080;
+}
+
+.docco-regexp,
+.docco-link {
+  color: #b68;
+}
+
+.docco-symbol,
+.docco-bullet {
+  color: #990073;
+}
+
+.docco-built_in,
+.docco-builtin-name {
+  color: #0086b3;
+}
+
+.docco-meta {
+  color: #999;
+  font-weight: bold;
+}
+
+.docco-deletion {
+  background: #fdd;
+}
+
+.docco-addition {
+  background: #dfd;
+}
+
+.docco-emphasis {
+  font-style: italic;
+}
+
+.docco-strong {
+  font-weight: bold;
+}
+
+/*
+
+Dracula Theme v1.2.0
+
+https://github.com/zenorocha/dracula-theme
+
+Copyright 2015, All rights reserved
+
+Code licensed under the MIT license
+http://zenorocha.mit-license.org
+
+@author Éverton Ribeiro <nuxlli@gmail.com>
+@author Zeno Rocha <hi@zenorocha.com>
+
+*/
+
+.dracula {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #282a36;
+}
+
+.dracula-keyword,
+.dracula-selector-tag,
+.dracula-literal,
+.dracula-section,
+.dracula-link {
+  color: #8be9fd;
+}
+
+.dracula-function .dracula-keyword {
+  color: #ff79c6;
+}
+
+.dracula,
+.dracula-subst {
+  color: #f8f8f2;
+}
+
+.dracula-string,
+.dracula-title,
+.dracula-name,
+.dracula-type,
+.dracula-attribute,
+.dracula-symbol,
+.dracula-bullet,
+.dracula-addition,
+.dracula-variable,
+.dracula-template-tag,
+.dracula-template-variable {
+  color: #f1fa8c;
+}
+
+.dracula-comment,
+.dracula-quote,
+.dracula-deletion,
+.dracula-meta {
+  color: #6272a4;
+}
+
+.dracula-keyword,
+.dracula-selector-tag,
+.dracula-literal,
+.dracula-title,
+.dracula-section,
+.dracula-doctag,
+.dracula-type,
+.dracula-name,
+.dracula-strong {
+  font-weight: bold;
+}
+
+.dracula-emphasis {
+  font-style: italic;
+}
+
+/*
+
+FAR Style (c) MajestiC <majestic2k@gmail.com>
+
+*/
+
+.far {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #000080;
+}
+
+.far,
+.far-subst {
+  color: #0ff;
+}
+
+.far-string,
+.far-attribute,
+.far-symbol,
+.far-bullet,
+.far-built_in,
+.far-builtin-name,
+.far-template-tag,
+.far-template-variable,
+.far-addition {
+  color: #ff0;
+}
+
+.far-keyword,
+.far-selector-tag,
+.far-section,
+.far-type,
+.far-name,
+.far-selector-id,
+.far-selector-class,
+.far-variable {
+  color: #fff;
+}
+
+.far-comment,
+.far-quote,
+.far-doctag,
+.far-deletion {
+  color: #888;
+}
+
+.far-number,
+.far-regexp,
+.far-literal,
+.far-link {
+  color: #0f0;
+}
+
+.far-meta {
+  color: #008080;
+}
+
+.far-keyword,
+.far-selector-tag,
+.far-title,
+.far-section,
+.far-name,
+.far-strong {
+  font-weight: bold;
+}
+
+.far-emphasis {
+  font-style: italic;
+}
+
+/*
+Description: Foundation 4 docs style for highlight.js
+Author: Dan Allen <dan.j.allen@gmail.com>
+Website: http://foundation.zurb.com/docs/
+Version: 1.0
+Date: 2013-04-02
+*/
+
+.foundation {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #eee; color: black;
+}
+
+.foundation-link,
+.foundation-emphasis,
+.foundation-attribute,
+.foundation-addition {
+  color: #070;
+}
+
+.foundation-emphasis {
+  font-style: italic;
+}
+
+.foundation-strong,
+.foundation-string,
+.foundation-deletion {
+  color: #d14;
+}
+
+.foundation-strong {
+  font-weight: bold;
+}
+
+.foundation-quote,
+.foundation-comment {
+  color: #998;
+  font-style: italic;
+}
+
+.foundation-section,
+.foundation-title {
+  color: #900;
+}
+
+.foundation-class .foundation-title,
+.foundation-type {
+  color: #458;
+}
+
+.foundation-variable,
+.foundation-template-variable {
+  color: #336699;
+}
+
+.foundation-bullet {
+  color: #997700;
+}
+
+.foundation-meta {
+  color: #3344bb;
+}
+
+.foundation-code,
+.foundation-number,
+.foundation-literal,
+.foundation-keyword,
+.foundation-selector-tag {
+  color: #099;
+}
+
+.foundation-regexp {
+  background-color: #fff0ff;
+  color: #880088;
+}
+
+.foundation-symbol {
+  color: #990073;
+}
+
+.foundation-tag,
+.foundation-name,
+.foundation-selector-id,
+.foundation-selector-class {
+  color: #007700;
+}
+
+/**
+ * GitHub Gist Theme
+ * Author : Louis Barranqueiro - https://github.com/LouisBarranqueiro
+ */
+
+.github-gist {
+  display: block;
+  background: white;
+  padding: 0.5em;
+  color: #333333;
+  overflow-x: auto;
+}
+
+.github-gist-comment,
+.github-gist-meta {
+  color: #969896;
+}
+
+.github-gist-string,
+.github-gist-variable,
+.github-gist-template-variable,
+.github-gist-strong,
+.github-gist-emphasis,
+.github-gist-quote {
+  color: #df5000;
+}
+
+.github-gist-keyword,
+.github-gist-selector-tag,
+.github-gist-type {
+  color: #a71d5d;
+}
+
+.github-gist-literal,
+.github-gist-symbol,
+.github-gist-bullet,
+.github-gist-attribute {
+  color: #0086b3;
+}
+
+.github-gist-section,
+.github-gist-name {
+  color: #63a35c;
+}
+
+.github-gist-tag {
+  color: #333333;
+}
+
+.github-gist-title,
+.github-gist-attr,
+.github-gist-selector-id,
+.github-gist-selector-class,
+.github-gist-selector-attr,
+.github-gist-selector-pseudo {
+  color: #795da3;
+}
+
+.github-gist-addition {
+  color: #55a532;
+  background-color: #eaffea;
+}
+
+.github-gist-deletion {
+  color: #bd2c00;
+  background-color: #ffecec;
+}
+
+.github-gist-link {
+  text-decoration: underline;
+}
+
+/*
+
+github.com style (c) Vasily Polovnyov <vast@whiteants.net>
+
+*/
+
+.github {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #333;
+  background: #f8f8f8;
+}
+
+.github-comment,
+.github-quote {
+  color: #998;
+  font-style: italic;
+}
+
+.github-keyword,
+.github-selector-tag,
+.github-subst {
+  color: #333;
+  font-weight: bold;
+}
+
+.github-number,
+.github-literal,
+.github-variable,
+.github-template-variable,
+.github-tag .github-attr {
+  color: #008080;
+}
+
+.github-string,
+.github-doctag {
+  color: #d14;
+}
+
+.github-title,
+.github-section,
+.github-selector-id {
+  color: #900;
+  font-weight: bold;
+}
+
+.github-subst {
+  font-weight: normal;
+}
+
+.github-type,
+.github-class .github-title {
+  color: #458;
+  font-weight: bold;
+}
+
+.github-tag,
+.github-name,
+.github-attribute {
+  color: #000080;
+  font-weight: normal;
+}
+
+.github-regexp,
+.github-link {
+  color: #009926;
+}
+
+.github-symbol,
+.github-bullet {
+  color: #990073;
+}
+
+.github-built_in,
+.github-builtin-name {
+  color: #0086b3;
+}
+
+.github-meta {
+  color: #999;
+  font-weight: bold;
+}
+
+.github-deletion {
+  background: #fdd;
+}
+
+.github-addition {
+  background: #dfd;
+}
+
+.github-emphasis {
+  font-style: italic;
+}
+
+.github-strong {
+  font-weight: bold;
+}
+
+/*
+
+Google Code style (c) Aahan Krish <geekpanth3r@gmail.com>
+
+*/
+
+.googlecode {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: white;
+  color: black;
+}
+
+.googlecode-comment,
+.googlecode-quote {
+  color: #800;
+}
+
+.googlecode-keyword,
+.googlecode-selector-tag,
+.googlecode-section,
+.googlecode-title,
+.googlecode-name {
+  color: #008;
+}
+
+.googlecode-variable,
+.googlecode-template-variable {
+  color: #660;
+}
+
+.googlecode-string,
+.googlecode-selector-attr,
+.googlecode-selector-pseudo,
+.googlecode-regexp {
+  color: #080;
+}
+
+.googlecode-literal,
+.googlecode-symbol,
+.googlecode-bullet,
+.googlecode-meta,
+.googlecode-number,
+.googlecode-link {
+  color: #066;
+}
+
+.googlecode-title,
+.googlecode-doctag,
+.googlecode-type,
+.googlecode-attr,
+.googlecode-built_in,
+.googlecode-builtin-name,
+.googlecode-params {
+  color: #606;
+}
+
+.googlecode-attribute,
+.googlecode-subst {
+  color: #000;
+}
+
+.googlecode-formula {
+  background-color: #eee;
+  font-style: italic;
+}
+
+.googlecode-selector-id,
+.googlecode-selector-class {
+  color: #9B703F
+}
+
+.googlecode-addition {
+  background-color: #baeeba;
+}
+
+.googlecode-deletion {
+  background-color: #ffc8bd;
+}
+
+.googlecode-doctag,
+.googlecode-strong {
+  font-weight: bold;
+}
+
+.googlecode-emphasis {
+  font-style: italic;
+}
+
+/*
+
+grayscale style (c) MY Sun <simonmysun@gmail.com>
+
+*/
+
+.grayscale {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #333;
+  background: #fff;
+}
+
+.grayscale-comment,
+.grayscale-quote {
+  color: #777;
+  font-style: italic;
+}
+
+.grayscale-keyword,
+.grayscale-selector-tag,
+.grayscale-subst {
+  color: #333;
+  font-weight: bold;
+}
+
+.grayscale-number,
+.grayscale-literal {
+  color: #777;
+}
+
+.grayscale-string,
+.grayscale-doctag,
+.grayscale-formula {
+  color: #333;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAJ0lEQVQIW2O8e/fufwYGBgZBQUEQxcCIIfDu3Tuwivfv30NUoAsAALHpFMMLqZlPAAAAAElFTkSuQmCC) repeat;
+}
+
+.grayscale-title,
+.grayscale-section,
+.grayscale-selector-id {
+  color: #000;
+  font-weight: bold;
+}
+
+.grayscale-subst {
+  font-weight: normal;
+}
+
+.grayscale-class .grayscale-title,
+.grayscale-type,
+.grayscale-name {
+  color: #333;
+  font-weight: bold;
+}
+
+.grayscale-tag {
+  color: #333;
+}
+
+.grayscale-regexp {
+    color: #333;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAAPUlEQVQYV2NkQAN37979r6yszIgujiIAU4RNMVwhuiQ6H6wQl3XI4oy4FMHcCJPHcDS6J2A2EqUQpJhohQDexSef15DBCwAAAABJRU5ErkJggg==) repeat;
+}
+
+.grayscale-symbol,
+.grayscale-bullet,
+.grayscale-link {
+  color: #000;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAKElEQVQIW2NkQAO7d+/+z4gsBhJwdXVlhAvCBECKwIIwAbhKZBUwBQA6hBpm5efZsgAAAABJRU5ErkJggg==) repeat;
+}
+
+.grayscale-built_in,
+.grayscale-builtin-name {
+  color: #000;
+  text-decoration: underline;
+}
+
+.grayscale-meta {
+  color: #999;
+  font-weight: bold;
+}
+
+.grayscale-deletion {
+  color: #fff;
+  background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAADCAYAAABS3WWCAAAAE0lEQVQIW2MMDQ39zzhz5kwIAQAyxweWgUHd1AAAAABJRU5ErkJggg==) repeat;
+}
+
+.grayscale-addition {
+  color: #000;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAALUlEQVQYV2N89+7dfwYk8P79ewZBQUFkIQZGOiu6e/cuiptQHAPl0NtNxAQBAM97Oejj3Dg7AAAAAElFTkSuQmCC) repeat;
+}
+
+.grayscale-emphasis {
+  font-style: italic;
+}
+
+.grayscale-strong {
+  font-weight: bold;
+}
+
+/*
+
+Gruvbox style (dark) (c) Pavel Pertsev (original style at https://github.com/morhetz/gruvbox)
+
+*/
+
+.gruvbox-dark {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #282828;
+}
+
+.gruvbox-dark,
+.gruvbox-dark-subst {
+  color: #ebdbb2;
+}
+
+/* Gruvbox Red */
+.gruvbox-dark-deletion,
+.gruvbox-dark-formula,
+.gruvbox-dark-keyword,
+.gruvbox-dark-link,
+.gruvbox-dark-selector-tag {
+  color: #fb4934;
+}
+
+/* Gruvbox Blue */
+.gruvbox-dark-built_in,
+.gruvbox-dark-emphasis,
+.gruvbox-dark-name,
+.gruvbox-dark-quote,
+.gruvbox-dark-strong,
+.gruvbox-dark-title,
+.gruvbox-dark-variable {
+  color: #83a598;
+}
+
+/* Gruvbox Yellow */
+.gruvbox-dark-attr,
+.gruvbox-dark-params,
+.gruvbox-dark-template-tag,
+.gruvbox-dark-type {
+  color: #fabd2f;
+}
+
+/* Gruvbox Purple */
+.gruvbox-dark-builtin-name,
+.gruvbox-dark-doctag,
+.gruvbox-dark-literal,
+.gruvbox-dark-number {
+  color: #8f3f71;
+}
+
+/* Gruvbox Orange */
+.gruvbox-dark-code,
+.gruvbox-dark-meta,
+.gruvbox-dark-regexp,
+.gruvbox-dark-selector-id,
+.gruvbox-dark-template-variable {
+  color: #fe8019;
+}
+
+/* Gruvbox Green */
+.gruvbox-dark-addition,
+.gruvbox-dark-meta-string,
+.gruvbox-dark-section,
+.gruvbox-dark-selector-attr,
+.gruvbox-dark-selector-class,
+.gruvbox-dark-string,
+.gruvbox-dark-symbol {
+  color: #b8bb26;
+}
+
+/* Gruvbox Aqua */
+.gruvbox-dark-attribute,
+.gruvbox-dark-bullet,
+.gruvbox-dark-class,
+.gruvbox-dark-function,
+.gruvbox-dark-function .gruvbox-dark-keyword,
+.gruvbox-dark-meta-keyword,
+.gruvbox-dark-selector-pseudo,
+.gruvbox-dark-tag {
+  color: #8ec07c;
+}
+
+/* Gruvbox Gray */
+.gruvbox-dark-comment {
+  color: #928374;
+}
+
+/* Gruvbox Purple */
+.gruvbox-dark-link_label,
+.gruvbox-dark-literal,
+.gruvbox-dark-number {
+  color: #d3869b;
+}
+
+.gruvbox-dark-comment,
+.gruvbox-dark-emphasis {
+  font-style: italic;
+}
+
+.gruvbox-dark-section,
+.gruvbox-dark-strong,
+.gruvbox-dark-tag {
+  font-weight: bold;
+}
+
+/*
+
+Gruvbox style (light) (c) Pavel Pertsev (original style at https://github.com/morhetz/gruvbox)
+
+*/
+
+.gruvbox-light {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #fbf1c7;
+}
+
+.gruvbox-light,
+.gruvbox-light-subst {
+  color: #3c3836;
+}
+
+/* Gruvbox Red */
+.gruvbox-light-deletion,
+.gruvbox-light-formula,
+.gruvbox-light-keyword,
+.gruvbox-light-link,
+.gruvbox-light-selector-tag {
+  color: #9d0006;
+}
+
+/* Gruvbox Blue */
+.gruvbox-light-built_in,
+.gruvbox-light-emphasis,
+.gruvbox-light-name,
+.gruvbox-light-quote,
+.gruvbox-light-strong,
+.gruvbox-light-title,
+.gruvbox-light-variable {
+  color: #076678;
+}
+
+/* Gruvbox Yellow */
+.gruvbox-light-attr,
+.gruvbox-light-params,
+.gruvbox-light-template-tag,
+.gruvbox-light-type {
+  color: #b57614;
+}
+
+/* Gruvbox Purple */
+.gruvbox-light-builtin-name,
+.gruvbox-light-doctag,
+.gruvbox-light-literal,
+.gruvbox-light-number {
+  color: #8f3f71;
+}
+
+/* Gruvbox Orange */
+.gruvbox-light-code,
+.gruvbox-light-meta,
+.gruvbox-light-regexp,
+.gruvbox-light-selector-id,
+.gruvbox-light-template-variable {
+  color: #af3a03;
+}
+
+/* Gruvbox Green */
+.gruvbox-light-addition,
+.gruvbox-light-meta-string,
+.gruvbox-light-section,
+.gruvbox-light-selector-attr,
+.gruvbox-light-selector-class,
+.gruvbox-light-string,
+.gruvbox-light-symbol {
+  color: #79740e;
+}
+
+/* Gruvbox Aqua */
+.gruvbox-light-attribute,
+.gruvbox-light-bullet,
+.gruvbox-light-class,
+.gruvbox-light-function,
+.gruvbox-light-function .gruvbox-light-keyword,
+.gruvbox-light-meta-keyword,
+.gruvbox-light-selector-pseudo,
+.gruvbox-light-tag {
+  color: #427b58;
+}
+
+/* Gruvbox Gray */
+.gruvbox-light-comment {
+  color: #928374;
+}
+
+/* Gruvbox Purple */
+.gruvbox-light-link_label,
+.gruvbox-light-literal,
+.gruvbox-light-number {
+  color: #8f3f71;
+}
+
+.gruvbox-light-comment,
+.gruvbox-light-emphasis {
+  font-style: italic;
+}
+
+.gruvbox-light-section,
+.gruvbox-light-strong,
+.gruvbox-light-tag {
+  font-weight: bold;
+}
+
+/*
+ * Hopscotch
+ * by Jan T. Sott
+ * https://github.com/idleberg/Hopscotch
+ *
+ * This work is licensed under the Creative Commons CC0 1.0 Universal License
+ */
+
+/* Comment */
+.hopscotch-comment,
+.hopscotch-quote {
+  color: #989498;
+}
+
+/* Red */
+.hopscotch-variable,
+.hopscotch-template-variable,
+.hopscotch-attribute,
+.hopscotch-tag,
+.hopscotch-name,
+.hopscotch-selector-id,
+.hopscotch-selector-class,
+.hopscotch-regexp,
+.hopscotch-link,
+.hopscotch-deletion {
+  color: #dd464c;
+}
+
+/* Orange */
+.hopscotch-number,
+.hopscotch-built_in,
+.hopscotch-builtin-name,
+.hopscotch-literal,
+.hopscotch-type,
+.hopscotch-params {
+  color: #fd8b19;
+}
+
+/* Yellow */
+.hopscotch-class .hopscotch-title {
+  color: #fdcc59;
+}
+
+/* Green */
+.hopscotch-string,
+.hopscotch-symbol,
+.hopscotch-bullet,
+.hopscotch-addition {
+  color: #8fc13e;
+}
+
+/* Aqua */
+.hopscotch-meta {
+  color: #149b93;
+}
+
+/* Blue */
+.hopscotch-function,
+.hopscotch-section,
+.hopscotch-title {
+  color: #1290bf;
+}
+
+/* Purple */
+.hopscotch-keyword,
+.hopscotch-selector-tag {
+  color: #c85e7c;
+}
+
+.hopscotch {
+  display: block;
+  background: #322931;
+  color: #b9b5b8;
+  padding: 0.5em;
+}
+
+.hopscotch-emphasis {
+  font-style: italic;
+}
+
+.hopscotch-strong {
+  font-weight: bold;
+}
+
+/*
+
+vim-hybrid theme by w0ng (https://github.com/w0ng/vim-hybrid)
+
+*/
+
+/*background color*/
+.hybrid {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #1d1f21;
+}
+
+/*selection color*/
+.hybrid::selection,
+.hybrid span::selection {
+  background: #373b41;
+}
+
+.hybrid::-moz-selection,
+.hybrid span::-moz-selection {
+  background: #373b41;
+}
+
+/*foreground color*/
+.hybrid {
+  color: #c5c8c6;
+}
+
+/*color: fg_yellow*/
+.hybrid-title,
+.hybrid-name {
+  color: #f0c674;
+}
+
+/*color: fg_comment*/
+.hybrid-comment,
+.hybrid-meta,
+.hybrid-meta .hybrid-keyword {
+  color: #707880;
+}
+
+/*color: fg_red*/
+.hybrid-number,
+.hybrid-symbol,
+.hybrid-literal,
+.hybrid-deletion,
+.hybrid-link {
+ color: #cc6666
+}
+
+/*color: fg_green*/
+.hybrid-string,
+.hybrid-doctag,
+.hybrid-addition,
+.hybrid-regexp,
+.hybrid-selector-attr,
+.hybrid-selector-pseudo {
+  color: #b5bd68;
+}
+
+/*color: fg_purple*/
+.hybrid-attribute,
+.hybrid-code,
+.hybrid-selector-id {
+ color: #b294bb;
+}
+
+/*color: fg_blue*/
+.hybrid-keyword,
+.hybrid-selector-tag,
+.hybrid-bullet,
+.hybrid-tag {
+ color: #81a2be;
+}
+
+/*color: fg_aqua*/
+.hybrid-subst,
+.hybrid-variable,
+.hybrid-template-tag,
+.hybrid-template-variable {
+  color: #8abeb7;
+}
+
+/*color: fg_orange*/
+.hybrid-type,
+.hybrid-built_in,
+.hybrid-builtin-name,
+.hybrid-quote,
+.hybrid-section,
+.hybrid-selector-class {
+  color: #de935f;
+}
+
+.hybrid-emphasis {
+  font-style: italic;
+}
+
+.hybrid-strong {
+  font-weight: bold;
+}
+
+/*
+
+Intellij Idea-like styling (c) Vasily Polovnyov <vast@whiteants.net>
+
+*/
+
+.idea {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #000;
+  background: #fff;
+}
+
+.idea-subst,
+.idea-title {
+  font-weight: normal;
+  color: #000;
+}
+
+.idea-comment,
+.idea-quote {
+  color: #808080;
+  font-style: italic;
+}
+
+.idea-meta {
+  color: #808000;
+}
+
+.idea-tag {
+  background: #efefef;
+}
+
+.idea-section,
+.idea-name,
+.idea-literal,
+.idea-keyword,
+.idea-selector-tag,
+.idea-type,
+.idea-selector-id,
+.idea-selector-class {
+  font-weight: bold;
+  color: #000080;
+}
+
+.idea-attribute,
+.idea-number,
+.idea-regexp,
+.idea-link {
+  font-weight: bold;
+  color: #0000ff;
+}
+
+.idea-number,
+.idea-regexp,
+.idea-link {
+  font-weight: normal;
+}
+
+.idea-string {
+  color: #008000;
+  font-weight: bold;
+}
+
+.idea-symbol,
+.idea-bullet,
+.idea-formula {
+  color: #000;
+  background: #d0eded;
+  font-style: italic;
+}
+
+.idea-doctag {
+  text-decoration: underline;
+}
+
+.idea-variable,
+.idea-template-variable {
+  color: #660e7a;
+}
+
+.idea-addition {
+  background: #baeeba;
+}
+
+.idea-deletion {
+  background: #ffc8bd;
+}
+
+.idea-emphasis {
+  font-style: italic;
+}
+
+.idea-strong {
+  font-weight: bold;
+}
+
+/*
+  IR_Black style (c) Vasily Mikhailitchenko <vaskas@programica.ru>
+*/
+
+.ir-black {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #000;
+  color: #f8f8f8;
+}
+
+.ir-black-comment,
+.ir-black-quote,
+.ir-black-meta {
+  color: #7c7c7c;
+}
+
+.ir-black-keyword,
+.ir-black-selector-tag,
+.ir-black-tag,
+.ir-black-name {
+  color: #96cbfe;
+}
+
+.ir-black-attribute,
+.ir-black-selector-id {
+  color: #ffffb6;
+}
+
+.ir-black-string,
+.ir-black-selector-attr,
+.ir-black-selector-pseudo,
+.ir-black-addition {
+  color: #a8ff60;
+}
+
+.ir-black-subst {
+  color: #daefa3;
+}
+
+.ir-black-regexp,
+.ir-black-link {
+  color: #e9c062;
+}
+
+.ir-black-title,
+.ir-black-section,
+.ir-black-type,
+.ir-black-doctag {
+  color: #ffffb6;
+}
+
+.ir-black-symbol,
+.ir-black-bullet,
+.ir-black-variable,
+.ir-black-template-variable,
+.ir-black-literal {
+  color: #c6c5fe;
+}
+
+.ir-black-number,
+.ir-black-deletion {
+  color:#ff73fd;
+}
+
+.ir-black-emphasis {
+  font-style: italic;
+}
+
+.ir-black-strong {
+  font-weight: bold;
+}
+
+/*
+    Name:     Kimbie (dark)
+    Author:   Jan T. Sott
+    License:  Creative Commons Attribution-ShareAlike 4.0 Unported License
+    URL:      https://github.com/idleberg/Kimbie-highlight.js
+*/
+
+/* Kimbie Comment */
+.kimbie-dark-comment,
+.kimbie-dark-quote {
+  color: #d6baad;
+}
+
+/* Kimbie Red */
+.kimbie-dark-variable,
+.kimbie-dark-template-variable,
+.kimbie-dark-tag,
+.kimbie-dark-name,
+.kimbie-dark-selector-id,
+.kimbie-dark-selector-class,
+.kimbie-dark-regexp,
+.kimbie-dark-meta {
+  color: #dc3958;
+}
+
+/* Kimbie Orange */
+.kimbie-dark-number,
+.kimbie-dark-built_in,
+.kimbie-dark-builtin-name,
+.kimbie-dark-literal,
+.kimbie-dark-type,
+.kimbie-dark-params,
+.kimbie-dark-deletion,
+.kimbie-dark-link {
+  color: #f79a32;
+}
+
+/* Kimbie Yellow */
+.kimbie-dark-title,
+.kimbie-dark-section,
+.kimbie-dark-attribute {
+  color: #f06431;
+}
+
+/* Kimbie Green */
+.kimbie-dark-string,
+.kimbie-dark-symbol,
+.kimbie-dark-bullet,
+.kimbie-dark-addition {
+  color: #889b4a;
+}
+
+/* Kimbie Purple */
+.kimbie-dark-keyword,
+.kimbie-dark-selector-tag,
+.kimbie-dark-function {
+  color: #98676a;
+}
+
+.kimbie-dark {
+  display: block;
+  overflow-x: auto;
+  background: #221a0f;
+  color: #d3af86;
+  padding: 0.5em;
+}
+
+.kimbie-dark-emphasis {
+  font-style: italic;
+}
+
+.kimbie-dark-strong {
+  font-weight: bold;
+}
+
+/*
+    Name:     Kimbie (light)
+    Author:   Jan T. Sott
+    License:  Creative Commons Attribution-ShareAlike 4.0 Unported License
+    URL:      https://github.com/idleberg/Kimbie-highlight.js
+*/
+
+/* Kimbie Comment */
+.kimbie-light-comment,
+.kimbie-light-quote {
+  color: #a57a4c;
+}
+
+/* Kimbie Red */
+.kimbie-light-variable,
+.kimbie-light-template-variable,
+.kimbie-light-tag,
+.kimbie-light-name,
+.kimbie-light-selector-id,
+.kimbie-light-selector-class,
+.kimbie-light-regexp,
+.kimbie-light-meta {
+  color: #dc3958;
+}
+
+/* Kimbie Orange */
+.kimbie-light-number,
+.kimbie-light-built_in,
+.kimbie-light-builtin-name,
+.kimbie-light-literal,
+.kimbie-light-type,
+.kimbie-light-params,
+.kimbie-light-deletion,
+.kimbie-light-link {
+  color: #f79a32;
+}
+
+/* Kimbie Yellow */
+.kimbie-light-title,
+.kimbie-light-section,
+.kimbie-light-attribute {
+  color: #f06431;
+}
+
+/* Kimbie Green */
+.kimbie-light-string,
+.kimbie-light-symbol,
+.kimbie-light-bullet,
+.kimbie-light-addition {
+  color: #889b4a;
+}
+
+/* Kimbie Purple */
+.kimbie-light-keyword,
+.kimbie-light-selector-tag,
+.kimbie-light-function {
+  color: #98676a;
+}
+
+.kimbie-light {
+  display: block;
+  overflow-x: auto;
+  background: #fbebd4;
+  color: #84613d;
+  padding: 0.5em;
+}
+
+.kimbie-light-emphasis {
+  font-style: italic;
+}
+
+.kimbie-light-strong {
+  font-weight: bold;
+}
+
+/*
+Description: Magula style for highligh.js
+Author: Ruslan Keba <rukeba@gmail.com>
+Website: http://rukeba.com/
+Version: 1.0
+Date: 2009-01-03
+Music: Aphex Twin / Xtal
+*/
+
+.magula {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background-color: #f4f4f4;
+}
+
+.magula,
+.magula-subst {
+  color: black;
+}
+
+.magula-string,
+.magula-title,
+.magula-symbol,
+.magula-bullet,
+.magula-attribute,
+.magula-addition,
+.magula-variable,
+.magula-template-tag,
+.magula-template-variable {
+  color: #050;
+}
+
+.magula-comment,
+.magula-quote {
+  color: #777;
+}
+
+.magula-number,
+.magula-regexp,
+.magula-literal,
+.magula-type,
+.magula-link {
+  color: #800;
+}
+
+.magula-deletion,
+.magula-meta {
+  color: #00e;
+}
+
+.magula-keyword,
+.magula-selector-tag,
+.magula-doctag,
+.magula-title,
+.magula-section,
+.magula-built_in,
+.magula-tag,
+.magula-name {
+  font-weight: bold;
+  color: navy;
+}
+
+.magula-emphasis {
+  font-style: italic;
+}
+
+.magula-strong {
+  font-weight: bold;
+}
+
+/*
+  Five-color theme from a single blue hue.
+*/
+.mono-blue {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #eaeef3;
+}
+
+.mono-blue {
+  color: #00193a;
+}
+
+.mono-blue-keyword,
+.mono-blue-selector-tag,
+.mono-blue-title,
+.mono-blue-section,
+.mono-blue-doctag,
+.mono-blue-name,
+.mono-blue-strong {
+  font-weight: bold;
+}
+
+.mono-blue-comment {
+  color: #738191;
+}
+
+.mono-blue-string,
+.mono-blue-title,
+.mono-blue-section,
+.mono-blue-built_in,
+.mono-blue-literal,
+.mono-blue-type,
+.mono-blue-addition,
+.mono-blue-tag,
+.mono-blue-quote,
+.mono-blue-name,
+.mono-blue-selector-id,
+.mono-blue-selector-class {
+  color: #0048ab;
+}
+
+.mono-blue-meta,
+.mono-blue-subst,
+.mono-blue-symbol,
+.mono-blue-regexp,
+.mono-blue-attribute,
+.mono-blue-deletion,
+.mono-blue-variable,
+.mono-blue-template-variable,
+.mono-blue-link,
+.mono-blue-bullet {
+  color: #4c81c9;
+}
+
+.mono-blue-emphasis {
+  font-style: italic;
+}
+
+/*
+
+Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-license.org/
+
+*/
+
+.monokai-sublime {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #23241f;
+}
+
+.monokai-sublime,
+.monokai-sublime-tag,
+.monokai-sublime-subst {
+  color: #f8f8f2;
+}
+
+.monokai-sublime-strong,
+.monokai-sublime-emphasis {
+  color: #a8a8a2;
+}
+
+.monokai-sublime-bullet,
+.monokai-sublime-quote,
+.monokai-sublime-number,
+.monokai-sublime-regexp,
+.monokai-sublime-literal,
+.monokai-sublime-link {
+  color: #ae81ff;
+}
+
+.monokai-sublime-code,
+.monokai-sublime-title,
+.monokai-sublime-section,
+.monokai-sublime-selector-class {
+  color: #a6e22e;
+}
+
+.monokai-sublime-strong {
+  font-weight: bold;
+}
+
+.monokai-sublime-emphasis {
+  font-style: italic;
+}
+
+.monokai-sublime-keyword,
+.monokai-sublime-selector-tag,
+.monokai-sublime-name,
+.monokai-sublime-attr {
+  color: #f92672;
+}
+
+.monokai-sublime-symbol,
+.monokai-sublime-attribute {
+  color: #66d9ef;
+}
+
+.monokai-sublime-params,
+.monokai-sublime-class .monokai-sublime-title {
+  color: #f8f8f2;
+}
+
+.monokai-sublime-string,
+.monokai-sublime-type,
+.monokai-sublime-built_in,
+.monokai-sublime-builtin-name,
+.monokai-sublime-selector-id,
+.monokai-sublime-selector-attr,
+.monokai-sublime-selector-pseudo,
+.monokai-sublime-addition,
+.monokai-sublime-variable,
+.monokai-sublime-template-variable {
+  color: #e6db74;
+}
+
+.monokai-sublime-comment,
+.monokai-sublime-deletion,
+.monokai-sublime-meta {
+  color: #75715e;
+}
+
+/*
+Monokai style - ported by Luigi Maselli - http://grigio.org
+*/
+
+.monokai {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #272822; color: #ddd;
+}
+
+.monokai-tag,
+.monokai-keyword,
+.monokai-selector-tag,
+.monokai-literal,
+.monokai-strong,
+.monokai-name {
+  color: #f92672;
+}
+
+.monokai-code {
+  color: #66d9ef;
+}
+
+.monokai-class .monokai-title {
+  color: white;
+}
+
+.monokai-attribute,
+.monokai-symbol,
+.monokai-regexp,
+.monokai-link {
+  color: #bf79db;
+}
+
+.monokai-string,
+.monokai-bullet,
+.monokai-subst,
+.monokai-title,
+.monokai-section,
+.monokai-emphasis,
+.monokai-type,
+.monokai-built_in,
+.monokai-builtin-name,
+.monokai-selector-attr,
+.monokai-selector-pseudo,
+.monokai-addition,
+.monokai-variable,
+.monokai-template-tag,
+.monokai-template-variable {
+  color: #a6e22e;
+}
+
+.monokai-comment,
+.monokai-quote,
+.monokai-deletion,
+.monokai-meta {
+  color: #75715e;
+}
+
+.monokai-keyword,
+.monokai-selector-tag,
+.monokai-literal,
+.monokai-doctag,
+.monokai-title,
+.monokai-section,
+.monokai-type,
+.monokai-selector-id {
+  font-weight: bold;
+}
+
+/**
+ * Obsidian style
+ * ported by Alexander Marenin (http://github.com/ioncreature)
+ */
+
+.obsidian {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #282b2e;
+}
+
+.obsidian-keyword,
+.obsidian-selector-tag,
+.obsidian-literal,
+.obsidian-selector-id {
+  color: #93c763;
+}
+
+.obsidian-number {
+  color: #ffcd22;
+}
+
+.obsidian {
+  color: #e0e2e4;
+}
+
+.obsidian-attribute {
+  color: #668bb0;
+}
+
+.obsidian-code,
+.obsidian-class .obsidian-title,
+.obsidian-section {
+  color: white;
+}
+
+.obsidian-regexp,
+.obsidian-link {
+  color: #d39745;
+}
+
+.obsidian-meta {
+  color: #557182;
+}
+
+.obsidian-tag,
+.obsidian-name,
+.obsidian-bullet,
+.obsidian-subst,
+.obsidian-emphasis,
+.obsidian-type,
+.obsidian-built_in,
+.obsidian-selector-attr,
+.obsidian-selector-pseudo,
+.obsidian-addition,
+.obsidian-variable,
+.obsidian-template-tag,
+.obsidian-template-variable {
+  color: #8cbbad;
+}
+
+.obsidian-string,
+.obsidian-symbol {
+  color: #ec7600;
+}
+
+.obsidian-comment,
+.obsidian-quote,
+.obsidian-deletion {
+  color: #818e96;
+}
+
+.obsidian-selector-class {
+  color: #A082BD
+}
+
+.obsidian-keyword,
+.obsidian-selector-tag,
+.obsidian-literal,
+.obsidian-doctag,
+.obsidian-title,
+.obsidian-section,
+.obsidian-type,
+.obsidian-name,
+.obsidian-strong {
+  font-weight: bold;
+}
+
+/* Ocean Dark Theme */
+/* https://github.com/gavsiu */
+/* Original theme - https://github.com/chriskempson/base16 */
+
+/* Ocean Comment */
+.ocean-comment,
+.ocean-quote {
+  color: #65737e;
+}
+
+/* Ocean Red */
+.ocean-variable,
+.ocean-template-variable,
+.ocean-tag,
+.ocean-name,
+.ocean-selector-id,
+.ocean-selector-class,
+.ocean-regexp,
+.ocean-deletion {
+  color: #bf616a;
+}
+
+/* Ocean Orange */
+.ocean-number,
+.ocean-built_in,
+.ocean-builtin-name,
+.ocean-literal,
+.ocean-type,
+.ocean-params,
+.ocean-meta,
+.ocean-link {
+  color: #d08770;
+}
+
+/* Ocean Yellow */
+.ocean-attribute {
+  color: #ebcb8b;
+}
+
+/* Ocean Green */
+.ocean-string,
+.ocean-symbol,
+.ocean-bullet,
+.ocean-addition {
+  color: #a3be8c;
+}
+
+/* Ocean Blue */
+.ocean-title,
+.ocean-section {
+  color: #8fa1b3;
+}
+
+/* Ocean Purple */
+.ocean-keyword,
+.ocean-selector-tag {
+  color: #b48ead;
+}
+
+.ocean {
+  display: block;
+  overflow-x: auto;
+  background: #2b303b;
+  color: #c0c5ce;
+  padding: 0.5em;
+}
+
+.ocean-emphasis {
+  font-style: italic;
+}
+
+.ocean-strong {
+  font-weight: bold;
+}
+
+/*
+    Paraíso (dark)
+    Created by Jan T. Sott (http://github.com/idleberg)
+    Inspired by the art of Rubens LP (http://www.rubenslp.com.br)
+*/
+
+/* Paraíso Comment */
+.paraiso-dark-comment,
+.paraiso-dark-quote {
+  color: #8d8687;
+}
+
+/* Paraíso Red */
+.paraiso-dark-variable,
+.paraiso-dark-template-variable,
+.paraiso-dark-tag,
+.paraiso-dark-name,
+.paraiso-dark-selector-id,
+.paraiso-dark-selector-class,
+.paraiso-dark-regexp,
+.paraiso-dark-link,
+.paraiso-dark-meta {
+  color: #ef6155;
+}
+
+/* Paraíso Orange */
+.paraiso-dark-number,
+.paraiso-dark-built_in,
+.paraiso-dark-builtin-name,
+.paraiso-dark-literal,
+.paraiso-dark-type,
+.paraiso-dark-params,
+.paraiso-dark-deletion {
+  color: #f99b15;
+}
+
+/* Paraíso Yellow */
+.paraiso-dark-title,
+.paraiso-dark-section,
+.paraiso-dark-attribute {
+  color: #fec418;
+}
+
+/* Paraíso Green */
+.paraiso-dark-string,
+.paraiso-dark-symbol,
+.paraiso-dark-bullet,
+.paraiso-dark-addition {
+  color: #48b685;
+}
+
+/* Paraíso Purple */
+.paraiso-dark-keyword,
+.paraiso-dark-selector-tag {
+  color: #815ba4;
+}
+
+.paraiso-dark {
+  display: block;
+  overflow-x: auto;
+  background: #2f1e2e;
+  color: #a39e9b;
+  padding: 0.5em;
+}
+
+.paraiso-dark-emphasis {
+  font-style: italic;
+}
+
+.paraiso-dark-strong {
+  font-weight: bold;
+}
+
+/*
+    Paraíso (light)
+    Created by Jan T. Sott (http://github.com/idleberg)
+    Inspired by the art of Rubens LP (http://www.rubenslp.com.br)
+*/
+
+/* Paraíso Comment */
+.paraiso-light-comment,
+.paraiso-light-quote {
+  color: #776e71;
+}
+
+/* Paraíso Red */
+.paraiso-light-variable,
+.paraiso-light-template-variable,
+.paraiso-light-tag,
+.paraiso-light-name,
+.paraiso-light-selector-id,
+.paraiso-light-selector-class,
+.paraiso-light-regexp,
+.paraiso-light-link,
+.paraiso-light-meta {
+  color: #ef6155;
+}
+
+/* Paraíso Orange */
+.paraiso-light-number,
+.paraiso-light-built_in,
+.paraiso-light-builtin-name,
+.paraiso-light-literal,
+.paraiso-light-type,
+.paraiso-light-params,
+.paraiso-light-deletion {
+  color: #f99b15;
+}
+
+/* Paraíso Yellow */
+.paraiso-light-title,
+.paraiso-light-section,
+.paraiso-light-attribute {
+  color: #fec418;
+}
+
+/* Paraíso Green */
+.paraiso-light-string,
+.paraiso-light-symbol,
+.paraiso-light-bullet,
+.paraiso-light-addition {
+  color: #48b685;
+}
+
+/* Paraíso Purple */
+.paraiso-light-keyword,
+.paraiso-light-selector-tag {
+  color: #815ba4;
+}
+
+.paraiso-light {
+  display: block;
+  overflow-x: auto;
+  background: #e7e9db;
+  color: #4f424c;
+  padding: 0.5em;
+}
+
+.paraiso-light-emphasis {
+  font-style: italic;
+}
+
+.paraiso-light-strong {
+  font-weight: bold;
+}
+
+/*
+
+Pojoaque Style by Jason Tate
+http://web-cms-designs.com/ftopict-10-pojoaque-style-for-highlight-js-code-highlighter.html
+Based on Solarized Style from http://ethanschoonover.com/solarized
+
+*/
+
+.pojoaque {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #dccf8f;
+  background: url(./pojoaque.jpg) repeat scroll left top #181914;
+}
+
+.pojoaque-comment,
+.pojoaque-quote {
+  color: #586e75;
+  font-style: italic;
+}
+
+.pojoaque-keyword,
+.pojoaque-selector-tag,
+.pojoaque-literal,
+.pojoaque-addition {
+  color: #b64926;
+}
+
+.pojoaque-number,
+.pojoaque-string,
+.pojoaque-doctag,
+.pojoaque-regexp {
+  color: #468966;
+}
+
+.pojoaque-title,
+.pojoaque-section,
+.pojoaque-built_in,
+.pojoaque-name {
+  color: #ffb03b;
+}
+
+.pojoaque-variable,
+.pojoaque-template-variable,
+.pojoaque-class .pojoaque-title,
+.pojoaque-type,
+.pojoaque-tag {
+  color: #b58900;
+}
+
+.pojoaque-attribute {
+  color: #b89859;
+}
+
+.pojoaque-symbol,
+.pojoaque-bullet,
+.pojoaque-link,
+.pojoaque-subst,
+.pojoaque-meta {
+  color: #cb4b16;
+}
+
+.pojoaque-deletion {
+  color: #dc322f;
+}
+
+.pojoaque-selector-id,
+.pojoaque-selector-class {
+  color: #d3a60c;
+}
+
+.pojoaque-formula {
+  background: #073642;
+}
+
+.pojoaque-emphasis {
+  font-style: italic;
+}
+
+.pojoaque-strong {
+  font-weight: bold;
+}
+
+/*
+
+PureBASIC native IDE style ( version 1.0 - April 2016 )
+
+by Tristano Ajmone <tajmone@gmail.com>
+
+Public Domain
+
+NOTE_1:	PureBASIC code syntax highlighting only applies the following classes:
+			.purebasic-comment
+			.purebasic-function
+			.purebasic-keywords
+			.purebasic-string
+			.purebasic-symbol
+
+		Other classes are added here for the benefit of styling other languages with the look and feel of PureBASIC native IDE style.
+		If you need to customize a stylesheet for PureBASIC only, remove all non-relevant classes -- PureBASIC-related classes are followed by
+		a "--- used for PureBASIC ... ---" comment on same line.
+
+NOTE_2:	Color names provided in comments were derived using "Name that Color" online tool:
+			http://chir.ag/projects/name-that-color
+*/
+
+.purebasic { /* Common set of rules required by highlight.js (don'r remove!) */
+	display: block;
+	overflow-x: auto;
+	padding: 0.5em;
+	background: #FFFFDF; /* Half and Half (approx.) */
+/* --- Uncomment to add PureBASIC native IDE styled font!
+	font-family: Consolas;
+*/
+}
+
+.purebasic, /* --- used for PureBASIC base color --- */
+.purebasic-type,  /* --- used for PureBASIC Procedures return type --- */
+.purebasic-function, /* --- used for wrapping PureBASIC Procedures definitions --- */
+.purebasic-name,
+.purebasic-number,
+.purebasic-attr,
+.purebasic-params,
+.purebasic-subst {
+	color: #000000; /* Black */
+}
+
+.purebasic-comment, /* --- used for PureBASIC Comments --- */
+.purebasic-regexp,
+.purebasic-section,
+.purebasic-selector-pseudo,
+.purebasic-addition {
+	color: #00AAAA; /* Persian Green (approx.) */
+}
+
+.purebasic-title, /* --- used for PureBASIC Procedures Names --- */
+.purebasic-tag,
+.purebasic-variable,
+.purebasic-code  {
+	color: #006666; /* Blue Stone (approx.) */
+}
+
+.purebasic-keyword, /* --- used for PureBASIC Keywords --- */
+.purebasic-class,
+.purebasic-meta-keyword,
+.purebasic-selector-class,
+.purebasic-built_in,
+.purebasic-builtin-name {
+	color: #006666; /* Blue Stone (approx.) */
+	font-weight: bold;
+}
+
+.purebasic-string, /* --- used for PureBASIC Strings --- */
+.purebasic-selector-attr {
+	color: #0080FF; /* Azure Radiance (approx.) */
+}
+
+.purebasic-symbol, /* --- used for PureBASIC Constants --- */
+.purebasic-link,
+.purebasic-deletion,
+.purebasic-attribute {
+	color: #924B72; /* Cannon Pink (approx.) */
+}
+
+.purebasic-meta,
+.purebasic-literal,
+.purebasic-selector-id {
+	color: #924B72; /* Cannon Pink (approx.) */
+	font-weight: bold;
+}
+
+.purebasic-strong,
+.purebasic-name {
+	font-weight: bold;
+}
+
+.purebasic-emphasis {
+	font-style: italic;
+}
+
+/*
+
+Qt Creator dark color scheme
+
+*/
+
+
+.qtcreator_dark {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #000000;
+}
+
+.qtcreator_dark,
+.qtcreator_dark-subst,
+.qtcreator_dark-tag,
+.qtcreator_dark-title {
+  color: #aaaaaa;
+}
+
+.qtcreator_dark-strong,
+.qtcreator_dark-emphasis {
+  color: #a8a8a2;
+}
+
+.qtcreator_dark-bullet,
+.qtcreator_dark-quote,
+.qtcreator_dark-number,
+.qtcreator_dark-regexp,
+.qtcreator_dark-literal {
+  color: #ff55ff;
+}
+
+.qtcreator_dark-code
+.qtcreator_dark-selector-class {
+  color: #aaaaff;
+}
+
+.qtcreator_dark-emphasis,
+.qtcreator_dark-stronge,
+.qtcreator_dark-type {
+  font-style: italic;
+}
+
+.qtcreator_dark-keyword,
+.qtcreator_dark-selector-tag,
+.qtcreator_dark-function,
+.qtcreator_dark-section,
+.qtcreator_dark-symbol,
+.qtcreator_dark-name {
+  color: #ffff55;
+}
+
+.qtcreator_dark-attribute {
+  color: #ff5555;
+}
+
+.qtcreator_dark-variable,
+.qtcreator_dark-params,
+.qtcreator_dark-class .qtcreator_dark-title {
+  color: #8888ff;
+}
+
+.qtcreator_dark-string,
+.qtcreator_dark-selector-id,
+.qtcreator_dark-selector-attr,
+.qtcreator_dark-selector-pseudo,
+.qtcreator_dark-type,
+.qtcreator_dark-built_in,
+.qtcreator_dark-builtin-name,
+.qtcreator_dark-template-tag,
+.qtcreator_dark-template-variable,
+.qtcreator_dark-addition,
+.qtcreator_dark-link {
+  color: #ff55ff;
+}
+
+.qtcreator_dark-comment,
+.qtcreator_dark-meta,
+.qtcreator_dark-deletion {
+  color: #55ffff;
+}
+
+/*
+
+Qt Creator light color scheme
+
+*/
+
+
+.qtcreator_light {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #ffffff;
+}
+
+.qtcreator_light,
+.qtcreator_light-subst,
+.qtcreator_light-tag,
+.qtcreator_light-title {
+  color: #000000;
+}
+
+.qtcreator_light-strong,
+.qtcreator_light-emphasis {
+  color: #000000;
+}
+
+.qtcreator_light-bullet,
+.qtcreator_light-quote,
+.qtcreator_light-number,
+.qtcreator_light-regexp,
+.qtcreator_light-literal {
+  color: #000080;
+}
+
+.qtcreator_light-code
+.qtcreator_light-selector-class {
+  color: #800080;
+}
+
+.qtcreator_light-emphasis,
+.qtcreator_light-stronge,
+.qtcreator_light-type {
+  font-style: italic;
+}
+
+.qtcreator_light-keyword,
+.qtcreator_light-selector-tag,
+.qtcreator_light-function,
+.qtcreator_light-section,
+.qtcreator_light-symbol,
+.qtcreator_light-name {
+  color: #808000;
+}
+
+.qtcreator_light-attribute {
+  color: #800000;
+}
+
+.qtcreator_light-variable,
+.qtcreator_light-params,
+.qtcreator_light-class .qtcreator_light-title {
+  color: #0055AF;
+}
+
+.qtcreator_light-string,
+.qtcreator_light-selector-id,
+.qtcreator_light-selector-attr,
+.qtcreator_light-selector-pseudo,
+.qtcreator_light-type,
+.qtcreator_light-built_in,
+.qtcreator_light-builtin-name,
+.qtcreator_light-template-tag,
+.qtcreator_light-template-variable,
+.qtcreator_light-addition,
+.qtcreator_light-link {
+  color: #008000;
+}
+
+.qtcreator_light-comment,
+.qtcreator_light-meta,
+.qtcreator_light-deletion {
+  color: #008000;
+}
+
+/*
+
+Railscasts-like style (c) Visoft, Inc. (Damien White)
+
+*/
+
+.railscasts {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #232323;
+  color: #e6e1dc;
+}
+
+.railscasts-comment,
+.railscasts-quote {
+  color: #bc9458;
+  font-style: italic;
+}
+
+.railscasts-keyword,
+.railscasts-selector-tag {
+  color: #c26230;
+}
+
+.railscasts-string,
+.railscasts-number,
+.railscasts-regexp,
+.railscasts-variable,
+.railscasts-template-variable {
+  color: #a5c261;
+}
+
+.railscasts-subst {
+  color: #519f50;
+}
+
+.railscasts-tag,
+.railscasts-name {
+  color: #e8bf6a;
+}
+
+.railscasts-type {
+  color: #da4939;
+}
+
+
+.railscasts-symbol,
+.railscasts-bullet,
+.railscasts-built_in,
+.railscasts-builtin-name,
+.railscasts-attr,
+.railscasts-link {
+  color: #6d9cbe;
+}
+
+.railscasts-params {
+  color: #d0d0ff;
+}
+
+.railscasts-attribute {
+  color: #cda869;
+}
+
+.railscasts-meta {
+  color: #9b859d;
+}
+
+.railscasts-title,
+.railscasts-section {
+  color: #ffc66d;
+}
+
+.railscasts-addition {
+  background-color: #144212;
+  color: #e6e1dc;
+  display: inline-block;
+  width: 100%;
+}
+
+.railscasts-deletion {
+  background-color: #600;
+  color: #e6e1dc;
+  display: inline-block;
+  width: 100%;
+}
+
+.railscasts-selector-class {
+  color: #9b703f;
+}
+
+.railscasts-selector-id {
+  color: #8b98ab;
+}
+
+.railscasts-emphasis {
+  font-style: italic;
+}
+
+.railscasts-strong {
+  font-weight: bold;
+}
+
+.railscasts-link {
+  text-decoration: underline;
+}
+
+/*
+
+Style with support for rainbow parens
+
+*/
+
+.rainbow {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #474949;
+  color: #d1d9e1;
+}
+
+
+.rainbow-comment,
+.rainbow-quote {
+  color: #969896;
+  font-style: italic;
+}
+
+.rainbow-keyword,
+.rainbow-selector-tag,
+.rainbow-literal,
+.rainbow-type,
+.rainbow-addition {
+  color: #cc99cc;
+}
+
+.rainbow-number,
+.rainbow-selector-attr,
+.rainbow-selector-pseudo {
+  color: #f99157;
+}
+
+.rainbow-string,
+.rainbow-doctag,
+.rainbow-regexp {
+  color: #8abeb7;
+}
+
+.rainbow-title,
+.rainbow-name,
+.rainbow-section,
+.rainbow-built_in {
+  color: #b5bd68;
+}
+
+.rainbow-variable,
+.rainbow-template-variable,
+.rainbow-selector-id,
+.rainbow-class .rainbow-title {
+   color: #ffcc66;
+}
+
+.rainbow-section,
+.rainbow-name,
+.rainbow-strong {
+  font-weight: bold;
+}
+
+.rainbow-symbol,
+.rainbow-bullet,
+.rainbow-subst,
+.rainbow-meta,
+.rainbow-link {
+  color: #f99157;
+}
+
+.rainbow-deletion {
+  color: #dc322f;
+}
+
+.rainbow-formula {
+  background: #eee8d5;
+}
+
+.rainbow-attr,
+.rainbow-attribute {
+  color: #81a2be;
+}
+
+.rainbow-emphasis {
+  font-style: italic;
+}
+
+/*
+
+ highlight.js style for Microtik RouterOS script
+
+*/
+
+.routeros {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #F0F0F0;
+}
+
+/* Base color: saturation 0; */
+
+.routeros,
+.routeros-subst {
+  color: #444;
+}
+
+.routeros-comment {
+  color: #888888;
+}
+
+.routeros-keyword,
+.routeros-selector-tag,
+.routeros-meta-keyword,
+.routeros-doctag,
+.routeros-name {
+  font-weight: bold;
+}
+
+.routeros-attribute {
+  color: #0E9A00;
+}    
+
+.routeros-function {
+  color: #99069A;
+}
+
+.routeros-builtin-name {
+  color: #99069A;
+}
+
+/* User color: hue: 0 */
+
+.routeros-type,
+.routeros-string,
+.routeros-number,
+.routeros-selector-id,
+.routeros-selector-class,
+.routeros-quote,
+.routeros-template-tag,
+.routeros-deletion {
+  color: #880000;
+}
+
+.routeros-title,
+.routeros-section {
+  color: #880000;
+  font-weight: bold;
+}
+
+.routeros-regexp,
+.routeros-symbol,
+.routeros-variable,
+.routeros-template-variable,
+.routeros-link,
+.routeros-selector-attr,
+.routeros-selector-pseudo {
+  color: #BC6060;
+}
+
+
+/* Language color: hue: 90; */
+
+.routeros-literal {
+  color: #78A960;
+}
+
+.routeros-built_in,
+.routeros-bullet,
+.routeros-code,
+.routeros-addition {
+  color: #0C9A9A;
+}
+
+
+/* Meta color: hue: 200 */
+
+.routeros-meta {
+  color: #1f7199;
+}
+
+.routeros-meta-string {
+  color: #4d99bf;
+}
+
+
+/* Misc effects */
+
+.routeros-emphasis {
+  font-style: italic;
+}
+
+.routeros-strong {
+  font-weight: bold;
+}
+
+/*
+
+School Book style from goldblog.com.ua (c) Zaripov Yura <yur4ik7@ukr.net>
+
+*/
+
+.school-book {
+  display: block;
+  overflow-x: auto;
+  padding: 15px 0.5em 0.5em 30px;
+  font-size: 11px;
+  line-height:16px;
+}
+
+pre{
+  background:#f6f6ae url(./school-book.png);
+  border-top: solid 2px #d2e8b9;
+  border-bottom: solid 1px #d2e8b9;
+}
+
+.school-book-keyword,
+.school-book-selector-tag,
+.school-book-literal {
+  color:#005599;
+  font-weight:bold;
+}
+
+.school-book,
+.school-book-subst {
+  color: #3e5915;
+}
+
+.school-book-string,
+.school-book-title,
+.school-book-section,
+.school-book-type,
+.school-book-symbol,
+.school-book-bullet,
+.school-book-attribute,
+.school-book-built_in,
+.school-book-builtin-name,
+.school-book-addition,
+.school-book-variable,
+.school-book-template-tag,
+.school-book-template-variable,
+.school-book-link {
+  color: #2c009f;
+}
+
+.school-book-comment,
+.school-book-quote,
+.school-book-deletion,
+.school-book-meta {
+  color: #e60415;
+}
+
+.school-book-keyword,
+.school-book-selector-tag,
+.school-book-literal,
+.school-book-doctag,
+.school-book-title,
+.school-book-section,
+.school-book-type,
+.school-book-name,
+.school-book-selector-id,
+.school-book-strong {
+  font-weight: bold;
+}
+
+.school-book-emphasis {
+  font-style: italic;
+}
+
+/*
+
+Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmail.com>
+
+*/
+
+.solarized-dark {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #002b36;
+  color: #839496;
+}
+
+.solarized-dark-comment,
+.solarized-dark-quote {
+  color: #586e75;
+}
+
+/* Solarized Green */
+.solarized-dark-keyword,
+.solarized-dark-selector-tag,
+.solarized-dark-addition {
+  color: #859900;
+}
+
+/* Solarized Cyan */
+.solarized-dark-number,
+.solarized-dark-string,
+.solarized-dark-meta .solarized-dark-meta-string,
+.solarized-dark-literal,
+.solarized-dark-doctag,
+.solarized-dark-regexp {
+  color: #2aa198;
+}
+
+/* Solarized Blue */
+.solarized-dark-title,
+.solarized-dark-section,
+.solarized-dark-name,
+.solarized-dark-selector-id,
+.solarized-dark-selector-class {
+  color: #268bd2;
+}
+
+/* Solarized Yellow */
+.solarized-dark-attribute,
+.solarized-dark-attr,
+.solarized-dark-variable,
+.solarized-dark-template-variable,
+.solarized-dark-class .solarized-dark-title,
+.solarized-dark-type {
+  color: #b58900;
+}
+
+/* Solarized Orange */
+.solarized-dark-symbol,
+.solarized-dark-bullet,
+.solarized-dark-subst,
+.solarized-dark-meta,
+.solarized-dark-meta .solarized-dark-keyword,
+.solarized-dark-selector-attr,
+.solarized-dark-selector-pseudo,
+.solarized-dark-link {
+  color: #cb4b16;
+}
+
+/* Solarized Red */
+.solarized-dark-built_in,
+.solarized-dark-deletion {
+  color: #dc322f;
+}
+
+.solarized-dark-formula {
+  background: #073642;
+}
+
+.solarized-dark-emphasis {
+  font-style: italic;
+}
+
+.solarized-dark-strong {
+  font-weight: bold;
+}
+
+/*
+
+Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmail.com>
+
+*/
+
+.solarized-light {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #fdf6e3;
+  color: #657b83;
+}
+
+.solarized-light-comment,
+.solarized-light-quote {
+  color: #93a1a1;
+}
+
+/* Solarized Green */
+.solarized-light-keyword,
+.solarized-light-selector-tag,
+.solarized-light-addition {
+  color: #859900;
+}
+
+/* Solarized Cyan */
+.solarized-light-number,
+.solarized-light-string,
+.solarized-light-meta .solarized-light-meta-string,
+.solarized-light-literal,
+.solarized-light-doctag,
+.solarized-light-regexp {
+  color: #2aa198;
+}
+
+/* Solarized Blue */
+.solarized-light-title,
+.solarized-light-section,
+.solarized-light-name,
+.solarized-light-selector-id,
+.solarized-light-selector-class {
+  color: #268bd2;
+}
+
+/* Solarized Yellow */
+.solarized-light-attribute,
+.solarized-light-attr,
+.solarized-light-variable,
+.solarized-light-template-variable,
+.solarized-light-class .solarized-light-title,
+.solarized-light-type {
+  color: #b58900;
+}
+
+/* Solarized Orange */
+.solarized-light-symbol,
+.solarized-light-bullet,
+.solarized-light-subst,
+.solarized-light-meta,
+.solarized-light-meta .solarized-light-keyword,
+.solarized-light-selector-attr,
+.solarized-light-selector-pseudo,
+.solarized-light-link {
+  color: #cb4b16;
+}
+
+/* Solarized Red */
+.solarized-light-built_in,
+.solarized-light-deletion {
+  color: #dc322f;
+}
+
+.solarized-light-formula {
+  background: #eee8d5;
+}
+
+.solarized-light-emphasis {
+  font-style: italic;
+}
+
+.solarized-light-strong {
+  font-weight: bold;
+}
+
+/*
+
+Sunburst-like style (c) Vasily Polovnyov <vast@whiteants.net>
+
+*/
+
+.sunburst {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #000;
+  color: #f8f8f8;
+}
+
+.sunburst-comment,
+.sunburst-quote {
+  color: #aeaeae;
+  font-style: italic;
+}
+
+.sunburst-keyword,
+.sunburst-selector-tag,
+.sunburst-type {
+  color: #e28964;
+}
+
+.sunburst-string {
+  color: #65b042;
+}
+
+.sunburst-subst {
+  color: #daefa3;
+}
+
+.sunburst-regexp,
+.sunburst-link {
+  color: #e9c062;
+}
+
+.sunburst-title,
+.sunburst-section,
+.sunburst-tag,
+.sunburst-name {
+  color: #89bdff;
+}
+
+.sunburst-class .sunburst-title,
+.sunburst-doctag {
+  text-decoration: underline;
+}
+
+.sunburst-symbol,
+.sunburst-bullet,
+.sunburst-number {
+  color: #3387cc;
+}
+
+.sunburst-params,
+.sunburst-variable,
+.sunburst-template-variable {
+  color: #3e87e3;
+}
+
+.sunburst-attribute {
+  color: #cda869;
+}
+
+.sunburst-meta {
+  color: #8996a8;
+}
+
+.sunburst-formula {
+  background-color: #0e2231;
+  color: #f8f8f8;
+  font-style: italic;
+}
+
+.sunburst-addition {
+  background-color: #253b22;
+  color: #f8f8f8;
+}
+
+.sunburst-deletion {
+  background-color: #420e09;
+  color: #f8f8f8;
+}
+
+.sunburst-selector-class {
+  color: #9b703f;
+}
+
+.sunburst-selector-id {
+  color: #8b98ab;
+}
+
+.sunburst-emphasis {
+  font-style: italic;
+}
+
+.sunburst-strong {
+  font-weight: bold;
+}
+
+/* Tomorrow Night Blue Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+
+/* Tomorrow Comment */
+.tomorrow-night-blue-comment,
+.tomorrow-night-blue-quote {
+  color: #7285b7;
+}
+
+/* Tomorrow Red */
+.tomorrow-night-blue-variable,
+.tomorrow-night-blue-template-variable,
+.tomorrow-night-blue-tag,
+.tomorrow-night-blue-name,
+.tomorrow-night-blue-selector-id,
+.tomorrow-night-blue-selector-class,
+.tomorrow-night-blue-regexp,
+.tomorrow-night-blue-deletion {
+  color: #ff9da4;
+}
+
+/* Tomorrow Orange */
+.tomorrow-night-blue-number,
+.tomorrow-night-blue-built_in,
+.tomorrow-night-blue-builtin-name,
+.tomorrow-night-blue-literal,
+.tomorrow-night-blue-type,
+.tomorrow-night-blue-params,
+.tomorrow-night-blue-meta,
+.tomorrow-night-blue-link {
+  color: #ffc58f;
+}
+
+/* Tomorrow Yellow */
+.tomorrow-night-blue-attribute {
+  color: #ffeead;
+}
+
+/* Tomorrow Green */
+.tomorrow-night-blue-string,
+.tomorrow-night-blue-symbol,
+.tomorrow-night-blue-bullet,
+.tomorrow-night-blue-addition {
+  color: #d1f1a9;
+}
+
+/* Tomorrow Blue */
+.tomorrow-night-blue-title,
+.tomorrow-night-blue-section {
+  color: #bbdaff;
+}
+
+/* Tomorrow Purple */
+.tomorrow-night-blue-keyword,
+.tomorrow-night-blue-selector-tag {
+  color: #ebbbff;
+}
+
+.tomorrow-night-blue {
+  display: block;
+  overflow-x: auto;
+  background: #002451;
+  color: white;
+  padding: 0.5em;
+}
+
+.tomorrow-night-blue-emphasis {
+  font-style: italic;
+}
+
+.tomorrow-night-blue-strong {
+  font-weight: bold;
+}
+
+/* Tomorrow Night Bright Theme */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+
+/* Tomorrow Comment */
+.tomorrow-night-bright-comment,
+.tomorrow-night-bright-quote {
+  color: #969896;
+}
+
+/* Tomorrow Red */
+.tomorrow-night-bright-variable,
+.tomorrow-night-bright-template-variable,
+.tomorrow-night-bright-tag,
+.tomorrow-night-bright-name,
+.tomorrow-night-bright-selector-id,
+.tomorrow-night-bright-selector-class,
+.tomorrow-night-bright-regexp,
+.tomorrow-night-bright-deletion {
+  color: #d54e53;
+}
+
+/* Tomorrow Orange */
+.tomorrow-night-bright-number,
+.tomorrow-night-bright-built_in,
+.tomorrow-night-bright-builtin-name,
+.tomorrow-night-bright-literal,
+.tomorrow-night-bright-type,
+.tomorrow-night-bright-params,
+.tomorrow-night-bright-meta,
+.tomorrow-night-bright-link {
+  color: #e78c45;
+}
+
+/* Tomorrow Yellow */
+.tomorrow-night-bright-attribute {
+  color: #e7c547;
+}
+
+/* Tomorrow Green */
+.tomorrow-night-bright-string,
+.tomorrow-night-bright-symbol,
+.tomorrow-night-bright-bullet,
+.tomorrow-night-bright-addition {
+  color: #b9ca4a;
+}
+
+/* Tomorrow Blue */
+.tomorrow-night-bright-title,
+.tomorrow-night-bright-section {
+  color: #7aa6da;
+}
+
+/* Tomorrow Purple */
+.tomorrow-night-bright-keyword,
+.tomorrow-night-bright-selector-tag {
+  color: #c397d8;
+}
+
+.tomorrow-night-bright {
+  display: block;
+  overflow-x: auto;
+  background: black;
+  color: #eaeaea;
+  padding: 0.5em;
+}
+
+.tomorrow-night-bright-emphasis {
+  font-style: italic;
+}
+
+.tomorrow-night-bright-strong {
+  font-weight: bold;
+}
+
+/* Tomorrow Night Eighties Theme */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+
+/* Tomorrow Comment */
+.tomorrow-night-eighties-comment,
+.tomorrow-night-eighties-quote {
+  color: #999999;
+}
+
+/* Tomorrow Red */
+.tomorrow-night-eighties-variable,
+.tomorrow-night-eighties-template-variable,
+.tomorrow-night-eighties-tag,
+.tomorrow-night-eighties-name,
+.tomorrow-night-eighties-selector-id,
+.tomorrow-night-eighties-selector-class,
+.tomorrow-night-eighties-regexp,
+.tomorrow-night-eighties-deletion {
+  color: #f2777a;
+}
+
+/* Tomorrow Orange */
+.tomorrow-night-eighties-number,
+.tomorrow-night-eighties-built_in,
+.tomorrow-night-eighties-builtin-name,
+.tomorrow-night-eighties-literal,
+.tomorrow-night-eighties-type,
+.tomorrow-night-eighties-params,
+.tomorrow-night-eighties-meta,
+.tomorrow-night-eighties-link {
+  color: #f99157;
+}
+
+/* Tomorrow Yellow */
+.tomorrow-night-eighties-attribute {
+  color: #ffcc66;
+}
+
+/* Tomorrow Green */
+.tomorrow-night-eighties-string,
+.tomorrow-night-eighties-symbol,
+.tomorrow-night-eighties-bullet,
+.tomorrow-night-eighties-addition {
+  color: #99cc99;
+}
+
+/* Tomorrow Blue */
+.tomorrow-night-eighties-title,
+.tomorrow-night-eighties-section {
+  color: #6699cc;
+}
+
+/* Tomorrow Purple */
+.tomorrow-night-eighties-keyword,
+.tomorrow-night-eighties-selector-tag {
+  color: #cc99cc;
+}
+
+.tomorrow-night-eighties {
+  display: block;
+  overflow-x: auto;
+  background: #2d2d2d;
+  color: #cccccc;
+  padding: 0.5em;
+}
+
+.tomorrow-night-eighties-emphasis {
+  font-style: italic;
+}
+
+.tomorrow-night-eighties-strong {
+  font-weight: bold;
+}
+
+/* Tomorrow Night Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+
+/* Tomorrow Comment */
+.tomorrow-night-comment,
+.tomorrow-night-quote {
+  color: #969896;
+}
+
+/* Tomorrow Red */
+.tomorrow-night-variable,
+.tomorrow-night-template-variable,
+.tomorrow-night-tag,
+.tomorrow-night-name,
+.tomorrow-night-selector-id,
+.tomorrow-night-selector-class,
+.tomorrow-night-regexp,
+.tomorrow-night-deletion {
+  color: #cc6666;
+}
+
+/* Tomorrow Orange */
+.tomorrow-night-number,
+.tomorrow-night-built_in,
+.tomorrow-night-builtin-name,
+.tomorrow-night-literal,
+.tomorrow-night-type,
+.tomorrow-night-params,
+.tomorrow-night-meta,
+.tomorrow-night-link {
+  color: #de935f;
+}
+
+/* Tomorrow Yellow */
+.tomorrow-night-attribute {
+  color: #f0c674;
+}
+
+/* Tomorrow Green */
+.tomorrow-night-string,
+.tomorrow-night-symbol,
+.tomorrow-night-bullet,
+.tomorrow-night-addition {
+  color: #b5bd68;
+}
+
+/* Tomorrow Blue */
+.tomorrow-night-title,
+.tomorrow-night-section {
+  color: #81a2be;
+}
+
+/* Tomorrow Purple */
+.tomorrow-night-keyword,
+.tomorrow-night-selector-tag {
+  color: #b294bb;
+}
+
+.tomorrow-night {
+  display: block;
+  overflow-x: auto;
+  background: #1d1f21;
+  color: #c5c8c6;
+  padding: 0.5em;
+}
+
+.tomorrow-night-emphasis {
+  font-style: italic;
+}
+
+.tomorrow-night-strong {
+  font-weight: bold;
+}
+
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+
+/* Tomorrow Comment */
+.tomorrow-comment,
+.tomorrow-quote {
+  color: #8e908c;
+}
+
+/* Tomorrow Red */
+.tomorrow-variable,
+.tomorrow-template-variable,
+.tomorrow-tag,
+.tomorrow-name,
+.tomorrow-selector-id,
+.tomorrow-selector-class,
+.tomorrow-regexp,
+.tomorrow-deletion {
+  color: #c82829;
+}
+
+/* Tomorrow Orange */
+.tomorrow-number,
+.tomorrow-built_in,
+.tomorrow-builtin-name,
+.tomorrow-literal,
+.tomorrow-type,
+.tomorrow-params,
+.tomorrow-meta,
+.tomorrow-link {
+  color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.tomorrow-attribute {
+  color: #eab700;
+}
+
+/* Tomorrow Green */
+.tomorrow-string,
+.tomorrow-symbol,
+.tomorrow-bullet,
+.tomorrow-addition {
+  color: #718c00;
+}
+
+/* Tomorrow Blue */
+.tomorrow-title,
+.tomorrow-section {
+  color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.tomorrow-keyword,
+.tomorrow-selector-tag {
+  color: #8959a8;
+}
+
+.tomorrow {
+  display: block;
+  overflow-x: auto;
+  background: white;
+  color: #4d4d4c;
+  padding: 0.5em;
+}
+
+.tomorrow-emphasis {
+  font-style: italic;
+}
+
+.tomorrow-strong {
+  font-weight: bold;
+}
+
+/*
+
+Visual Studio-like style based on original C# coloring by Jason Diamond <jason@diamond.name>
+
+*/
+.vs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: white;
+  color: black;
+}
+
+.vs-comment,
+.vs-quote,
+.vs-variable {
+  color: #008000;
+}
+
+.vs-keyword,
+.vs-selector-tag,
+.vs-built_in,
+.vs-name,
+.vs-tag {
+  color: #00f;
+}
+
+.vs-string,
+.vs-title,
+.vs-section,
+.vs-attribute,
+.vs-literal,
+.vs-template-tag,
+.vs-template-variable,
+.vs-type,
+.vs-addition {
+  color: #a31515;
+}
+
+.vs-deletion,
+.vs-selector-attr,
+.vs-selector-pseudo,
+.vs-meta {
+  color: #2b91af;
+}
+
+.vs-doctag {
+  color: #808080;
+}
+
+.vs-attr {
+  color: #f00;
+}
+
+.vs-symbol,
+.vs-bullet,
+.vs-link {
+  color: #00b0e8;
+}
+
+
+.vs-emphasis {
+  font-style: italic;
+}
+
+.vs-strong {
+  font-weight: bold;
+}
+
+/*
+ * Visual Studio 2015 dark style
+ * Author: Nicolas LLOBERA <nllobera@gmail.com>
+ */
+
+.vs2015 {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #1E1E1E;
+  color: #DCDCDC;
+}
+
+.vs2015-keyword,
+.vs2015-literal,
+.vs2015-symbol,
+.vs2015-name {
+  color: #569CD6;
+}
+.vs2015-link {
+  color: #569CD6;
+  text-decoration: underline;
+}
+
+.vs2015-built_in,
+.vs2015-type {
+  color: #4EC9B0;
+}
+
+.vs2015-number,
+.vs2015-class {
+  color: #B8D7A3;
+}
+
+.vs2015-string,
+.vs2015-meta-string {
+  color: #D69D85;
+}
+
+.vs2015-regexp,
+.vs2015-template-tag {
+  color: #9A5334;
+}
+
+.vs2015-subst,
+.vs2015-function,
+.vs2015-title,
+.vs2015-params,
+.vs2015-formula {
+  color: #DCDCDC;
+}
+
+.vs2015-comment,
+.vs2015-quote {
+  color: #57A64A;
+  font-style: italic;
+}
+
+.vs2015-doctag {
+  color: #608B4E;
+}
+
+.vs2015-meta,
+.vs2015-meta-keyword,
+.vs2015-tag {
+  color: #9B9B9B;
+}
+
+.vs2015-variable,
+.vs2015-template-variable {
+  color: #BD63C5;
+}
+
+.vs2015-attr,
+.vs2015-attribute,
+.vs2015-builtin-name {
+  color: #9CDCFE;
+}
+
+.vs2015-section {
+  color: gold;
+}
+
+.vs2015-emphasis {
+  font-style: italic;
+}
+
+.vs2015-strong {
+  font-weight: bold;
+}
+
+/*.vs2015-code {
+  font-family:'Monospace';
+}*/
+
+.vs2015-bullet,
+.vs2015-selector-tag,
+.vs2015-selector-id,
+.vs2015-selector-class,
+.vs2015-selector-attr,
+.vs2015-selector-pseudo {
+  color: #D7BA7D;
+}
+
+.vs2015-addition {
+  background-color: #144212;
+  display: inline-block;
+  width: 100%;
+}
+
+.vs2015-deletion {
+  background-color: #600;
+  display: inline-block;
+  width: 100%;
+}
+
+/*
+
+XCode style (c) Angel Garcia <angelgarcia.mail@gmail.com>
+
+*/
+
+.xcode {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #fff;
+  color: black;
+}
+
+.xcode-comment,
+.xcode-quote {
+  color: #006a00;
+}
+
+.xcode-keyword,
+.xcode-selector-tag,
+.xcode-literal {
+  color: #aa0d91;
+}
+
+.xcode-name {
+  color: #008;
+}
+
+.xcode-variable,
+.xcode-template-variable {
+  color: #660;
+}
+
+.xcode-string {
+  color: #c41a16;
+}
+
+.xcode-regexp,
+.xcode-link {
+  color: #080;
+}
+
+.xcode-title,
+.xcode-tag,
+.xcode-symbol,
+.xcode-bullet,
+.xcode-number,
+.xcode-meta {
+  color: #1c00cf;
+}
+
+.xcode-section,
+.xcode-class .xcode-title,
+.xcode-type,
+.xcode-attr,
+.xcode-built_in,
+.xcode-builtin-name,
+.xcode-params {
+  color: #5c2699;
+}
+
+.xcode-attribute,
+.xcode-subst {
+  color: #000;
+}
+
+.xcode-formula {
+  background-color: #eee;
+  font-style: italic;
+}
+
+.xcode-addition {
+  background-color: #baeeba;
+}
+
+.xcode-deletion {
+  background-color: #ffc8bd;
+}
+
+.xcode-selector-id,
+.xcode-selector-class {
+  color: #9b703f;
+}
+
+.xcode-doctag,
+.xcode-strong {
+  font-weight: bold;
+}
+
+.xcode-emphasis {
+  font-style: italic;
+}
+
+
+/*
+  xt256.css
+
+  Contact: initbar [at] protonmail [dot] ch
+         : github.com/initbar
+*/
+
+.xt256 {
+  display: block;
+  overflow-x: auto;
+  color: #eaeaea;
+  background: #000;
+  padding: 0.5;
+}
+
+.xt256-subst {
+  color: #eaeaea;
+}
+
+.xt256-emphasis {
+  font-style: italic;
+}
+
+.xt256-strong {
+  font-weight: bold;
+}
+
+.xt256-builtin-name,
+.xt256-type {
+  color: #eaeaea;
+}
+
+.xt256-params {
+  color: #da0000;
+}
+
+.xt256-literal,
+.xt256-number,
+.xt256-name {
+  color: #ff0000;
+  font-weight: bolder;
+}
+
+.xt256-comment {
+  color: #969896;
+}
+
+.xt256-selector-id,
+.xt256-quote {
+  color: #00ffff;
+}
+
+.xt256-template-variable,
+.xt256-variable,
+.xt256-title {
+  color: #00ffff;
+  font-weight: bold;
+}
+
+.xt256-selector-class,
+.xt256-keyword,
+.xt256-symbol {
+  color: #fff000;
+}
+
+.xt256-string,
+.xt256-bullet {
+  color: #00ff00;
+}
+
+.xt256-tag,
+.xt256-section {
+  color: #000fff;
+}
+
+.xt256-selector-tag {
+  color: #000fff;
+  font-weight: bold;
+}
+
+.xt256-attribute,
+.xt256-built_in,
+.xt256-regexp,
+.xt256-link {
+  color: #ff00ff;
+}
+
+.xt256-meta {
+  color: #fff;
+  font-weight: bolder;
+}
+
+/*
+
+Zenburn style from voldmar.ru (c) Vladimir Epifanov <voldmar@voldmar.ru>
+based on dark.css by Ivan Sagalaev
+
+*/
+
+.zenburn {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #3f3f3f;
+  color: #dcdcdc;
+}
+
+.zenburn-keyword,
+.zenburn-selector-tag,
+.zenburn-tag {
+  color: #e3ceab;
+}
+
+.zenburn-template-tag {
+  color: #dcdcdc;
+}
+
+.zenburn-number {
+  color: #8cd0d3;
+}
+
+.zenburn-variable,
+.zenburn-template-variable,
+.zenburn-attribute {
+  color: #efdcbc;
+}
+
+.zenburn-literal {
+  color: #efefaf;
+}
+
+.zenburn-subst {
+  color: #8f8f8f;
+}
+
+.zenburn-title,
+.zenburn-name,
+.zenburn-selector-id,
+.zenburn-selector-class,
+.zenburn-section,
+.zenburn-type {
+  color: #efef8f;
+}
+
+.zenburn-symbol,
+.zenburn-bullet,
+.zenburn-link {
+  color: #dca3a3;
+}
+
+.zenburn-deletion,
+.zenburn-string,
+.zenburn-built_in,
+.zenburn-builtin-name {
+  color: #cc9393;
+}
+
+.zenburn-addition,
+.zenburn-comment,
+.zenburn-quote,
+.zenburn-meta {
+  color: #7f9f7f;
+}
+
+
+.zenburn-emphasis {
+  font-style: italic;
+}
+
+.zenburn-strong {
+  font-weight: bold;
+}
