@@ -1,6 +1,14 @@
 document.addEventListener("DOMContentLoaded",function (evt){
 	document.addEventListener("change",initOnChangeInput());
 	document.addEventListener("keyup",initOnChangeInput());
+	document.getElementById("save").addEventListener("click",function (){
+		html2canvas(document.querySelector("#output")).then(canvas => {
+			var a=document.getElementById("picLink");
+			a.href=canvas.toDataURL();
+			a.download="eq.png";
+			a.click();
+		});
+	});
 });
 
 function initOnChangeInput()
