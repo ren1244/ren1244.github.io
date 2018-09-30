@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded",function (evt){
-	document.addEventListener("change",initOnChangeInput());
-	document.addEventListener("keyup",initOnChangeInput());
+	var onchangeInput=initOnChangeInput();
+	document.addEventListener("change",onchangeInput);
+	document.addEventListener("keyup",onchangeInput);
 	document.getElementById("save").addEventListener("click",function (){
 		html2canvas(document.querySelector("#output")).then(canvas => {
 			var a=document.getElementById("picLink");
@@ -9,6 +10,29 @@ document.addEventListener("DOMContentLoaded",function (evt){
 			a.click();
 		});
 	});
+	document.getElementById("copy").addEventListener("click",function (){
+		var urlDisplay=document.getElementById("url");
+		urlDisplay.select();
+		document.execCommand('copy');
+	});
+	document.getElementById("getUrl").addEventListener("click",function (){
+		var pos=location.href.search(/\?/g);
+		var url=pos>=0?location.href.substr(0,pos):location.href;
+		url+="?"+document.getElementById("input").value.toUTF8Array().deflate().encodeBase64().replace(/\+/g,"-").replace(/\//g,"_");
+		var urlDisplay=document.getElementById("url");
+		urlDisplay.parentElement.setAttribute("style","display:inline-block");
+		urlDisplay.value=url;
+		urlDisplay.select();
+	});
+	var pos=location.href.search(/\?/g);
+	var data;
+	if(pos<0)
+		return;
+	data=location.href.substr(pos+1);
+	data=data.replace(/-/g,"+").replace(/_/g,"/").decodeBase64();
+	data=data.inflate().toUTF8String();
+	document.getElementById("input").value=data;
+	onchangeInput();
 });
 
 function initOnChangeInput()

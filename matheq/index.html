@@ -5,6 +5,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 	<script src="html2canvas.min.js" type="text/javascript"></script>
+	<script src="pako-browserify.min.js" type="text/javascript"></script>
+	<script src="utf8b64.js" type="text/javascript"></script>
+	<script src="u8arrCompress.js" type="text/javascript"></script>
 	<script src="math.js" type="text/javascript"></script>
 	<title>方程式編輯</title>
 	<style type="text/css">
@@ -34,7 +37,12 @@
 	</style>
 </head>
 <body>
-	<button id="save">儲存為圖檔</button><a id="picLink"></a>
+	<button id="save">儲存為圖檔</button>
+	<button id="getUrl">產生連結</button>
+	<div style="display:none">
+		<input type="text" id="url"><button id="copy">複製</button>
+	</div>
+	<a id="picLink"></a>
 	<div class="row">
 		<div class="col">
 			<div id="output"></div>
