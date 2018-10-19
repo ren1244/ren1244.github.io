@@ -1,7 +1,5 @@
 document.addEventListener("DOMContentLoaded",function (evt){
 	var onchangeInput=initOnChangeInput();
-	//document.addEventListener("change",onchangeInput);
-	//document.addEventListener("keyup",onchangeInput);
 	document.getElementById("save").addEventListener("click",function (){
 		html2canvas(document.querySelector("#output")).then(canvas => {
 			var a=document.getElementById("picLink");
@@ -36,8 +34,9 @@ document.addEventListener("DOMContentLoaded",function (evt){
 				data=location.href.substr(pos+1);
 				data=data.replace(/-/g,"+").replace(/_/g,"/").decodeBase64();
 				data=data.inflate().toUTF8String();
+				var sanitizeHtml=require('sanitize-html');
+				data=sanitizeHtml(data);
 				CKEDITOR.instances.input.setData(data);
-				console.log(data);
 				onchangeInput();
 			},
 			'change':onchangeInput
