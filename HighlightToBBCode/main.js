@@ -241,6 +241,10 @@ function getSvg(ele,bgcolor)
 	str+="";
 	return str.replace("</tspan></svg>","</tspan><text></svg>");
 }
+function clearContent()
+{
+	inp.value='';
+}
 function copyBBC()
 {
 	bbc.value=getBBCode(pre,theme.options[theme.selectedIndex].dataset["bgcolor"]);
