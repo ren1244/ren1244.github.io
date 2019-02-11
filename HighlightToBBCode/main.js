@@ -244,6 +244,7 @@ function getSvg(ele,bgcolor)
 function clearContent()
 {
 	inp.value='';
+	refreshOutput();
 }
 function copyBBC()
 {
