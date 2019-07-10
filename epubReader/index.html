@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="Zh-Hant">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>簡樸 EPUB 閱讀器</title>
+	<style>
+		body{
+			width:900px;
+			margin:0px auto;
+			font-size:16pt;
+			color:#CCC;
+			background-color:#333;
+			line-height:1.5em;
+			max-width:100%;
+			font-family:微軟正黑體,思源黑體
+		}
+		img{
+			max-width:100%
+		}
+		#nav>span{
+			text-decoration: underline;
+			color:#CC3;
+			cursor:pointer;
+		}
+		#uploader{
+			width:320px;
+			height:240px;
+			border:1px solid lightgray;
+			border-radius:5px;
+			display:inline-flex;
+			justify-content:center;
+			align-items:center;
+			background-color:#444;
+		}
+		#uploader>div{
+			text-align:center;
+			display:inline-block;
+		}
+		#uploader .upload-button{
+			padding:5px 10px;
+			border:1px solid gray;
+			background-color:lightgray;
+			border-radius:5px;
+		}
+		#uploader .upload-msg{
+			color:white;
+		}
+		#epub{
+			text-align:center;
+		}
+		#epub>p{
+			width:320px;
+			font-size:16px;
+			margin:0px auto;
+			text-align:left;
+			padding:1em 0em;
+			color:white;
+		}
+		#dir li{
+			cursor:pointer;
+		}
+		#dir li:hover{
+			color:white;
+			font-weight:bold;
+		}
+		#page p{
+			margin:0.4em 0px;
+		}
+	</style>
+</head>
+<body>
+	<script src="jszip.min.js"></script>
+	<script src="binJs.min.js"></script>
+	<div id='epub'>
+		<p>這個閱讀器僅在使用者的瀏覽器解析檔案<br>解析後直接呈現內容<br>不會透過網路上傳資料<br>尊重使用者隱私</p>
+		<div id='uploader'>
+			<div>
+				<p class='upload-msg'>拖曳或選擇 EPUB 檔案</p>
+				<button class='upload-button'>選擇</sapn>
+			</div>
+		</div>
+	</div>
+	<div id='dir'>
+		<div id='list'></div>
+	</div>
+	<div id='page' style='display:none'>
+		<div id='content'></div>
+		<div style="text-align:center;" id='nav'></div>
+	</div>
+	<script src="epubReader.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>
