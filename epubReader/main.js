@@ -45,6 +45,12 @@ document.addEventListener("DOMContentLoaded",function(evt){
 	})());
 });
 
+/** 
+ * 讀取 epub 檔案
+ *
+ * @param File物件 file 要讀取的epub 檔案
+ * @return void
+ */
 function loadEpubFile(file)
 {
 	new Promise(function(success, error){
@@ -58,6 +64,7 @@ function loadEpubFile(file)
 			});
 		});
 	}).then(function(){
+		//讀取epub產生目錄
 		ele.list.innerHTML='';
 		let ul=document.createElement('ul');
 		ele.list.appendChild(ul);
@@ -79,6 +86,13 @@ function loadEpubFile(file)
 	});
 }
 
+/** 
+ * 顯示文章頁面
+ *
+ * @param integer pageIdx 第幾頁
+ * @param string htmlData 這頁的html
+ * @return void
+ */
 function refreshPage(pageIdx, htmlData)
 {
 	pageIdx=parseInt(pageIdx,10);
@@ -122,6 +136,12 @@ function refreshPage(pageIdx, htmlData)
 	divSwitch('page');
 }
 
+/** 
+ * 切換分頁
+ *
+ * @param string show_id 要顯示的分頁id(其餘分頁隱藏)
+ * @return void
+ */
 function divSwitch(show_id)
 {
 	['page','epub','dir'].forEach(function(id){
