@@ -1,4 +1,5 @@
 let ele={};
+let queryParams={};
 let epub;
 let htmlSpecial=(function(){
 	let p=document.createElement('p');
@@ -43,6 +44,20 @@ document.addEventListener("DOMContentLoaded",function(evt){
 			uploder.click();
 		}
 	})());
+	
+	let pos=location.href.indexOf('#');
+	if(pos>0) {
+		location.href.slice(pos+1).split('&').forEach((x)=>{
+			x=x.trim();
+			if(x=='') {
+				return;
+			}
+			let arr=x.split('='),k;
+			if(arr.length>0 && (k=arr[0].trim()).length>0) {
+				queryParams[k]=arr.length===1?'':arr[1].trim();
+			}
+		});
+	}
 });
 
 /** 
@@ -61,7 +76,7 @@ function loadEpubFile(file)
 		return new Promise(function(success,error){
 			epub=new epubReader(evt.target.result,function(){
 				success();
-			});
+			}, queryParams['merge']==='1'?true:false);
 		});
 	}).then(function(){
 		//讀取epub產生目錄

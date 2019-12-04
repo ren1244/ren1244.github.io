@@ -13,7 +13,7 @@
  * @param callback function 當 epubReader 讀取完資料後，要執行的動作
  * @return void
  */
-function epubReader(buffer, callback)
+function epubReader(buffer, callback, mergeUntitled)
 {
 	/*
 	 * 資料結構概述：
@@ -63,6 +63,7 @@ function epubReader(buffer, callback)
 	this.pageMap;
 	this.zip=new JSZip();
 	this.callback=callback;
+	this.mergeUntitled=mergeUntitled?true:false;
 	
 	//用 JSZip物件(this.zip) 載入 buffer 資料，完成後呼叫 this.readContainer
 	let that=this;
@@ -174,8 +175,31 @@ epubReader.prototype.readTocFile=function(tocFile)
 				   that.pageList[that.pageMap[file]]['title']=p.querySelector('navLabel>text').textContent;
 			   }
 		   }
+		   if(that.mergeUntitled) {
+			   that.mergeUntitledPages();
+		   }
 		   that.callback();
 	   });
+}
+
+epubReader.prototype.mergeUntitledPages=function()
+{
+	let cur=false;
+	for(let i=0,n=this.pageList.length;i<n;++i) {
+		let pageInfo=this.pageList[i];
+		if(pageInfo.title!==undefined) {
+			cur=pageInfo;
+		} else {
+			if(cur) {
+				if(typeof(cur.file)==='string') {
+					cur.file=[cur.file];
+				}
+				cur.file.push(pageInfo.file);
+				this.pageList[i]=false;
+			}
+		}
+	}
+	this.pageList=this.pageList.filter((x)=>{return x});
 }
 
 /** 
@@ -217,41 +241,48 @@ epubReader.prototype.zipFullPath=function(cur, rel)
  */
 epubReader.prototype.getPageContent=function(pageIdx, callback)
 {
-	let pageFullName=this.pageList[pageIdx].file;
+	let file=this.pageList[pageIdx].file;
+	let fileArray=(typeof(file)==='string'?[file]:file);
 	let that=this;
 	let imgMap={};
-	let doc;
-	this.zip.file(pageFullName).internalStream("string")
-	.accumulate(function(metadata) {
-		
-	}).then(function(data) {
-		let parser=new DOMParser();
-		doc=parser.parseFromString(data, 'application/xml');
-		let promiseList=[];
-		let imgs=doc.body.querySelectorAll('img');
-		for(let i=imgs.length;--i>=0;) {
-			let imgFullName=that.zipFullPath(pageFullName, imgs[i].getAttribute('src'));
-			promiseList.push(getImgPromise(imgFullName));
-		}
-		img=doc.body.querySelectorAll('svg image');
-		for(let i=img.length;--i>=0;) {
-			let imgFullName=that.zipFullPath(pageFullName, img[i].getAttribute('xlink:href'));
-			promiseList.push(getImgPromise(imgFullName));
-		}
-		return Promise.all(promiseList);
-	}).then(function(imgDatas){
-		for(let i=imgDatas.length;--i>=0;) {
-			imgMap[imgDatas[i].file]=imgDatas[i].data;
-		}
-		callback(getPageContent(doc.body));
-	},function(x){
-		console.log('err:'+x);
+	Promise.all(fileArray.map((fullName)=>{
+		return readAHtmlFile(fullName, this);
+	})).then((x)=>{
+		callback(x.join(''));
 	});
+	
+	function readAHtmlFile(fullName, that)
+	{
+		let doc;
+		return that.zip.file(fullName).internalStream("string")
+		.accumulate((metadata)=>{}).then((data)=>{
+			let parser=new DOMParser();
+			doc=parser.parseFromString(data, 'application/xml');
+			let promiseList=[];
+			let imgs=doc.body.querySelectorAll('img');
+			for(let i=imgs.length;--i>=0;) {
+				let imgFullName=that.zipFullPath(fullName, imgs[i].getAttribute('src'));
+				promiseList.push(getImgPromise(imgFullName));
+			}
+			imgs=doc.body.querySelectorAll('svg image');
+			for(let i=imgs.length;--i>=0;) {
+				let imgFullName=that.zipFullPath(fullName, imgs[i].getAttribute('xlink:href'));
+				promiseList.push(getImgPromise(imgFullName));
+			}
+			return Promise.all(promiseList);
+		}).then((imgDatas)=>{
+			for(let i=imgDatas.length;--i>=0;) {
+				imgMap[imgDatas[i].file]=imgDatas[i].data;
+			}
+			return getPageContent(doc.body, fullName);
+		},function(x){
+			console.log('err:'+x);
+		});
+	}
 	
 	function getImgPromise(imgFullName)
 	{
 		return new Promise(function(success, error){
-			//console.log(imgFullName);
 			that.zip.file(imgFullName).internalStream("arraybuffer")
 			.accumulate(function(metadata) {
 				
@@ -266,7 +297,7 @@ epubReader.prototype.getPageContent=function(pageIdx, callback)
 		});
 	}
 	
-	function getPageContent(node)
+	function getPageContent(node, pageFullName)
 	{	
 		switch(node.nodeType) {
 			case 8: //'comments'
@@ -290,7 +321,7 @@ epubReader.prototype.getPageContent=function(pageIdx, callback)
 		let n=node.childNodes.length;
 		let arr=[];
 		for(let i=0;i<n;++i){
-			arr.push(getPageContent(node.childNodes[i]));
+			arr.push(getPageContent(node.childNodes[i], pageFullName));
 		}
 		switch(tName) {
 			case 'P':
