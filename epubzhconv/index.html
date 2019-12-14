@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="Zh-Hant">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="EPubZhConv 是純前端 epub 與文字檔繁簡轉換應用程式，可批次轉換多個檔案，無流量限制">
+	<title>EPubZhConv</title>
+	<style>
+		#uploader{
+			width:320px;
+			height:240px;
+			border:1px solid gray;
+			border-radius:5px;
+			display:flex;
+			justify-content:center;
+			align-items:center;
+			background-color:lightyellow;
+			margin-top:10px;
+		}
+		#uploader>div{
+			text-align:center;
+			display:inline-block;
+		}
+		#uploader .upload-button{
+			padding:5px 10px;
+			border:1px solid gray;
+			background-color:lightgray;
+			border-radius:5px;
+			color:black;
+			cursor:pointer;
+		}
+		#uploader .upload-msg{
+			color:black;
+		}
+		#epub{
+			display:inline-block;
+			vertical-align:top;
+		}
+		#epub>p{
+			width:320px;
+			font-size:16px;
+			margin:0px auto;
+			text-align:left;
+			padding:1em 0em;
+			color:black;
+		}
+		#outDiv{
+			display:inline-block;
+			vertical-align:top;
+			text-align:center;
+		}
+		#output{
+			border-collapse:collapse;
+			border:1px solid black;
+			text-align:initial;
+			margin-bottom:10px;
+			margin-left:15px;
+		}
+		#output th{
+			width:300px;
+			border-bottom:1px solid black;
+		}
+		#output td{
+			width:300px;
+			border-left:1px solid black;
+			border-right:1px solid black;
+			padding: 0.25em 0.5em;
+		}
+		#output td:nth-child(2){
+			border-right:none;
+		}
+		#output td:nth-child(1){
+			border-left:none;
+		}
+		.msgAndBtn{
+			display:flex;
+			justify-content:space-between;
+			align-items:flex-start;
+		}
+	</style>
+</head>
+<body>
+	<div id='epub'>
+		<h3>一般設定</h3>
+		轉換方式 <select id='mode'>
+			<option value="simplifiedToTaiwanWithPhrases">簡=&gt;繁</option>
+			<option value="taiwanToSimplifiedWithPhrases">繁=&gt;簡</option>
+		</select>
+		<h3>TXT檔設定</h3>
+		讀檔編碼 <select id='encoding'>
+			<option>utf-8</option>
+			<option>big5</option>
+			<option>gb18030</option>
+		</select> （輸出都是utf-8）
+		<h3>選擇檔案</h3>
+		<ul>
+			<li>支援 epub (須為utf-8)</li>
+			<li>支援 txt、srt、ass、ssa (配合設定的編碼)</li>
+			<li>支援多檔案上傳</li>
+			<li>純瀏覽器運算，不上傳任何資料到網路</li>
+		</ul>
+		<div id='uploader'>
+			<div>
+				<p class='upload-msg'>拖曳或選擇檔案</p>
+				<sapn class='upload-button'>選擇</sapn>
+			</div>
+		</div>
+	</div>
+	<div id='outDiv'>
+		<table id='output'></table>
+		<a id='pack' download="all.zip" style='display:none'>全部下載為單一壓縮檔</a>
+	</div>
+	<script src="main.js"></script>
+</body>
+</html>
