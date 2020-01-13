@@ -1,3 +1,203 @@
+/* a11y-dark theme */
+/* Based on the Tomorrow Night Eighties theme: https://github.com/isagalaev/highlight.js/blob/master/src/styles/tomorrow-night-eighties.css */
+/* @author: ericwbailey */
+
+/* Comment */
+.a11y-dark-comment,
+.a11y-dark-quote {
+  color: #d4d0ab;
+}
+
+/* Red */
+.a11y-dark-variable,
+.a11y-dark-template-variable,
+.a11y-dark-tag,
+.a11y-dark-name,
+.a11y-dark-selector-id,
+.a11y-dark-selector-class,
+.a11y-dark-regexp,
+.a11y-dark-deletion {
+  color: #ffa07a;
+}
+
+/* Orange */
+.a11y-dark-number,
+.a11y-dark-built_in,
+.a11y-dark-builtin-name,
+.a11y-dark-literal,
+.a11y-dark-type,
+.a11y-dark-params,
+.a11y-dark-meta,
+.a11y-dark-link {
+  color: #f5ab35;
+}
+
+/* Yellow */
+.a11y-dark-attribute {
+  color: #ffd700;
+}
+
+/* Green */
+.a11y-dark-string,
+.a11y-dark-symbol,
+.a11y-dark-bullet,
+.a11y-dark-addition {
+  color: #abe338;
+}
+
+/* Blue */
+.a11y-dark-title,
+.a11y-dark-section {
+  color: #00e0e0;
+}
+
+/* Purple */
+.a11y-dark-keyword,
+.a11y-dark-selector-tag {
+  color: #dcc6e0;
+}
+
+.a11y-dark {
+  display: block;
+  overflow-x: auto;
+  background: #2b2b2b;
+  color: #f8f8f2;
+  padding: 0.5em;
+}
+
+.a11y-dark-emphasis {
+  font-style: italic;
+}
+
+.a11y-dark-strong {
+  font-weight: bold;
+}
+
+@media screen and (-ms-high-contrast: active) {
+  .a11y-dark-addition,
+  .a11y-dark-attribute,
+  .a11y-dark-built_in,
+  .a11y-dark-builtin-name,
+  .a11y-dark-bullet,
+  .a11y-dark-comment,
+  .a11y-dark-link,
+  .a11y-dark-literal,
+  .a11y-dark-meta,
+  .a11y-dark-number,
+  .a11y-dark-params,
+  .a11y-dark-string,
+  .a11y-dark-symbol,
+  .a11y-dark-type,
+  .a11y-dark-quote {
+        color: highlight;
+    }
+
+    .a11y-dark-keyword,
+    .a11y-dark-selector-tag {
+        font-weight: bold;
+    }
+}
+
+/* a11y-light theme */
+/* Based on the Tomorrow Night Eighties theme: https://github.com/isagalaev/highlight.js/blob/master/src/styles/tomorrow-night-eighties.css */
+/* @author: ericwbailey */
+
+/* Comment */
+.a11y-light-comment,
+.a11y-light-quote {
+  color: #696969;
+}
+
+/* Red */
+.a11y-light-variable,
+.a11y-light-template-variable,
+.a11y-light-tag,
+.a11y-light-name,
+.a11y-light-selector-id,
+.a11y-light-selector-class,
+.a11y-light-regexp,
+.a11y-light-deletion {
+  color: #d91e18;
+}
+
+/* Orange */
+.a11y-light-number,
+.a11y-light-built_in,
+.a11y-light-builtin-name,
+.a11y-light-literal,
+.a11y-light-type,
+.a11y-light-params,
+.a11y-light-meta,
+.a11y-light-link {
+  color: #aa5d00;
+}
+
+/* Yellow */
+.a11y-light-attribute {
+  color: #aa5d00;
+}
+
+/* Green */
+.a11y-light-string,
+.a11y-light-symbol,
+.a11y-light-bullet,
+.a11y-light-addition {
+  color: #008000;
+}
+
+/* Blue */
+.a11y-light-title,
+.a11y-light-section {
+  color: #007faa;
+}
+
+/* Purple */
+.a11y-light-keyword,
+.a11y-light-selector-tag {
+  color: #7928a1;
+}
+
+.a11y-light {
+  display: block;
+  overflow-x: auto;
+  background: #fefefe;
+  color: #545454;
+  padding: 0.5em;
+}
+
+.a11y-light-emphasis {
+  font-style: italic;
+}
+
+.a11y-light-strong {
+  font-weight: bold;
+}
+
+@media screen and (-ms-high-contrast: active) {
+  .a11y-light-addition,
+  .a11y-light-attribute,
+  .a11y-light-built_in,
+  .a11y-light-builtin-name,
+  .a11y-light-bullet,
+  .a11y-light-comment,
+  .a11y-light-link,
+  .a11y-light-literal,
+  .a11y-light-meta,
+  .a11y-light-number,
+  .a11y-light-params,
+  .a11y-light-string,
+  .a11y-light-symbol,
+  .a11y-light-type,
+  .a11y-light-quote {
+        color: highlight;
+    }
+
+    .a11y-light-keyword,
+    .a11y-light-selector-tag {
+        font-weight: bold;
+    }
+}
+
 /*!
  * Agate by Taufik Nurrohman <https://github.com/tovic>
  * ----------------------------------------------------
@@ -107,6 +307,96 @@
   text-decoration: underline;
 }
 
+/* 
+
+An Old Hope â?? Star Wars Syntax (c) Gustavo Costa <gusbemacbe@gmail.com>
+Original theme - Ocean Dark Theme â?? by https://github.com/gavsiu
+Based on Jesse Leite's Atom syntax theme 'An Old Hope' â?? https://github.com/JesseLeite/an-old-hope-syntax-atom
+
+*/
+
+/* Death Star Comment */
+.an-old-hope-comment,
+.an-old-hope-quote 
+{
+  color: #B6B18B;
+}
+
+/* Darth Vader */
+.an-old-hope-variable,
+.an-old-hope-template-variable,
+.an-old-hope-tag,
+.an-old-hope-name,
+.an-old-hope-selector-id,
+.an-old-hope-selector-class,
+.an-old-hope-regexp,
+.an-old-hope-deletion 
+{
+  color: #EB3C54;
+}
+
+/* Threepio */
+.an-old-hope-number,
+.an-old-hope-built_in,
+.an-old-hope-builtin-name,
+.an-old-hope-literal,
+.an-old-hope-type,
+.an-old-hope-params,
+.an-old-hope-meta,
+.an-old-hope-link 
+{
+  color: #E7CE56;
+}
+
+/* Luke Skywalker */
+.an-old-hope-attribute 
+{
+  color: #EE7C2B;
+}
+
+/* Obi Wan Kenobi */
+.an-old-hope-string,
+.an-old-hope-symbol,
+.an-old-hope-bullet,
+.an-old-hope-addition 
+{
+  color: #4FB4D7;
+}
+
+/* Yoda */
+.an-old-hope-title,
+.an-old-hope-section 
+{
+  color: #78BB65;
+}
+
+/* Mace Windu */
+.an-old-hope-keyword,
+.an-old-hope-selector-tag 
+{
+  color: #B45EA4;
+}
+
+/* Millenium Falcon */
+.an-old-hope 
+{
+  display: block;
+  overflow-x: auto;
+  background: #1C1D21;
+  color: #c0c5ce;
+  padding: 0.5em;
+}
+
+.an-old-hope-emphasis 
+{
+  font-style: italic;
+}
+
+.an-old-hope-strong 
+{
+  font-weight: bold;
+}
+
 /*
 Date: 24 Fev 2015
 Author: Pedro Oliveira <kanytu@gmail . com>
@@ -176,7 +466,7 @@ Author: Pedro Oliveira <kanytu@gmail . com>
 
 /*
 
-Arduino® Light Theme - Stefania Mellai <s.mellai@arduino.cc>
+ArduinoÂ® Light Theme - Stefania Mellai <s.mellai@arduino.cc>
 
 */
 
@@ -243,7 +533,6 @@ Arduino® Light Theme - Stefania Mellai <s.mellai@arduino.cc>
 }
 
 .arduino-light-meta {
-  color: #728E00;
   color: #434f54;
 }
 
@@ -1905,6 +2194,82 @@ Original style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiac
 
 /*
 
+Atom One Dark With support for ReasonML by Gidi Morris, based off work by Daniel Gamage
+
+Original One Dark Syntax theme from https://github.com/atom/one-dark-syntax
+
+*/
+.atom-one-dark-reasonable {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #abb2bf;
+  background: #282c34;
+}
+.atom-one-dark-reasonable-keyword, .atom-one-dark-reasonable-operator {
+  color: #F92672;
+}
+.atom-one-dark-reasonable-pattern-match {
+  color: #F92672;
+}
+.atom-one-dark-reasonable-pattern-match .atom-one-dark-reasonable-constructor {
+  color: #61aeee;
+}
+.atom-one-dark-reasonable-function {
+  color: #61aeee;
+}
+.atom-one-dark-reasonable-function .atom-one-dark-reasonable-params {
+  color: #A6E22E;
+}
+.atom-one-dark-reasonable-function .atom-one-dark-reasonable-params .atom-one-dark-reasonable-typing {
+  color: #FD971F;
+}
+.atom-one-dark-reasonable-module-access .atom-one-dark-reasonable-module {
+  color: #7e57c2;
+}
+.atom-one-dark-reasonable-constructor {
+  color: #e2b93d;
+}
+.atom-one-dark-reasonable-constructor .atom-one-dark-reasonable-string {
+  color: #9CCC65;
+}
+.atom-one-dark-reasonable-comment, .atom-one-dark-reasonable-quote {
+  color: #b18eb1;
+  font-style: italic;
+}
+.atom-one-dark-reasonable-doctag, .atom-one-dark-reasonable-formula {
+  color: #c678dd;
+}
+.atom-one-dark-reasonable-section, .atom-one-dark-reasonable-name, .atom-one-dark-reasonable-selector-tag, .atom-one-dark-reasonable-deletion, .atom-one-dark-reasonable-subst {
+  color: #e06c75;
+}
+.atom-one-dark-reasonable-literal {
+  color: #56b6c2;
+}
+.atom-one-dark-reasonable-string, .atom-one-dark-reasonable-regexp, .atom-one-dark-reasonable-addition, .atom-one-dark-reasonable-attribute, .atom-one-dark-reasonable-meta-string {
+  color: #98c379;
+}
+.atom-one-dark-reasonable-built_in, .atom-one-dark-reasonable-class .atom-one-dark-reasonable-title {
+  color: #e6c07b;
+}
+.atom-one-dark-reasonable-attr, .atom-one-dark-reasonable-variable, .atom-one-dark-reasonable-template-variable, .atom-one-dark-reasonable-type, .atom-one-dark-reasonable-selector-class, .atom-one-dark-reasonable-selector-attr, .atom-one-dark-reasonable-selector-pseudo, .atom-one-dark-reasonable-number {
+  color: #d19a66;
+}
+.atom-one-dark-reasonable-symbol, .atom-one-dark-reasonable-bullet, .atom-one-dark-reasonable-link, .atom-one-dark-reasonable-meta, .atom-one-dark-reasonable-selector-id, .atom-one-dark-reasonable-title {
+  color: #61aeee;
+}
+.atom-one-dark-reasonable-emphasis {
+  font-style: italic;
+}
+.atom-one-dark-reasonable-strong {
+  font-weight: bold;
+}
+.atom-one-dark-reasonable-link {
+  text-decoration: underline;
+}
+
+/*
+
 Atom One Dark by Daniel Gamage
 Original One Dark Syntax theme from https://github.com/atom/one-dark-syntax
 
@@ -2227,7 +2592,7 @@ Brown Paper style from goldblog.com.ua (c) Zaripov Yura <yur4ik7@ukr.net>
 
 Colorbrewer theme
 Original: https://github.com/mbostock/colorbrewer-theme (c) Mike Bostock <mike@ocks.org>
-Ported by Fabrício Tavares de Oliveira
+Ported by FabrÃ­cio Tavares de Oliveira
 
 */
 
@@ -2307,9 +2672,6 @@ Darcula color scheme from the JetBrains family of IDEs
   overflow-x: auto;
   padding: 0.5em;
   background: #2b2b2b;
-}
-
-.darcula {
   color: #bababa;
 }
 
@@ -2436,13 +2798,6 @@ Dark style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiacs.Or
 .dark-emphasis {
   font-style: italic;
 }
-
-/*
-  Deprecated due to a typo in the name and left here for compatibility purpose only.
-  Please use darcula.css instead.
-*/
-
-@import url('darcula.css');
 
 /*
 
@@ -2653,7 +3008,7 @@ Copyright 2015, All rights reserved
 Code licensed under the MIT license
 http://zenorocha.mit-license.org
 
-@author Éverton Ribeiro <nuxlli@gmail.com>
+@author Ã?verton Ribeiro <nuxlli@gmail.com>
 @author Zeno Rocha <hi@zenorocha.com>
 
 */
@@ -2803,7 +3158,8 @@ Date: 2013-04-02
   display: block;
   overflow-x: auto;
   padding: 0.5em;
-  background: #eee; color: black;
+  background: #eee;
+  color: black;
 }
 
 .foundation-link,
@@ -2882,6 +3238,7 @@ Date: 2013-04-02
 
 /**
  * GitHub Gist Theme
+ * Author : Anthony Attard - https://github.com/AnthonyAttard
  * Author : Louis Barranqueiro - https://github.com/LouisBarranqueiro
  */
 
@@ -2898,7 +3255,6 @@ Date: 2013-04-02
   color: #969896;
 }
 
-.github-gist-string,
 .github-gist-variable,
 .github-gist-template-variable,
 .github-gist-strong,
@@ -2910,7 +3266,7 @@ Date: 2013-04-02
 .github-gist-keyword,
 .github-gist-selector-tag,
 .github-gist-type {
-  color: #a71d5d;
+  color: #d73a49;
 }
 
 .github-gist-literal,
@@ -2935,7 +3291,7 @@ Date: 2013-04-02
 .github-gist-selector-class,
 .github-gist-selector-attr,
 .github-gist-selector-pseudo {
-  color: #795da3;
+  color: #6f42c1;
 }
 
 .github-gist-addition {
@@ -2950,6 +3306,14 @@ Date: 2013-04-02
 
 .github-gist-link {
   text-decoration: underline;
+}
+
+.github-gist-number {
+  color: #005cc5;
+}
+
+.github-gist-string {
+  color: #032f62;
 }
 
 /*
@@ -3054,6 +3418,85 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
 
 /*
 
+GML Theme - Meseta <meseta@gmail.com>
+
+*/
+
+.gml {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #222222;
+  color: #C0C0C0;
+}
+
+.gml-keyword {
+  color: #FFB871;
+  font-weight: bold;
+}
+
+.gml-built_in {
+  color: #FFB871;
+}
+
+.gml-literal {
+  color: #FF8080;
+}
+
+.gml-symbol {
+  color: #58E55A;
+}
+
+.gml-comment {
+  color: #5B995B;
+}
+
+.gml-string {
+  color: #FFFF00;
+}
+
+.gml-number {
+  color: #FF8080;
+}
+
+.gml-attribute,
+.gml-selector-tag,
+.gml-doctag,
+.gml-name,
+.gml-bullet,
+.gml-code,
+.gml-addition,
+.gml-regexp,
+.gml-variable,
+.gml-template-variable,
+.gml-link,
+.gml-selector-attr,
+.gml-selector-pseudo,
+.gml-type,
+.gml-selector-id,
+.gml-selector-class,
+.gml-quote,
+.gml-template-tag,
+.gml-deletion,
+.gml-title,
+.gml-section,
+.gml-function,
+.gml-meta-keyword,
+.gml-meta,
+.gml-subst {
+  color: #C0C0C0;
+}
+
+.gml-emphasis {
+  font-style: italic;
+}
+
+.gml-strong {
+  font-weight: bold;
+}
+
+/*
+
 Google Code style (c) Aahan Krish <geekpanth3r@gmail.com>
 
 */
@@ -3140,6 +3583,129 @@ Google Code style (c) Aahan Krish <geekpanth3r@gmail.com>
 
 .googlecode-emphasis {
   font-style: italic;
+}
+
+/*
+
+Gradient Dark (c) Samia Ali <samiaab1990@gmail.com>
+
+*/
+
+.gradient-dark
+{
+display: block;
+overflow-x: auto;
+padding: 0.5em;
+background: rgb(80,31,122);
+background: linear-gradient(166deg, rgba(80,31,122,1) 0%, rgba(40,32,179,1) 80%);
+color:#e7e4eb;
+}
+
+.gradient-dark-subtr{
+  color:#e7e4eb;
+}
+
+.gradient-dark-doctag,
+.gradient-dark-meta,
+.gradient-dark-comment,
+.gradient-dark-quote
+{
+  color:#af8dd9;
+}
+
+.gradient-dark-selector-tag,
+.gradient-dark-selector-id,
+.gradient-dark-template-tag,
+.gradient-dark-regexp,
+.gradient-dark-attr,
+.gradient-dark-tag
+{
+  color:#AEFBFF;
+}
+
+.gradient-dark-params,
+.gradient-dark-selector-class,
+.gradient-dark-bullet
+
+{
+  color:#F19FFF;
+  
+}
+
+.gradient-dark-keyword,
+.gradient-dark-section,
+.gradient-dark-meta-keyword,
+.gradient-dark-symbol,
+.gradient-dark-type
+
+{
+
+  color:#17fc95;
+}
+
+.gradient-dark-addition,
+.gradient-dark-number,
+.gradient-dark-link
+{
+  color:#C5FE00;
+}
+
+
+.gradient-dark-string
+{
+  color: #38c0ff;
+}
+
+
+.gradient-dark-attribute,
+.gradient-dark-addition
+{
+  color:#E7FF9F;
+}
+
+.gradient-dark-variable,
+.gradient-dark-template-variable
+
+{
+  color:#E447FF;
+}
+
+.gradient-dark-builtin-name,
+.gradient-dark-built_in,
+.gradient-dark-formula,
+.gradient-dark-name,
+.gradient-dark-title,
+.gradient-dark-class,
+.gradient-dark-function
+{
+  color: #FFC800;
+
+}
+
+.gradient-dark-selector-pseudo,
+.gradient-dark-deletion,
+.gradient-dark-literal
+{
+  color:#FF9E44;
+
+}
+
+.gradient-dark-emphasis,
+.gradient-dark-quote
+{
+  font-style:italic;
+}
+
+.gradient-dark-params,
+.gradient-dark-selector-class,
+.gradient-dark-strong,
+.gradient-dark-selector-tag,
+.gradient-dark-selector-id,
+.gradient-dark-template-tag,
+.gradient-dark-section,
+.gradient-dark-keyword
+{
+  font-weight:bold;
 }
 
 /*
@@ -3533,6 +4099,7 @@ Gruvbox style (light) (c) Pavel Pertsev (original style at https://github.com/mo
 
 .hopscotch {
   display: block;
+  overflow-x: auto;
   background: #322931;
   color: #b9b5b8;
   padding: 0.5em;
@@ -3822,6 +4389,231 @@ Intellij Idea-like styling (c) Vasily Polovnyov <vast@whiteants.net>
 }
 
 /*
+
+ISBL Editor style dark color scheme (c) Dmitriy Tarasov <dimatar@gmail.com>
+
+*/
+
+.isbl-editor-dark {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #404040;
+  color: #f0f0f0;
+}
+
+/* Base color: saturation 0; */
+
+.isbl-editor-dark,
+.isbl-editor-dark-subst {
+  color: #f0f0f0;
+}
+
+.isbl-editor-dark-comment {
+  color: #b5b5b5;
+  font-style: italic;
+}
+
+.isbl-editor-dark-keyword,
+.isbl-editor-dark-attribute,
+.isbl-editor-dark-selector-tag,
+.isbl-editor-dark-meta-keyword,
+.isbl-editor-dark-doctag,
+.isbl-editor-dark-name {
+  color: #f0f0f0;
+  font-weight: bold;
+}
+
+
+/* User color: hue: 0 */
+
+.isbl-editor-dark-string {
+  color: #97bf0d;
+}
+
+.isbl-editor-dark-type,
+.isbl-editor-dark-number,
+.isbl-editor-dark-selector-id,
+.isbl-editor-dark-selector-class,
+.isbl-editor-dark-quote,
+.isbl-editor-dark-template-tag,
+.isbl-editor-dark-deletion {
+  color: #f0f0f0;
+}
+
+.isbl-editor-dark-title,
+.isbl-editor-dark-section {
+  color: #df471e;
+}
+
+.isbl-editor-dark-title>.isbl-editor-dark-built_in {
+  color: #81bce9;
+  font-weight: normal;
+}
+
+.isbl-editor-dark-regexp,
+.isbl-editor-dark-symbol,
+.isbl-editor-dark-variable,
+.isbl-editor-dark-template-variable,
+.isbl-editor-dark-link,
+.isbl-editor-dark-selector-attr,
+.isbl-editor-dark-selector-pseudo {
+  color: #e2c696;
+}
+
+/* Language color: hue: 90; */
+
+.isbl-editor-dark-built_in,
+.isbl-editor-dark-literal {
+  color: #97bf0d;
+  font-weight: bold;
+}
+
+.isbl-editor-dark-bullet,
+.isbl-editor-dark-code,
+.isbl-editor-dark-addition {
+  color: #397300;
+}
+
+.isbl-editor-dark-class  {
+  color: #ce9d4d;
+  font-weight: bold;
+}
+
+/* Meta color: hue: 200 */
+
+.isbl-editor-dark-meta {
+  color: #1f7199;
+}
+
+.isbl-editor-dark-meta-string {
+  color: #4d99bf;
+}
+
+
+/* Misc effects */
+
+.isbl-editor-dark-emphasis {
+  font-style: italic;
+}
+
+.isbl-editor-dark-strong {
+  font-weight: bold;
+}
+
+/*
+
+ISBL Editor style light color schemec (c) Dmitriy Tarasov <dimatar@gmail.com>
+
+*/
+
+.isbl-editor-light {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: white;
+  color: black;
+}
+
+/* Base color: saturation 0; */
+
+.isbl-editor-light-subst {
+  color: black;
+}
+
+.isbl-editor-light-comment {
+  color: #555555;
+  font-style: italic;
+}
+
+.isbl-editor-light-keyword,
+.isbl-editor-light-attribute,
+.isbl-editor-light-selector-tag,
+.isbl-editor-light-meta-keyword,
+.isbl-editor-light-doctag,
+.isbl-editor-light-name {
+  color: #000000;
+  font-weight: bold;
+}
+
+
+/* User color: hue: 0 */
+
+.isbl-editor-light-string {
+  color: #000080;
+}
+
+.isbl-editor-light-type,
+.isbl-editor-light-number,
+.isbl-editor-light-selector-id,
+.isbl-editor-light-selector-class,
+.isbl-editor-light-quote,
+.isbl-editor-light-template-tag,
+.isbl-editor-light-deletion {
+  color: #000000;
+}
+
+.isbl-editor-light-title,
+.isbl-editor-light-section {
+  color: #fb2c00;
+}
+
+.isbl-editor-light-title>.isbl-editor-light-built_in {
+  color: #008080;
+  font-weight: normal;
+}
+
+.isbl-editor-light-regexp,
+.isbl-editor-light-symbol,
+.isbl-editor-light-variable,
+.isbl-editor-light-template-variable,
+.isbl-editor-light-link,
+.isbl-editor-light-selector-attr,
+.isbl-editor-light-selector-pseudo {
+  color: #5e1700;
+}
+
+/* Language color: hue: 90; */
+
+.isbl-editor-light-built_in,
+.isbl-editor-light-literal {
+  color: #000080;
+  font-weight: bold;
+}
+
+.isbl-editor-light-bullet,
+.isbl-editor-light-code,
+.isbl-editor-light-addition {
+  color: #397300;
+}
+
+.isbl-editor-light-class  {
+  color: #6f1C00;
+  font-weight: bold;
+}
+
+/* Meta color: hue: 200 */
+
+.isbl-editor-light-meta {
+  color: #1f7199;
+}
+
+.isbl-editor-light-meta-string {
+  color: #4d99bf;
+}
+
+
+/* Misc effects */
+
+.isbl-editor-light-emphasis {
+  font-style: italic;
+}
+
+.isbl-editor-light-strong {
+  font-weight: bold;
+}
+
+/*
     Name:     Kimbie (dark)
     Author:   Jan T. Sott
     License:  Creative Commons Attribution-ShareAlike 4.0 Unported License
@@ -3972,6 +4764,95 @@ Intellij Idea-like styling (c) Vasily Polovnyov <vast@whiteants.net>
 }
 
 /*
+
+Lightfair style (c) Tristian Kelly <tristian.kelly560@gmail.com>
+
+*/
+
+.lightfair {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  /* TODO: background? */
+}
+
+.lightfair-name {
+    color:#01a3a3;
+}
+
+.lightfair-tag,.lightfair-meta {
+    color:#778899;
+}
+
+.lightfair,
+.lightfair-subst {
+    color: #444
+}
+
+.lightfair-comment {
+    color: #888888
+}
+
+.lightfair-keyword,
+.lightfair-attribute,
+.lightfair-selector-tag,
+.lightfair-meta-keyword,
+.lightfair-doctag,
+.lightfair-name {
+    font-weight: bold
+}
+
+.lightfair-type,
+.lightfair-string,
+.lightfair-number,
+.lightfair-selector-id,
+.lightfair-selector-class,
+.lightfair-quote,
+.lightfair-template-tag,
+.lightfair-deletion {
+    color: #4286f4
+}
+
+.lightfair-title,
+.lightfair-section {
+    color: #4286f4;
+    font-weight: bold
+}
+
+.lightfair-regexp,
+.lightfair-symbol,
+.lightfair-variable,
+.lightfair-template-variable,
+.lightfair-link,
+.lightfair-selector-attr,
+.lightfair-selector-pseudo {
+    color: #BC6060
+}
+
+.lightfair-literal {
+    color: #62bcbc
+}
+
+.lightfair-built_in,
+.lightfair-bullet,
+.lightfair-code,
+.lightfair-addition {
+    color: #25c6c6
+}
+
+.lightfair-meta-string {
+    color: #4d99bf
+}
+
+.lightfair-emphasis {
+    font-style: italic
+}
+
+.lightfair-strong {
+    font-weight: bold
+}
+
+/*
 Description: Magula style for highligh.js
 Author: Ruslan Keba <rukeba@gmail.com>
 Website: http://rukeba.com/
@@ -3985,9 +4866,9 @@ Music: Aphex Twin / Xtal
   overflow-x: auto;
   padding: 0.5em;
   background-color: #f4f4f4;
+  color: black;
 }
 
-.magula,
 .magula-subst {
   color: black;
 }
@@ -4050,9 +4931,6 @@ Music: Aphex Twin / Xtal
   overflow-x: auto;
   padding: 0.5em;
   background: #eaeef3;
-}
-
-.mono-blue {
   color: #00193a;
 }
 
@@ -4194,7 +5072,8 @@ Monokai style - ported by Luigi Maselli - http://grigio.org
   display: block;
   overflow-x: auto;
   padding: 0.5em;
-  background: #272822; color: #ddd;
+  background: #272822;
+  color: #ddd;
 }
 
 .monokai-tag,
@@ -4255,6 +5134,499 @@ Monokai style - ported by Luigi Maselli - http://grigio.org
 .monokai-type,
 .monokai-selector-id {
   font-weight: bold;
+}
+
+/*
+
+Night Owl for highlight.js (c) Carl Baxter <carl@cbax.tech>
+
+An adaptation of Sarah Drasner's Night Owl VS Code Theme 
+https://github.com/sdras/night-owl-vscode-theme 
+
+Copyright (c) 2018 Sarah Drasner
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+*/
+
+.night-owl {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #011627;
+  color: #d6deeb;
+}
+
+/* General Purpose */
+.night-owl-keyword {
+  color: #c792ea;
+  font-style: italic;
+}
+.night-owl-built_in {
+  color: #addb67;
+  font-style: italic;
+}
+.night-owl-type {
+  color: #82aaff;
+}
+.night-owl-literal {
+  color: #ff5874;
+}
+.night-owl-number {
+  color: #F78C6C;
+}
+.night-owl-regexp {
+  color: #5ca7e4;
+}
+.night-owl-string {
+  color: #ecc48d;
+}
+.night-owl-subst {
+  color: #d3423e;
+}
+.night-owl-symbol {
+  color: #82aaff;
+}
+.night-owl-class {
+  color: #ffcb8b;
+}
+.night-owl-function {
+  color: #82AAFF;
+}
+.night-owl-title {
+  color: #DCDCAA;
+  font-style: italic;
+}
+.night-owl-params {
+  color: #7fdbca;
+}
+
+/* Meta */
+.night-owl-comment {
+  color: #637777;
+  font-style: italic;
+}
+.night-owl-doctag {
+  color: #7fdbca;
+}
+.night-owl-meta {
+  color: #82aaff;
+}
+.night-owl-meta-keyword {
+  color: #82aaff;
+}
+.night-owl-meta-string {
+  color: #ecc48d;
+}
+
+/* Tags, attributes, config */
+.night-owl-section {
+  color: #82b1ff;
+}
+.night-owl-tag,
+.night-owl-name,
+.night-owl-builtin-name {
+  color: #7fdbca;
+}
+.night-owl-attr {
+  color: #7fdbca;
+}
+.night-owl-attribute {
+  color: #80cbc4;
+}
+.night-owl-variable {
+  color: #addb67;
+}
+
+/* Markup */
+.night-owl-bullet {
+  color: #d9f5dd;
+}
+.night-owl-code {
+  color: #80CBC4;
+}
+.night-owl-emphasis {
+  color: #c792ea;
+  font-style: italic;
+}
+.night-owl-strong {
+  color: #addb67;
+  font-weight: bold;
+}
+.night-owl-formula {
+  color: #c792ea;
+}
+.night-owl-link {
+  color: #ff869a;
+}
+.night-owl-quote {
+  color: #697098;
+  font-style: italic;
+}
+
+/* CSS */
+.night-owl-selector-tag {
+  color: #ff6363;
+}
+
+.night-owl-selector-id {
+  color: #fad430;
+}
+
+.night-owl-selector-class {
+  color: #addb67;
+  font-style: italic;
+}
+
+.night-owl-selector-attr,
+.night-owl-selector-pseudo {
+  color: #c792ea;
+  font-style: italic;
+}
+
+/* Templates */
+.night-owl-template-tag {
+  color: #c792ea;
+}
+.night-owl-template-variable {
+  color: #addb67;
+}
+
+/* diff */
+.night-owl-addition {
+  color: #addb67ff;
+  font-style: italic;
+}
+
+.night-owl-deletion {
+  color: #EF535090;
+  font-style: italic;
+}
+
+/*
+ * Copyright (c) 2017-present Arctic Ice Studio <development@arcticicestudio.com>
+ * Copyright (c) 2017-present Sven Greb <development@svengreb.de>
+ *
+ * Project:    Nord highlight.js
+ * Version:    0.1.0
+ * Repository: https://github.com/arcticicestudio/nord-highlightjs
+ * License:    MIT
+ * References:
+ *   https://github.com/arcticicestudio/nord
+ */
+
+.nord {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #2E3440;
+}
+
+.nord,
+.nord-subst {
+  color: #D8DEE9;
+}
+
+.nord-selector-tag {
+  color: #81A1C1;
+}
+
+.nord-selector-id {
+  color: #8FBCBB;
+  font-weight: bold;
+}
+
+.nord-selector-class {
+  color: #8FBCBB;
+}
+
+.nord-selector-attr {
+  color: #8FBCBB;
+}
+
+.nord-selector-pseudo {
+  color: #88C0D0;
+}
+
+.nord-addition {
+  background-color: rgba(163, 190, 140, 0.5);
+}
+
+.nord-deletion {
+  background-color: rgba(191, 97, 106, 0.5);
+}
+
+.nord-built_in,
+.nord-type {
+  color: #8FBCBB;
+}
+
+.nord-class {
+  color: #8FBCBB;
+}
+
+.nord-function {
+  color: #88C0D0;
+}
+
+.nord-function > .nord-title {
+  color: #88C0D0;
+}
+
+.nord-keyword,
+.nord-literal,
+.nord-symbol {
+  color: #81A1C1;
+}
+
+.nord-number {
+  color: #B48EAD;
+}
+
+.nord-regexp {
+  color: #EBCB8B;
+}
+
+.nord-string {
+  color: #A3BE8C;
+}
+
+.nord-title {
+  color: #8FBCBB;
+}
+
+.nord-params {
+  color: #D8DEE9;
+}
+
+.nord-bullet {
+  color: #81A1C1;
+}
+
+.nord-code {
+  color: #8FBCBB;
+}
+
+.nord-emphasis {
+  font-style: italic;
+}
+
+.nord-formula {
+  color: #8FBCBB;
+}
+
+.nord-strong {
+  font-weight: bold;
+}
+
+.nord-link:hover {
+  text-decoration: underline;
+}
+
+.nord-quote {
+  color: #4C566A;
+}
+
+.nord-comment {
+  color: #4C566A;
+}
+
+.nord-doctag {
+  color: #8FBCBB;
+}
+
+.nord-meta,
+.nord-meta-keyword {
+  color: #5E81AC;
+}
+
+.nord-meta-string {
+  color: #A3BE8C;
+}
+
+.nord-attr {
+  color: #8FBCBB;
+}
+
+.nord-attribute {
+  color: #D8DEE9;
+}
+
+.nord-builtin-name {
+  color: #81A1C1;
+}
+
+.nord-name {
+  color: #81A1C1;
+}
+
+.nord-section {
+  color: #88C0D0;
+}
+
+.nord-tag {
+  color: #81A1C1;
+}
+
+.nord-variable {
+  color: #D8DEE9;
+}
+
+.nord-template-variable {
+  color: #D8DEE9;
+}
+
+.nord-template-tag {
+  color: #5E81AC;
+}
+
+.abnf .nord-attribute {
+  color: #88C0D0;
+}
+
+.abnf .nord-symbol {
+  color: #EBCB8B;
+}
+
+.apache .nord-attribute {
+  color: #88C0D0;
+}
+
+.apache .nord-section {
+  color: #81A1C1;
+}
+
+.arduino .nord-built_in {
+  color: #88C0D0;
+}
+
+.aspectj .nord-meta {
+  color: #D08770;
+}
+
+.aspectj > .nord-title {
+  color: #88C0D0;
+}
+
+.bnf .nord-attribute {
+  color: #8FBCBB;
+}
+
+.clojure .nord-name {
+  color: #88C0D0;
+}
+
+.clojure .nord-symbol {
+  color: #EBCB8B;
+}
+
+.coq .nord-built_in {
+  color: #88C0D0;
+}
+
+.cpp .nord-meta-string {
+  color: #8FBCBB;
+}
+
+.css .nord-built_in {
+  color: #88C0D0;
+}
+
+.css .nord-keyword {
+  color: #D08770;
+}
+
+.diff .nord-meta {
+  color: #8FBCBB;
+}
+
+.ebnf .nord-attribute {
+  color: #8FBCBB;
+}
+
+.glsl .nord-built_in {
+  color: #88C0D0;
+}
+
+.groovy .nord-meta:not(:first-child) {
+  color: #D08770;
+}
+
+.haxe .nord-meta {
+  color: #D08770;
+}
+
+.java .nord-meta {
+  color: #D08770;
+}
+
+.ldif .nord-attribute {
+  color: #8FBCBB;
+}
+
+.lisp .nord-name {
+  color: #88C0D0;
+}
+
+.lua .nord-built_in {
+  color: #88C0D0;
+}
+
+.moonscript .nord-built_in {
+  color: #88C0D0;
+}
+
+.nginx .nord-attribute {
+  color: #88C0D0;
+}
+
+.nginx .nord-section {
+  color: #5E81AC;
+}
+
+.pf .nord-built_in {
+  color: #88C0D0;
+}
+
+.processing .nord-built_in {
+  color: #88C0D0;
+}
+
+.scss .nord-keyword {
+  color: #81A1C1;
+}
+
+.stylus .nord-keyword {
+  color: #81A1C1;
+}
+
+.swift .nord-meta {
+  color: #D08770;
+}
+
+.vim .nord-built_in {
+  color: #88C0D0;
+  font-style: italic;
+}
+
+.yaml .nord-meta {
+  color: #D08770;
 }
 
 /**
@@ -4422,18 +5794,18 @@ Monokai style - ported by Luigi Maselli - http://grigio.org
 }
 
 /*
-    Paraíso (dark)
+    ParaÃ­so (dark)
     Created by Jan T. Sott (http://github.com/idleberg)
     Inspired by the art of Rubens LP (http://www.rubenslp.com.br)
 */
 
-/* Paraíso Comment */
+/* ParaÃ­so Comment */
 .paraiso-dark-comment,
 .paraiso-dark-quote {
   color: #8d8687;
 }
 
-/* Paraíso Red */
+/* ParaÃ­so Red */
 .paraiso-dark-variable,
 .paraiso-dark-template-variable,
 .paraiso-dark-tag,
@@ -4446,7 +5818,7 @@ Monokai style - ported by Luigi Maselli - http://grigio.org
   color: #ef6155;
 }
 
-/* Paraíso Orange */
+/* ParaÃ­so Orange */
 .paraiso-dark-number,
 .paraiso-dark-built_in,
 .paraiso-dark-builtin-name,
@@ -4457,14 +5829,14 @@ Monokai style - ported by Luigi Maselli - http://grigio.org
   color: #f99b15;
 }
 
-/* Paraíso Yellow */
+/* ParaÃ­so Yellow */
 .paraiso-dark-title,
 .paraiso-dark-section,
 .paraiso-dark-attribute {
   color: #fec418;
 }
 
-/* Paraíso Green */
+/* ParaÃ­so Green */
 .paraiso-dark-string,
 .paraiso-dark-symbol,
 .paraiso-dark-bullet,
@@ -4472,7 +5844,7 @@ Monokai style - ported by Luigi Maselli - http://grigio.org
   color: #48b685;
 }
 
-/* Paraíso Purple */
+/* ParaÃ­so Purple */
 .paraiso-dark-keyword,
 .paraiso-dark-selector-tag {
   color: #815ba4;
@@ -4495,18 +5867,18 @@ Monokai style - ported by Luigi Maselli - http://grigio.org
 }
 
 /*
-    Paraíso (light)
+    ParaÃ­so (light)
     Created by Jan T. Sott (http://github.com/idleberg)
     Inspired by the art of Rubens LP (http://www.rubenslp.com.br)
 */
 
-/* Paraíso Comment */
+/* ParaÃ­so Comment */
 .paraiso-light-comment,
 .paraiso-light-quote {
   color: #776e71;
 }
 
-/* Paraíso Red */
+/* ParaÃ­so Red */
 .paraiso-light-variable,
 .paraiso-light-template-variable,
 .paraiso-light-tag,
@@ -4519,7 +5891,7 @@ Monokai style - ported by Luigi Maselli - http://grigio.org
   color: #ef6155;
 }
 
-/* Paraíso Orange */
+/* ParaÃ­so Orange */
 .paraiso-light-number,
 .paraiso-light-built_in,
 .paraiso-light-builtin-name,
@@ -4530,14 +5902,14 @@ Monokai style - ported by Luigi Maselli - http://grigio.org
   color: #f99b15;
 }
 
-/* Paraíso Yellow */
+/* ParaÃ­so Yellow */
 .paraiso-light-title,
 .paraiso-light-section,
 .paraiso-light-attribute {
   color: #fec418;
 }
 
-/* Paraíso Green */
+/* ParaÃ­so Green */
 .paraiso-light-string,
 .paraiso-light-symbol,
 .paraiso-light-bullet,
@@ -4545,7 +5917,7 @@ Monokai style - ported by Luigi Maselli - http://grigio.org
   color: #48b685;
 }
 
-/* Paraíso Purple */
+/* ParaÃ­so Purple */
 .paraiso-light-keyword,
 .paraiso-light-selector-tag {
   color: #815ba4;
@@ -4674,7 +6046,7 @@ NOTE_2:	Color names provided in comments were derived using "Name that Color" on
 			http://chir.ag/projects/name-that-color
 */
 
-.purebasic { /* Common set of rules required by highlight.js (don'r remove!) */
+.purebasic {
 	display: block;
 	overflow-x: auto;
 	padding: 0.5em;
@@ -5230,9 +6602,6 @@ School Book style from goldblog.com.ua (c) Zaripov Yura <yur4ik7@ukr.net>
   padding: 15px 0.5em 0.5em 30px;
   font-size: 11px;
   line-height:16px;
-}
-
-pre{
   background:#f6f6ae url(./school-book.png);
   border-top: solid 2px #d2e8b9;
   border-bottom: solid 1px #d2e8b9;
@@ -5289,6 +6658,103 @@ pre{
 
 .school-book-emphasis {
   font-style: italic;
+}
+
+/**
+ * Shades of Purple Theme â?? for Highlightjs.
+ *
+ * @author (c) Ahmad Awais <https://twitter.com/mrahmadawais/>
+ * @link GitHub Repo â?? https://github.com/ahmadawais/Shades-of-Purple-HighlightJS
+ * @version 1.5.0
+ */
+
+.shades-of-purple {
+  display: block;
+  overflow-x: auto;
+  /* Custom font is optional */
+  /* font-family: 'Operator Mono', 'Fira Code', 'Menlo', 'Monaco', 'Courier New', 'monospace';  */
+  padding: 0.5em;
+  background: #2d2b57;
+  font-weight: normal;
+}
+
+.shades-of-purple-title {
+  color: #fad000;
+  font-weight: normal;
+}
+
+.shades-of-purple-name {
+  color: #a1feff;
+}
+
+.shades-of-purple-tag {
+  color: #ffffff;
+}
+
+.shades-of-purple-attr {
+  color: #f8d000;
+  font-style: italic;
+}
+
+.shades-of-purple-built_in,
+.shades-of-purple-selector-tag,
+.shades-of-purple-section {
+  color: #fb9e00;
+}
+
+.shades-of-purple-keyword {
+  color: #fb9e00;
+}
+
+.shades-of-purple,
+.shades-of-purple-subst {
+  color: #e3dfff;
+}
+
+.shades-of-purple-string,
+.shades-of-purple-attribute,
+.shades-of-purple-symbol,
+.shades-of-purple-bullet,
+.shades-of-purple-addition,
+.shades-of-purple-code,
+.shades-of-purple-regexp,
+.shades-of-purple-selector-class,
+.shades-of-purple-selector-attr,
+.shades-of-purple-selector-pseudo,
+.shades-of-purple-template-tag,
+.shades-of-purple-quote,
+.shades-of-purple-deletion {
+  color: #4cd213;
+}
+
+.shades-of-purple-meta,
+.shades-of-purple-meta-string {
+  color: #fb9e00;
+}
+
+.shades-of-purple-comment {
+  color: #ac65ff;
+}
+
+.shades-of-purple-keyword,
+.shades-of-purple-selector-tag,
+.shades-of-purple-literal,
+.shades-of-purple-name,
+.shades-of-purple-strong {
+  font-weight: normal;
+}
+
+.shades-of-purple-literal,
+.shades-of-purple-number {
+  color: #fa658d;
+}
+
+.shades-of-purple-emphasis {
+  font-style: italic;
+}
+
+.shades-of-purple-strong {
+  font-weight: bold;
 }
 
 /*
@@ -6138,55 +7604,66 @@ XCode style (c) Angel Garcia <angelgarcia.mail@gmail.com>
   color: black;
 }
 
+/* Gray DOCTYPE selectors like WebKit */
+.xml .xcode-meta {
+  color: #c0c0c0;
+}
+
 .xcode-comment,
 .xcode-quote {
-  color: #006a00;
+  color: #007400;
 }
 
+.xcode-tag,
+.xcode-attribute,
 .xcode-keyword,
 .xcode-selector-tag,
-.xcode-literal {
-  color: #aa0d91;
-}
-
+.xcode-literal,
 .xcode-name {
-  color: #008;
+  color: #aa0d91;
 }
 
 .xcode-variable,
 .xcode-template-variable {
-  color: #660;
+  color: #3F6E74;
 }
 
-.xcode-string {
+.xcode-code,
+.xcode-string,
+.xcode-meta-string {
   color: #c41a16;
 }
 
 .xcode-regexp,
 .xcode-link {
-  color: #080;
+  color: #0E0EFF;
 }
 
 .xcode-title,
-.xcode-tag,
 .xcode-symbol,
 .xcode-bullet,
-.xcode-number,
-.xcode-meta {
+.xcode-number {
   color: #1c00cf;
 }
 
 .xcode-section,
+.xcode-meta {
+  color: #643820;
+}
+
+
 .xcode-class .xcode-title,
 .xcode-type,
-.xcode-attr,
 .xcode-built_in,
 .xcode-builtin-name,
 .xcode-params {
   color: #5c2699;
 }
 
-.xcode-attribute,
+.xcode-attr {
+  color: #836C28;
+}
+
 .xcode-subst {
   color: #000;
 }
@@ -6231,7 +7708,7 @@ XCode style (c) Angel Garcia <angelgarcia.mail@gmail.com>
   overflow-x: auto;
   color: #eaeaea;
   background: #000;
-  padding: 0.5;
+  padding: 0.5em;
 }
 
 .xt256-subst {
@@ -6391,3 +7868,4 @@ based on dark.css by Ivan Sagalaev
 .zenburn-strong {
   font-weight: bold;
 }
+

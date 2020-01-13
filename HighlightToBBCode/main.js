@@ -148,10 +148,13 @@ function getBBCode(ele,bgcolor)
 function conv_color(cstr)
 {
 	var mch=cstr.match(/\d+/gi);
+	var alpha=mch.length===4?parseFloat(mch[3]):1;
+	
+	
 	return "#"
-	+("0"+parseInt(mch[0],10).toString(16)).substr(-2)
-	+("0"+parseInt(mch[1],10).toString(16)).substr(-2)
-	+("0"+parseInt(mch[2],10).toString(16)).substr(-2);
+	+("0"+Math.round(parseInt(mch[0],10)*alpha+(1-alpha)*255).toString(16)).substr(-2)
+	+("0"+Math.round(parseInt(mch[1],10)*alpha+(1-alpha)*255).toString(16)).substr(-2)
+	+("0"+Math.round(parseInt(mch[2],10)*alpha+(1-alpha)*255).toString(16)).substr(-2);
 }
 String.prototype.convHtml=function()
 {
@@ -298,13 +301,13 @@ function getImg()
 	lang_list.sort();
 	for(i=0,n=lang_list.length;i<n;++i)
 	{
-		lang.appendChild(t=document.createElement("option"));
-		
-		t.value=lang_list[i];
-		if(trans[lang_list[i]])
+		if(trans[lang_list[i]]) {
+			lang.appendChild(t=document.createElement("option"));
+			t.value=lang_list[i];
 			t.innerHTML=trans[lang_list[i]];
-		else
+		} else{
 			console.log(lang_list[i]+" translation error");
+		}
 	}
 	//風格樣式選單
 	var b_list=[],d_list=[],tt;
@@ -354,7 +357,8 @@ function getImg()
 	{
 		tmp_pre.className=cname;
 		var c_style=getComputedStyle(tmp_pre,null);
-		
+		let csc1=c_style["color"];
+		let csc2=c_style["backgroundColor"];
 		return {
 			type:colorMax(c_style["color"])<colorMax(c_style["backgroundColor"])?0:1,
 			bgcolor:c_style["backgroundColor"]
@@ -364,7 +368,9 @@ function getImg()
 	function colorMax(cstr)
 	{
 		var mch=cstr.match(/\d+/gi);
-		return Math.max(parseInt(mch[0],10),parseInt(mch[1],10),parseInt(mch[2],10));
+		var alpha=mch.length==4?parseFloat(mch[3]):1;
+		var max=Math.max(parseInt(mch[0],10),parseInt(mch[1],10),parseInt(mch[2],10));
+		return max*alpha+255*(1-alpha);
 	}
 	
 })(theme_data.path,theme_data.css);
