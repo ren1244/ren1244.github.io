@@ -34,18 +34,18 @@ function epubReader(buffer, callback, mergeUntitled)
 	 *       格式範例：
 	 *         [
 	 *           {
-	 *             file: 'id1',
+	 *             file: 'file1',
 	 *             title: '第一章'
 	 *           },{
-	 *             file: 'id3' //有可能沒有 title
+	 *             file: 'file3' //有可能沒有 title
 	 *           }
 	 *         ]
 	 *     pageMap
 	 *       用來查詢某 id 在 pageList 的第幾個
 	 *       格式範例：
 	 *         {
-	 *           id1: 0,
-	 *           id3: 2
+	 *           file1: 0,
+	 *           file3: 2
 	 *         }
 	 *     mimeMap
 	 *       用來查詢某 zip檔的 mime
@@ -106,6 +106,7 @@ epubReader.prototype.readContainer=function()
  */
 epubReader.prototype.readOpfFile=function(opfFile)
 {
+	let navId=false;
 	let that=this;
 	this.itemMap={};
 	this.pageList=[];
@@ -122,23 +123,35 @@ epubReader.prototype.readOpfFile=function(opfFile)
 		   for(let i=items.length;--i>=0;) {
 			   let href=items[i].getAttribute('href');
 			   let file=that.zipFullPath(opfFile,href);
+			   let prop=items[i].getAttribute('properties');
 			   that.itemMap[items[i].id]=file;
 			   that.mimeMap[file]=items[i].getAttribute('media-type');
+			   if(prop==='nav') {
+				   navId=items[i].id;
+			   }
 		   }
 		   //取得 pageList 與 pageMap
 		   let itemRefs=doc.querySelectorAll('spine>itemref');
 		   for(let i=0; i<itemRefs.length;++i) {
 			   let id=itemRefs[i].getAttribute('idref');
+			   let isLinear=itemRefs[i].getAttribute('linear');
+			   if(isLinear && isLinear.toLowerCase()==='no') {
+				   continue;
+			   }
 			   that.pageList.push({
 				   file:that.itemMap[id]
 			   });
-			   that.pageMap[that.itemMap[id]]=i;
+			   that.pageMap[that.itemMap[id]]=that.pageList.length-1;
 		   }
-		   //取得 toc 檔案
-		   let spine=doc.getElementsByTagName('spine')[0];
-		   let toc=that.itemMap[spine.getAttribute('toc')];
-		   console.log('toc file: '+toc);
-		   that.readTocFile(toc);
+		   //透過 nav 或是 toc 檔案抓目錄標題 
+		   if(navId) {
+			   that.readNavFile(that.itemMap[navId]);
+		   } else {
+			   let spine=doc.getElementsByTagName('spine')[0];
+			   let toc=that.itemMap[spine.getAttribute('toc')];
+			   console.log('toc file: '+toc);
+			   that.readTocFile(toc);
+		   }
 	   });
 }
 
@@ -148,8 +161,8 @@ epubReader.prototype.readOpfFile=function(opfFile)
  * 但是這個檔案有一些"標題"的資訊
  * 所以這邊主要是把 "標題" 的資訊寫入 pageMap
  *
- * @param 型別 變數 敘述
- * @return 型別 敘述
+ * @param string tocFile ncx檔名
+ * @return void
  */
 epubReader.prototype.readTocFile=function(tocFile)
 {
@@ -173,6 +186,41 @@ epubReader.prototype.readTocFile=function(tocFile)
 			   */
 			   if(that.pageMap[file]!==undefined) { 
 				   that.pageList[that.pageMap[file]]['title']=p.querySelector('navLabel>text').textContent;
+			   }
+		   }
+		   if(that.mergeUntitled) {
+			   that.mergeUntitledPages();
+		   }
+		   that.callback();
+	   });
+}
+
+/** 
+ * 讀取導覽檔案資訊
+ * 如果是 epub3 ，標題從這邊讀取，而不是 ncx 檔
+ *
+ * @param string navFile nav檔名
+ * @return void
+ */
+epubReader.prototype.readNavFile=function(navFile)
+{
+	let that=this;
+	this.zip.file(navFile)
+	   .internalStream("string")
+	   .accumulate(function(){})
+	   .then(function (data){
+		   let parser=new DOMParser();
+		   let doc=parser.parseFromString(data, 'application/xml');
+		   let as=doc.querySelectorAll('a');
+		   for(let i=0;i<as.length;++i) {
+			   let atag=as[i];
+			   let fPath=that.zipFullPath(navFile, atag.getAttribute('href'));
+			   let idx=that.pageMap[fPath];
+			   if(idx!==undefined) {
+				   that.pageList[idx]['title']=atag.textContent;
+				   console.log(fPath, '標題設定為:', atag.textContent);
+			   } else {
+				   console.log('未使用的標題：', atag.textContent, `(${fPath})`);
 			   }
 		   }
 		   if(that.mergeUntitled) {
