@@ -191,7 +191,7 @@ epubReader.prototype.readTocFile=function(tocFile)
 		   if(that.mergeUntitled) {
 			   that.mergeUntitledPages();
 		   }
-		   that.callback();
+		   that.completeTitle();
 	   });
 }
 
@@ -226,8 +226,59 @@ epubReader.prototype.readNavFile=function(navFile)
 		   if(that.mergeUntitled) {
 			   that.mergeUntitledPages();
 		   }
-		   that.callback();
+		   that.completeTitle();
 	   });
+}
+
+/** 
+ * 沒有 title 的部分，直接讀取該檔案的 title
+ *
+ * @return void
+ */
+epubReader.prototype.completeTitle=function()
+{
+	for(let i=0; i<this.pageList.length; ++i) {
+		if(this.pageList[i].title) {
+			continue;
+		}
+	}
+	let that=this;
+	let idx=0;
+	readTitleFromFile();
+	function readTitleFromFile() {
+		if(idx>=that.pageList.length) {
+			that.callback();
+			return;
+		}
+		if(that.pageList[idx].title!==undefined) {
+			++idx;
+			readTitleFromFile();
+			return;
+		}
+		that.zip.file(that.pageList[idx].file)
+		    .internalStream("string")
+		    .accumulate(function(){})
+		    .then((data)=>{
+				let parser=new DOMParser();
+				let doc=parser.parseFromString(data, 'application/xml');
+				let title=doc.title.trim();
+				if(title==='') {
+					let h1=document.querySelector('h1');
+					if(h1) {
+						title=h1.textContent.trim();
+					}
+				}
+				if(title!=='') {
+					that.pageList[idx].title=title;
+				}
+				console.log(that.pageList[idx].file, '抓到標題:', doc.title);
+				++idx;
+				readTitleFromFile();
+			},()=>{
+				++idx;
+				readTitleFromFile();
+			});
+	}
 }
 
 epubReader.prototype.mergeUntitledPages=function()
