@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="Zh-Hant">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>資料檢查</title>
+	<style>
+		body{
+			font-size:16px;
+		}
+		.errorLog {
+			color:red;
+		}
+		.warningLog {
+			color:blue;
+		}
+		.ps{
+			font-size:14px;
+			color: gray;
+		}
+	</style>
+</head>
+<body>
+	<p>這個頁面可以將「<a href="https://data.gov.tw/dataset/6041">金融機構基本資料查詢</a>」的 CSV 檔案轉換為以「機構代碼」為 key 的 json。轉換過程會做簡單的檢查，並輸出錯誤或提醒訊息。</p>
+	<p>請選擇下載下來的 CSV 檔案：</p><input type="file" onchange="loadFile(this)">
+	<p class="ps">PS. 不支援 IE</p>
+	<div id='output'></div>
+	<script src="binJS.min.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>
