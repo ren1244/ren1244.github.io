@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="Zh-Hant">
+<head>
+	<meta charset="utf-8">
+	<title>prettyDiff</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/styles/github.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/diff2html/bundles/css/diff2html.min.css">
+    
+    <!-- Javascripts -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/diff2html/bundles/js/diff2html-ui.min.js"></script>
+    <style>
+        textarea {
+            display:block;
+            box-sizing: border-box;
+            width:100%;
+            height: 300px;
+        }
+        .hide {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <!--上傳或是貼上-->
+    <div class='toggle'>
+        <div>
+            <textarea id='data'></textarea>
+        </div>
+        <div>
+            <button id='next'>下一步</button>
+        </div>
+    </div>
+    <div class='toggle hide'>
+        <div>
+            <button id='back'>上一步</button>
+            <input type="radio" name="displayType" data-val='line-by-line'> 單欄
+            <input type="radio" name="displayType" data-val='side-by-side'> 雙欄
+        </div>
+        <div id='output'></div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
