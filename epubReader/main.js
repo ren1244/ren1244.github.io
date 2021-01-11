@@ -96,6 +96,24 @@ function loadEpubFile(file)
 				}
 			})(i));
 		}
+		//匯入自訂顏色
+		let urlobj=new URL(location.href);
+		['tc', 'bc', 'lc'].forEach((k)=>{
+			let c=urlobj.searchParams.get(k);
+			if(c!==null) {
+				switch(k) {
+					case 'tc':
+						document.body.style.color='#'+c;
+						break;
+					case 'bc':
+						document.body.style.backgroundColor='#'+c;
+						break;
+					case 'lc':
+						ele['nav'].style.color='#'+c;
+						break;
+				}
+			}
+		});
 		divSwitch('dir');
 		document.title="目錄";
 	});

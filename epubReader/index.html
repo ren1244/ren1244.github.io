@@ -4,72 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>簡樸 EPUB 閱讀器</title>
-	<style>
-		body{
-			width:900px;
-			margin:0px auto;
-			font-size:16pt;
-			color:#CCC;
-			background-color:#333;
-			line-height:1.5em;
-			max-width:100%;
-			font-family:微軟正黑體,思源黑體
-		}
-		img{
-			max-width:100%
-		}
-		#nav>span{
-			text-decoration: underline;
-			color:#CC3;
-			cursor:pointer;
-		}
-		#uploader{
-			width:320px;
-			height:240px;
-			border:1px solid lightgray;
-			border-radius:5px;
-			display:inline-flex;
-			justify-content:center;
-			align-items:center;
-			background-color:#444;
-		}
-		#uploader>div{
-			text-align:center;
-			display:inline-block;
-		}
-		#uploader .upload-button{
-			padding:5px 10px;
-			border:1px solid gray;
-			background-color:lightgray;
-			border-radius:5px;
-			color:black;
-			cursor:pointer;
-		}
-		#uploader .upload-msg{
-			color:white;
-		}
-		#epub{
-			text-align:center;
-		}
-		#epub>p{
-			width:320px;
-			font-size:16px;
-			margin:0px auto;
-			text-align:left;
-			padding:1em 0em;
-			color:white;
-		}
-		#dir li{
-			cursor:pointer;
-		}
-		#dir li:hover{
-			color:white;
-			font-weight:bold;
-		}
-		#page p{
-			margin:0.4em 0px;
-		}
-	</style>
+	<link id='styleCss' rel="stylesheet" href="style.css">
 </head>
 <body>
 	<script src="jszip.min.js"></script>
@@ -82,6 +17,7 @@
 				<sapn class='upload-button'>選擇</sapn>
 			</div>
 		</div>
+		<p><a href="./style.html">自訂配色</a></p>
 	</div>
 	<div id='dir'>
 		<div id='list'></div>
