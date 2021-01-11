@@ -4,9 +4,9 @@ let color=(()=>{
         type:'text'
     };
     let cfg={
-        text: '#ccc',
-        back: '#333',
-        link: '#cc3'
+        text: 'ccc',
+        back: '333',
+        link: 'cc3'
     };
     Object.keys(cfg).forEach((k)=>{
         let k2='_'+k;
@@ -37,11 +37,6 @@ document.addEventListener('DOMContentLoaded', function(){
         lockOpacity: true,
         position: 'bottom-middle',
         useAsButton: true,
-        swatches: [
-            '#C33',
-            '#3C3',
-            '#33C'
-        ],
     
         components: {
     
@@ -64,7 +59,7 @@ document.addEventListener('DOMContentLoaded', function(){
     document.body.style.backgroundColor=color.back;
     navSpan.style.color=color.link;
     navSpan.addEventListener('click', function(){
-        location.href=`./?tc=${encodeURIComponent(color.text)}&bc=${encodeURIComponent(color.back)}&lc=${encodeURIComponent(color.link)}`;
+        location.href=`./index.html?tc=${encodeURIComponent(color.text)}&bc=${encodeURIComponent(color.back)}&lc=${encodeURIComponent(color.link)}`;
     })
 });
 
