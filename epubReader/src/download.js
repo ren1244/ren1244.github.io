@@ -36,15 +36,35 @@ ajax('https://api.github.com/repos/ren1244/ren1244.github.io/git/trees/master')
 .then(findDirUrl('epubReader'))
 .then(ajax)
 .then((json)=>{
-    let file2url={};
-    let reg=/^(dict\/.*\.(js|css)|index\.html|style\.html)$/;
-    let arr=json.tree.filter(o=>o.path.search(reg)>=0).map((o)=>{
-        return ajax(`https://api.github.com/repos/ren1244/ren1244.github.io/contents/epubReader/${o.path}`, true)
+    //檔案
+    let files=['index.html', 'style.html'];
+    let dictUrl=findDirUrl('dist')(json);
+    let arr=json.tree.filter(o=>files.indexOf(o.path)>=0).map(o=>{
+        return {
+            url: `epubReader/${o.path}`,
+            file: o.path
+        }
+    });
+    return ajax(dictUrl).then(json2=>{
+        json2.tree.forEach(o=>{
+            if(o.path.search(/\.(js|css)$/)>=0) {
+                arr.push({
+                    url: `epubReader/dist/${o.path}`,
+                    file: `dist/${o.path}`
+                })
+            }
+        });
+        return arr;
+    });
+}).then(arr=>{
+    let parr=arr.map((o)=>{
+        return ajax(`https://api.github.com/repos/ren1244/ren1244.github.io/contents/${o.url}`, true)
         .then((t)=>{
-            zip.file(o.path, t);
+            zip.file(o.file, t);
+            console.log(o.file, t.length);
         });
     });
-    return Promise.all(arr);
+    return Promise.all(parr);
 }).then(()=>{
     zip.generateAsync({type:"base64"}).then(function (base64) {
         let url="data:application/zip;base64," + base64;
@@ -52,5 +72,8 @@ ajax('https://api.github.com/repos/ren1244/ren1244.github.io/git/trees/master')
         a.setAttribute('download', '簡樸epub閱讀器.zip');
         a.textContent='簡樸epub閱讀器.zip';
         a.href=url;
+        document.querySelector('#log').setAttribute('style', 'display:none');
     });
+}).catch(()=>{
+    document.querySelector('#log').textContent='發生錯誤';
 });
