@@ -1,3 +1,7 @@
+import './style.css';
+import '@simonwep/pickr/dist/themes/monolith.min.css';
+import Pickr from '@simonwep/pickr';
+
 let picker;
 let color=(()=>{
     let o={
@@ -49,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function(){
                 hex: true,
                 rgba: true,
                 hsla: true,
-                save: true
+                save: false
             }
         }
     }

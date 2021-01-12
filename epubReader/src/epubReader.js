@@ -1,3 +1,13 @@
+const JSZip = require("jszip");
+
+let htmlSpecial=(function(){
+	let p=document.createElement('p');
+	return function (str) {
+		p.textContent=str;
+		return p.innerHTML;
+	}
+})();
+
 /** 
  * 這個檔案是 epubReader 物件的定義
  * 使用方式：
@@ -408,11 +418,11 @@ epubReader.prototype.getPageContent=function(pageIdx, callback)
 		switch(tName) {
 			case 'IMG':
 				let url=node.getAttribute('src');
-				let fullUrl=epub.zipFullPath(pageFullName,url);
+				let fullUrl=that.zipFullPath(pageFullName,url);
 				return '<img src="'+imgMap[fullUrl]+'">';
 			case 'IMAGE':
 				let url2=node.getAttribute('xlink:href');
-				let fullUrl2=epub.zipFullPath(pageFullName,url2);
+				let fullUrl2=that.zipFullPath(pageFullName,url2);
 				return '<img src="'+imgMap[fullUrl2]+'">';
 			case 'BR':
 				return '<br>';
@@ -432,4 +442,4 @@ epubReader.prototype.getPageContent=function(pageIdx, callback)
 	}
 }
 
-
+module.exports=epubReader;

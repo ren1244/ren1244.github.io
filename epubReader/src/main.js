@@ -1,13 +1,9 @@
+import './style.css';
+const epubReader=require('./epubReader.js');
+
 let ele={};
 let queryParams={};
 let epub;
-let htmlSpecial=(function(){
-	let p=document.createElement('p');
-	return function (str) {
-		p.textContent=str;
-		return p.innerHTML;
-	}
-})();
 
 document.addEventListener("DOMContentLoaded",function(evt){
 	['uploader','list','content','nav','dir','page','epub'].forEach(function(id){
