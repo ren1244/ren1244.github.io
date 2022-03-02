@@ -27,6 +27,10 @@ iframe {
 
 .page-wrapper{
     margin: auto;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .page-div{
