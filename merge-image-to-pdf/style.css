@@ -1,0 +1,59 @@
+html, body, iframe, div{
+    margin: 0px;
+    padding: 0px;
+}
+html, body{
+    height: 100%;
+}
+body{
+    display: flex;
+}
+iframe {
+    border: none;
+    flex-grow: 1;
+}
+.input-area{
+    flex-grow: 1;
+}
+#input-area-footer{
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: right;
+}
+#input-area-footer button{
+    font-size: 16px;
+}
+
+.page-wrapper{
+    margin: auto;
+}
+
+.page-div{
+    display: block;
+    position: relative;
+    border: 1px solid gray;
+}
+
+.page-footer{
+    text-align: right;
+}
+
+.page-footer span {
+    cursor: pointer;
+    color: red;
+    text-decoration: underline;
+}
+
+.preview-cell{
+    display: inline-flex;
+    position: absolute;
+    border: 1px solid gray;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+.preview-cell-select{
+    background-color: lightyellow;
+}
