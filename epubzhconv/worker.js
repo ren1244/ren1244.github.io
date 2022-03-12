@@ -72,7 +72,7 @@ function convAllText(iData, tdId, convMethod)
 	
 	return iZip.loadAsync(iData).then((zip)=>{ 
 		zip.forEach(function (relativePath, file){
-			if(relativePath.match(/\.(xh?t?ml|ncx|opf)$/)) {
+			if(relativePath.match(/\.(xh?t?ml|html|ncx|opf)$/)) {
 				arr.push(convText(relativePath, file));
 			} else {
 				arr.push(convOther(relativePath, file));
