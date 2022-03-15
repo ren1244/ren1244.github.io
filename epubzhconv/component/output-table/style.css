@@ -1,0 +1,22 @@
+.output-table {
+    border-collapse: collapse;
+}
+.output-table th, td{
+    padding: 0.2em 0.4em;
+    border: 1px solid black;
+}
+.output-table th:nth-child(1), .output-table td:nth-child(1) {
+    width: 400px;
+}
+.output-table th:nth-child(2), .output-table td:nth-child(2) {
+    width: 400px;
+}
+.output-table p{
+    margin: 0px;
+    padding: 0px;
+    line-height: 150%;
+}
+.output-table-dl-all {
+    margin-top: 10px;
+    text-align: right;
+}

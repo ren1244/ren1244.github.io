@@ -1,0 +1,9 @@
+.output-tr td:nth-child(2) {
+    border-right: none;
+}
+.output-tr td:nth-child(3) {
+    border-left: none;
+}
+.output-tr-info {
+    color: gray;
+}
